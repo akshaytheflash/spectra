@@ -1,0 +1,15 @@
+services:
+  spectra:
+    build: .
+    env_file: [.env]
+    environment:
+      # Supabase Postgres if provided, otherwise the bundled SQLite demo DB
+      DATABASE_URL: ${DATABASE_URL:-sqlite:////app/data/spectra.db}
+      FORCE: ${FORCE:-0}
+    volumes:
+      - ./data:/app/data
+      - ./backend/artifacts:/app/backend/artifacts
+      - ./.models:/app/.models
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

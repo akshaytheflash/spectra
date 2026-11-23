@@ -1,0 +1,142 @@
+# SPECTRA curated lexicon. Editable by analysts (also via the Lexicon Editor UI,
+# which appends terms to the `lexicon_terms` table without a redeploy).
+#
+# Each category has:
+#   terms        - canonical English / generic markers
+#   slang        - coding words, Hinglish spellings
+#   devanagari   - Hindi script forms
+#   emojis       - coded emojis
+#   intent       - sell/rent/buy/available/DM style intent phrases
+#   weight       - relative weight of a hit in fusion + explanation
+#   model_label  - the multi-label class this category maps to in the ML head
+#
+# Matching is done on normalized + de-leetspeaked + transliterated text by the
+# engine, so a term added in Devanagari also matches Roman typed spelling.
+
+version: 3
+
+categories:
+  drugs:
+    weight: 1.0
+    model_label: drugs
+    terms:
+      [weed, marijuana, ganja, hash, hashish, charas, mdma, ecstasy, lsd, cocaine, cocaine,
+       heroin, smack, brown sugar, meth, methamphetamine, amphetamine, ketamine, mushrooms,
+       shrooms, weed oil, thc, edibles, blunts, joints, stash, plug, dealer, drugs, narcotics]
+    slang:
+      [maal, maal hai, stuff, snow, cookies, cookie, brownie, acid, trip, tabs, goli, golis, chitta,
+       afim, afeem, bhang, nasha, nashe, sufaid, haseesh, garda, powder, doda, feen, smack,
+       chilled, good stuff, pure stuff, premium stuff, charas malai]
+    devanagari: [गांजा, चरस, हशीश, अफीम, नशा, नशीला, माल, चिट्टा, गोली, स्मैक, गार्डा, सुखी, भांग]
+    emojis: ["🍁", "🌿", "❄️", "❄", "💊", "🍄", "🚬", "🔌", "🍪", "🧊", "🍫", "💨", "🌱", "⚡", "😶‍🌫️", "💉", "🍬"]
+    intent: [available, supply, home delivery, wholesale, rate list, fresh stock, dm, inbox,
+             chahiye, milega, supply karta, bechna hai, 24x7, fast delivery]
+    price_patterns:
+      ["(?i)\\b\\d+\\s*(k|rs|₹|rupaye|rupees|bucks)\\s*(for|me|ka|ke|per|only)?\\s*\\d*\\s*(g|gm|gram|grams|tola|piece|pc|pcs)\\b",
+       "(?i)\\b(per|each)\\s*(g|gram|gm|tola|piece|pc)\\b",
+       "(?i)\\b\\d+\\s*(k|rs|₹)\\b"]
+
+  arms:
+    weight: 1.0
+    model_label: arms
+    terms:
+      [pistol, revolver, handgun, rifle, shotgun, ammunition, ammo, cartridges, bullets, guns, firearm,
+       firearms, weapon, weapons, arms, gunsmith, suppressed, silencer]
+    slang:
+      [desi katta, katta, tamancha, tamanchi, tamancha, country made pistol, countrymade, katta pistol,
+       9mm, ".32 bore", "7.65", desi pistol, crude bomb, sutli bomb,
+       arms deal, goli, goliyan, bandook, bharki, blast, ied, detonator]
+    devanagari: [कट्टा, देसी कट्टा, तमंचा, पिस्टल, रिवाल्वर, बंदूक, गोली, गोलियाँ, हथियार, बम, ग्रेनेड, कारतूस]
+    emojis: ["🔫", "💣", "🧨", "💥", "🎯", "⚔️"]
+    intent: [in stock, dm for price, direct delivery, mil jaega]
+    price_patterns: ["(?i)\\b\\d+\\s*(k|rs|₹)\\b"]
+
+  fake_docs:
+    weight: 0.95
+    model_label: fake_docs
+    terms: [aadhaar card, aadhar, aadhaar, pan card, driving licence, driving license, passport,
+            marksheet, mark sheet, degree certificate, fake id, fake documents, forged documents, birth certificate,
+            voter id, ration card, rc book, experience certificate]
+    slang: [ready made, readymade, ready-made, original look, genuine copy, duplicate, photocopy aadhaar,
+            aadhar card, naya aadhar, banwa lo, banwana hai, apna aadhaar, id proof, verification, verified id,
+            print copy, lamination, kyc document, fake dl, ghotala kagaz]
+    devanagari: [आधार, आधार कार्ड, पैन कार्ड, ड्राइविंग लाइसेंस, मार्कशीट, फर्जी, नकली, राशन कार्ड, पासपोर्ट, जन्म प्रमाण पत्र]
+    emojis: ["🪪", "📄", "📃", "🆔", "📝", "✅"]
+    intent: [ready made, same day delivery, banwa lo, mil jayega, chahiye, banwana hai]
+    price_patterns: ["(?i)\\b\\d+\\s*(k|rs|₹)\\b"]
+
+  mule_account:
+    weight: 1.1
+    model_label: mule_fin
+    terms: [bank account, current account, savings account, account sale, account rent, rent account,
+            sell account, mule account, account kit, passbook, cheque book, cheque, cheque, runner account,
+            merchant account, saving account, jan dhan account, frozen account, account for rent, company account]
+    slang: [account kiraye pe, account kiraye, account rent pe, kiraye pe account, account on rent, khata kiraye,
+            account de, account lena hai, account chahiye, khata de, apna account, personal account, old account,
+            verified account, active account, account for sell, sell account, account bechna, kyc done account,
+            account ka kit, full kit, fresh account, new account, third party]
+    devanagari: [खाता किराये पर, किराए पर खाता, बैंक खाता, पासबुक, किराये पे, खाता दो, खाता चाहिए, खाता बेचना]
+    emojis: ["🏦", "💳", "💰", "📕", "🧾", "🪪", "📲", "🤑"]
+    intent: [kiraye pe, rent pe, rent par, sale, daily commission, commission, advance, telegram pe milo, dm me, chahiye]
+    price_patterns:
+      ["(?i)\\b(\\d{3,5})\\s*(rupees|rs|₹)?\\s*(daily|per day|/day|commission|comission)\\b",
+       "(?i)\\b(commission|comission)\\s*[:\\-]?\\s*(\\d{2,5}|\\d{1,2}%)\\b"]
+
+  atm_card:
+    weight: 1.0
+    model_label: mule_fin
+    terms: [atm card, debit card, credit card, atm, debit, visa card, mastercard, rupay card, card with pin,
+            card and passbook, card kit, prepaid card, gift card]
+    slang: [atm card + pin, card pin, atm pura kit, passbook + atm, card with passbook, card bechna, card kharidna,
+            card kiraye, debit card rent, card kit, card ka kit]
+    devanagari: [एटीएम कार्ड, डेबिट कार्ड, क्रेडिट कार्ड, पिन, कार्ड किराये]
+    emojis: ["💳", "🏧", "🔢", "🔐"]
+    intent: [with pin, with otp, pin ke saath, daily commission]
+    price_patterns: ["(?i)\\b\\d+\\s*(k|rs|₹)\\b"]
+
+  sim_card:
+    weight: 0.95
+    model_label: mule_fin
+    terms: [sim card, sim, esim, prepaid sim, postpaid sim, sim card for sale, otp sim, activated sim]
+    slang: [otp linked sim, otp sim, sim kiraye, sim rent, sim bechna, sim card with otp,
+            verified sim, fresh sim, jio sim, airtel sim, vi sim, bsnl sim, sim kit]
+    devanagari: [सिम कार्ड, सिम, सिम किराये पर, ओटीपी सिम, नया सिम]
+    emojis: ["📱", "📲", "📞", "☎️", "🔑"]
+    intent: [otp ke saath, daily rent]
+    price_patterns: ["(?i)\\b\\d+\\s*(k|rs|₹)\\b"]
+
+  net_banking_kit:
+    weight: 1.15
+    model_label: mule_fin
+    terms: [net banking, netbanking, internet banking, net banking kit, bank kit, full bank kit, corporate kit,
+            banking kit, token, sebi, demat, demat account]
+    slang: [net banking kit, net banking with otp, banking kit, full kit, full bank kit, kit with otp, kit rent,
+            kit sale, banking access, internet banking access, imps, rtgs, upi linked account]
+    devanagari: [नेट बैंकिंग, बैंकिंग किट, फुल किट, ओटीपी, नेट बैंकिंग किट]
+    emojis: ["🏦", "💻", "🔑", "🔓", "📲"]
+    intent: [otp access, full access, kit with otp]
+    price_patterns: ["(?i)\\b\\d+\\s*(k|rs|₹)\\b"]
+
+# Emoji-only ads (e.g. "🍁🔌💨") are mapped to these categories by the engine.
+emoji_only_map:
+  drugs: ["🍁", "🌿", "❄️", "💊", "🍄", "🚬", "🔌", "🍪", "🧊", "💨"]
+  arms: ["🔫", "💣", "🧨"]
+  mule_fin: ["🏦", "💳", "🏧", "📕", "🧾", "🪪", "📱"]
+
+# Hard negatives: phrases that contain trigger words but are benign. A post
+# matching a hard negative loses the corresponding category score unless an
+# intent / sale signal co-occurs.
+hard_negatives:
+  - {pattern: "(?i)\\bweed killer\\b|\\bweed control\\b|\\bkills weeds\\b|\\bherbicide\\b", category: drugs}
+  - {pattern: "(?i)\\bcooking (cookies|brownies|hash browns)\\b|\\brecipe\\b.*\\bcookies\\b", category: drugs}
+  - {pattern: "(?i)\\b(gun|cookie|hash) (show|of the week|sale at|deals?)\\b|\\bwater gun\\b|\\btoy gun\\b|\\bnerf\\b|\\bairsoft\\b|\\bpaintball\\b|\\bpubg\\b|\\bcod mobile\\b|\\bfree fire\\b|\\bgel blaster\\b", category: arms}
+  - {pattern: "(?i)\\b(car|auto|bike|home|house|vehicle|loan) (insurance|policy|loan emi)\\b|\\bcar insurance\\b|\\blife insurance\\b", category: arms}
+  - {pattern: "(?i)\\bapply (online )?for (a )?(new )?(pan card|aadhaar|passport|driving licence)\\b|\\bpan card apply\\b|\\baadhaar update\\b|\\bupdate your aadhaar\\b|\\bhow to (get|apply)\\b|\\bdownload (e-)?(aadhaar|pan)\\b|\\buidai\\b", category: fake_docs}
+  - {pattern: "(?i)\\bopen (a )?(savings|current|salary|new) account\\b|\\bopen your bank account\\b|\\bsavings account with\\b.*\\b(interest|zero balance)\\b|\\bcurrent account for business\\b|\\binstant account opening\\b", category: mule_fin}
+  - {pattern: "(?i)\\bcredit card (offer|apply|offers)\\b|\\bapply for (a )?credit card\\b|\\bcredit card bill\\b|\\bdebit card (blocked|activation|replacement|apply)\\b|\\batm card block\\b|\\bnew debit card\\b", category: mule_fin}
+  - {pattern: "(?i)\\b(buy|get|apply for|order) (a )?(new )?sim\\b|\\bsim (recharge|activation|activated plan|portability|port)\\b|\\bjio plan\\b|\\bunlimited data\\b|\\bsim card at (store|outlet|shop)\\b", category: mule_fin}
+  - {pattern: "(?i)\\b(mobile|phone|laptop|tv) (offer|sale|deal)\\b|\\bbig billion days\\b|\\bfestive sale\\b", category: mule_fin}
+  - {pattern: "(?i)\\bpharmacy\\b|\\bchemist\\b|\\bmedicines? (available|delivered|store)\\b|\\bgeneric medicine\\b|\\bjan aushadhi\\b", category: drugs}
+  # Benign products routinely confused with the trigger words above.
+  - {pattern: "(?i)\\b(ammunition|ammo) for (your )?(camera|console)\\b", category: arms}
+  - {pattern: "(?i)\\bhash browns?\\b|\\b#\\w+\\b\\s*$", category: drugs}

@@ -1,0 +1,38 @@
+# SPECTRA architecture (generated from the README Mermaid block)
+
+The diagram source of truth lives in [`../README.md`](../README.md). This file
+holds the same graph for tools that prefer a standalone `.mmd` input
+(`npx @mermaid-js/mermaid-cli -i docs/architecture.mmd -o docs/architecture.svg`).
+
+```mermaid
+flowchart LR
+  subgraph Sources
+    TG[Public Telegram channels<br/>t.me links / @usernames]
+    UP[CSV / JSON / ZIP uploads]
+    IMG[Images, QR codes, voice notes]
+  end
+  TC[Telethon collector<br/>public-only guard] 
+  IMP[CSV/JSON importer]
+  TG --> TC
+  UP --> IMP
+  IMG --> PIPE
+  NORM[Normalizer<br/>unicode · leetspeak · emoji] --> LEX[Curated lexicon]
+  NORM --> EMB[MiniLM embedding head]
+  LEX --> TFIDF[TF-IDF head]
+  TFIDF --> STACK[Calibrated stack]
+  EMB --> STACK
+  LEX --> STACK
+  STACK --> FIN[Financial-ad detector]
+  TC --> PIPE[Pipeline orchestrator]
+  IMP --> PIPE
+  PIPE --> OCR[OCR hi+en · QR · Whisper]
+  OCR --> IDS[Identifier extractors]
+  IDS --> STACK
+  STACK --> ALERTS[Alerts + SHA-256 evidence]
+  IDS --> GRAPH[Entity graph + campaigns]
+  GRAPH --> ALERTS
+  ALERTS --> DB[(Supabase Postgres / SQLite)]
+  API[FastAPI] --> DB
+  UI[React dashboard] --> API
+  DB -. Realtime .-> UI
+```

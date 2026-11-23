@@ -1,0 +1,19 @@
+FROM python:3.11-slim AS base
+ENV PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      ffmpeg libzbar0 libgomp1 libgl1 libglib2.0-0 tesseract-ocr tesseract-ocr-hin curl \
+    && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY backend/requirements.txt backend/requirements.txt
+RUN pip install -r backend/requirements.txt \
+    && pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.4.1
+COPY backend backend
+COPY data data
+COPY scripts scripts
+COPY Makefile ./
+ENV MODEL_DIR=/app/backend/artifacts/models
+# entrypoint trains (if missing), seeds and serves
+COPY docker/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+EXPOSE 8000
+ENTRYPOINT ["/entrypoint.sh"]
