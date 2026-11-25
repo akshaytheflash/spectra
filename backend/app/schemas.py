@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field
 class ClassifyRequest(BaseModel):
     text: str = Field(..., max_length=20000, description="Post text to classify")
     explain_markup: bool = True
+    use_llm: bool = True
 
 
 class ScoreOut(BaseModel):
@@ -40,11 +41,15 @@ class TelegramIngestRequest(BaseModel):
     run_pipeline: bool = True
     do_ocr: bool = True
     ocr_passes: int = Field(2, ge=1, le=3, description="OCR pre-processing passes per image (2 = quality/speed balance)")
+    llm_mode: Literal["all", "candidates", "off"] = Field(
+        "candidates", description="LLM scan coverage: every message, borderline candidates, or off"
+    )
 
 
 class PipelineRequest(BaseModel):
     post_ids: list[str] | None = None
     rechunk: bool = True
+    use_llm: bool = True
 
 
 class JobOut(BaseModel):
@@ -87,6 +92,9 @@ class AlertListItem(BaseModel):
     cluster_id: str | None = None
     media_type: str | None = None
     has_evidence: bool = True
+    flag_source: str = "engine"
+    llm_flag: bool = False
+    emoji: list[dict[str, Any]] = []
 
 
 class StatusUpdate(BaseModel):
@@ -110,6 +118,9 @@ class AlertDetail(BaseModel):
     cluster_id: str | None = None
     analyst_notes: list[dict[str, Any]] = []
     related: dict[str, Any] = {}
+    flag_source: str = "engine"
+    llm: dict[str, Any] = {}
+    emoji: list[dict[str, Any]] = []
 
 
 # --------------------------------------------------------------------------- search / ids
@@ -178,3 +189,53 @@ class FeedbackIn(BaseModel):
     alert_id: str
     accepted: bool
     note: str | None = None
+
+
+# --------------------------------------------------------------------------- channels / ops
+class ChannelOut(BaseModel):
+    id: str
+    username: str
+    title: str | None = None
+    description: str | None = None
+    is_public: bool = True
+    is_monitored: bool = False
+    join_status: str = "unlisted"
+    subscriber_count: int | None = None
+    last_scraped: datetime | None = None
+    posts: int = 0
+    alerts: int = 0
+    added_by: str = "seed"
+
+
+class ChannelJoinIn(BaseModel):
+    target: str = Field(..., min_length=2, max_length=300,
+                        description="Public @username or t.me/channel link")
+    monitor: bool = True
+
+
+class ChannelMonitorIn(BaseModel):
+    enabled: bool = True
+
+
+class ChannelDiscoverIn(BaseModel):
+    keywords: list[str] | None = None
+    join: bool = False
+    per_keyword: int = Field(4, ge=1, le=10)
+
+
+class IdentityOut(BaseModel):
+    value: str
+    type: str | None = None
+    aliases: list[str] = []
+    channels: list[str] = []
+    upis: list[str] = []
+    phones: list[str] = []
+    wallets: list[str] = []
+    handles: list[str] = []
+    payee_names: list[str] = []
+    first_seen: datetime | None = None
+    last_seen: datetime | None = None
+    risk_score: float = 0.0
+    categories: list[str] = []
+    posts: list[dict[str, Any]] = []
+    alerts: list[dict[str, Any]] = []

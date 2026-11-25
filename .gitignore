@@ -25,3 +25,7 @@ frontend/.env.local
 *.db-shm
 *.db-wal
 *.db-journal
+
+cloudflared.exe
+deploy.tar.gz
+.telegram_session/

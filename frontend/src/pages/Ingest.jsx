@@ -258,7 +258,7 @@ function SearchTab() {
   const [channels, setChannels] = useState([]);
   const [res, setRes] = useState(null);
   const [busy, setBusy] = useState(false);
-  useEffect(() => { api.get('/channels').then((r) => setChannels(r.channels)).catch(() => {}); }, []);
+  useEffect(() => { api.get('/channels/names').then((r) => setChannels(r.channels)).catch(() => {}); }, []);
   const run = useCallback(async () => {
     setBusy(true);
     try {

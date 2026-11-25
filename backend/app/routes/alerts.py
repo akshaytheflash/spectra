@@ -35,6 +35,9 @@ def _alert_row(a: Alert, p: Post, idents: list[Identifier]) -> dict:
         "source_types": sorted({i.source for i in idents}),
         "identifier_types": sorted({i.type for i in idents}),
         "cluster_id": a.cluster_id, "media_type": p.media_type, "has_evidence": True,
+        "flag_source": a.flag_source or "engine",
+        "llm_flag": bool((a.llm or {}).get("flag")),
+        "emoji": (a.emoji or [])[:6],
     }
 
 
@@ -145,6 +148,9 @@ def get_alert(alert_id: str, db: Session = Depends(get_db)) -> dict:
         "cluster_id": a.cluster_id,
         "analyst_notes": a.analyst_notes or [],
         "related": {"campaign": related_campaign},
+        "flag_source": a.flag_source or "engine",
+        "llm": a.llm or {},
+        "emoji": a.emoji or [],
     }
 
 
@@ -169,6 +175,49 @@ def update_status(alert_id: str, body: StatusUpdate, db: Session = Depends(get_d
                     to_status=body.status, notes=body.notes))
     db.commit()
     return {"ok": True, "status": a.status, "audit_logged": True}
+
+
+@router.post("/alerts/{alert_id}/rescan")
+def rescan_with_llm(alert_id: str, db: Session = Depends(get_db)) -> dict:
+    """Re-read one alert with the local engine + GLM and refresh its verdict."""
+    from app.core.config import settings
+    from app.ml.engine import engine
+    from app.ml.fusion import fuse
+    from app.ml.llm import scanner
+
+    a = db.get(Alert, alert_id)
+    if a is None:
+        raise HTTPException(404, "alert not found")
+    if not settings.llm_ready:
+        raise HTTPException(503, "LLM is not configured")
+    p = db.get(Post, a.post_id)
+    text = "\n".join(
+        part for part in [
+            p.text or "",
+            (p.ocr or {}).get("text", ""),
+            (p.transcript or {}).get("text", ""),
+        ] if part
+    )
+    local = engine().predict(text)
+    verdict = scanner().scan(text, context=p.channel)
+    if not verdict.available:
+        raise HTTPException(502, f"LLM unavailable: {verdict.error}")
+    fused = fuse(local, verdict, text=text)
+    fusion = fused["explanation"].get("fusion") or {}
+    a.category = fused["category"]
+    a.risk = fused["risk"]
+    a.confidence = fused["confidence"]
+    a.explanation = {**fused["explanation"], "scores": fused["scores"]}
+    a.flag_source = str(fusion.get("source") or "engine")
+    a.llm = fused["explanation"].get("llm") or {}
+    a.emoji = fused["explanation"].get("emoji_signals") or []
+    a.updated_at = utcnow()
+    db.add(AuditLog(alert_id=a.id, actor="analyst", action="llm_rescan",
+                    notes=f"{a.flag_source} · {a.category} · {a.risk} · {round(a.confidence, 2)}"))
+    db.commit()
+    return {"ok": True, "flag_source": a.flag_source, "category": a.category,
+            "risk": a.risk, "confidence": a.confidence, "flagged": fused["is_illicit"],
+            "llm": a.llm, "emoji": a.emoji}
 
 
 @router.get("/alerts/{alert_id}/verify")

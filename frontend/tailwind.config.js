@@ -1,29 +1,35 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
       colors: {
-        base: '#070b14',
-        panel: '#0c1322',
-        raised: '#111a2c',
-        line: '#1c2940',
-        ink: '#e6edf7',
-        muted: '#8a9bb5',
-        accent: '#22d3ee',
-        danger: '#f43f5e',
-        warn: '#f59e0b',
-        ok: '#34d399',
-        violet: '#a78bfa',
-        pink: '#f472b6',
+        base: 'rgb(var(--c-base) / <alpha-value>)',
+        panel: 'rgb(var(--c-panel) / <alpha-value>)',
+        raised: 'rgb(var(--c-raised) / <alpha-value>)',
+        line: 'rgb(var(--c-line) / <alpha-value>)',
+        ink: 'rgb(var(--c-ink) / <alpha-value>)',
+        muted: 'rgb(var(--c-muted) / <alpha-value>)',
+        accent: 'rgb(var(--c-accent) / <alpha-value>)',
+        danger: 'rgb(var(--c-danger) / <alpha-value>)',
+        warn: 'rgb(var(--c-warn) / <alpha-value>)',
+        ok: 'rgb(var(--c-ok) / <alpha-value>)',
+        violet: 'rgb(var(--c-violet) / <alpha-value>)',
+        pink: 'rgb(var(--c-pink) / <alpha-value>)',
+        brass: 'rgb(var(--c-brass) / <alpha-value>)',
       },
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-        mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
+        sans: ['"Archivo Variable"', 'Archivo', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'sans-serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       },
-      boxShadow: {
-        glow: '0 0 0 1px rgba(34,211,238,0.25), 0 0 32px rgba(34,211,238,0.08)',
+      borderRadius: {
+        DEFAULT: '6px',
+        md: '6px',
+        lg: '8px',
+        xl: '10px',
+      },
+      ringColor: {
+        DEFAULT: 'rgb(var(--c-accent) / 0.35)',
       },
     },
   },

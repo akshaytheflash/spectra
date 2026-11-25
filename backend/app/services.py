@@ -17,6 +17,7 @@ from rapidfuzz import fuzz
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from app.core.config import settings
 from app.db.models import Alert, Campaign, Channel, Identifier, Post, PostStatus
 from app.ml import extractors
 from app.ml.normalize import normalize
@@ -350,10 +351,12 @@ def overview_stats(db: Session) -> dict:
     for a in alerts:
         by_cat[a.category] += 1
         by_status[a.status] += 1
-    # alerts by category over time (day buckets)
+    # alerts by category over time (use the message date so seeded history plots)
+    post_dates = {pid: ts for pid, ts in db.execute(select(Post.id, Post.timestamp)).all()}
     series: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for a in alerts:
-        day = a.created_at.date().isoformat() if a.created_at else "unknown"
+        ts = post_dates.get(a.post_id) or a.created_at
+        day = ts.date().isoformat() if ts else "unknown"
         series[day][a.category] += 1
     top_channels = db.execute(
         select(Post.channel, func.count(Post.id).label("n"), func.sum(Post.views).label("v"))
@@ -369,6 +372,28 @@ def overview_stats(db: Session) -> dict:
     media_rows = db.execute(select(Post.media_type, func.count(Post.id)).group_by(Post.media_type)).all()
     media = {str(s or "text"): n for s, n in media_rows}
     total_media = sum(v for k, v in media.items() if k != "None")
+    flag_sources: dict[str, int] = defaultdict(int)
+    for a in alerts:
+        flag_sources[a.flag_source or "engine"] += 1
+    llm_scanned = sum(
+        1 for v in db.execute(select(Post.llm)).scalars()
+        if isinstance(v, dict) and v.get("available")
+    )
+    llm_flagged = sum(1 for a in alerts if (a.llm or {}).get("flag"))
+    llm_scanned = max(llm_scanned, llm_flagged)
+    llm_flagged = sum(1 for a in alerts if (a.llm or {}).get("flag"))
+    emoji_counts: dict[str, int] = defaultdict(int)
+    for a in alerts:
+        for item in (a.emoji or []):
+            emoji_counts[str(item.get("emoji") or "")] += 1
+    emoji_top = [
+        {"emoji": emo, "count": n}
+        for emo, n in sorted(emoji_counts.items(), key=lambda kv: -kv[1])[:8]
+        if emo
+    ]
+    monitored = db.execute(
+        select(func.count(Channel.id)).where(Channel.is_monitored.is_(True))
+    ).scalar_one()
     return {
         "posts_scanned": posts_scanned,
         "alerts": len(alerts),
@@ -376,6 +401,7 @@ def overview_stats(db: Session) -> dict:
         "unique_identifiers": uniq,
         "active_campaigns": camps,
         "channels_monitored": db.execute(select(func.count(Channel.id))).scalar_one(),
+        "channels_joined": monitored,
         "alerts_by_category": dict(by_cat),
         "alerts_by_status": dict(by_status),
         "alerts_over_time": [{"date": d, **v} for d, v in sorted(series.items())],
@@ -396,6 +422,14 @@ def overview_stats(db: Session) -> dict:
             "MEDIUM": sum(1 for a in alerts if a.risk == "MEDIUM"),
             "LOW": sum(1 for a in alerts if a.risk == "LOW"),
         },
+        "flag_source_breakdown": dict(flag_sources),
+        "llm": {
+            "configured": settings.llm_ready,
+            "scanned": int(llm_scanned),
+            "flagged": llm_flagged,
+            "vetoed": flag_sources.get("llm-veto", 0),
+        },
+        "emoji_top": emoji_top,
     }
 
 

@@ -10,14 +10,18 @@ from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 from app.core.config import settings
 from app.ml import extractors
 from app.ml.engine import engine
+from app.ml.fusion import fuse
+from app.ml.llm import scanner
 from app.pipeline import speech, vision
 from app.schemas import ClassifyRequest, ClassifyResponse
 
 router = APIRouter(tags=["analysis"])
 
 
-def classify_payload(text: str) -> dict:
+def classify_payload(text: str, *, use_llm: bool = True) -> dict:
     result = engine().predict(text)
+    verdict = scanner().scan(text) if (use_llm and settings.llm_ready and (text or "").strip()) else None
+    result = fuse(result, verdict, text=text)
     found = extractors.extract_all(text, source="text")
     result["identifiers"] = [f.as_dict() for f in found]
     return result
@@ -26,7 +30,7 @@ def classify_payload(text: str) -> dict:
 @router.post("/classify", response_model=ClassifyResponse)
 def classify(req: ClassifyRequest) -> dict:
     """Classify a text post and return category, confidence and explanation."""
-    return classify_payload(req.text)
+    return classify_payload(req.text, use_llm=req.use_llm)
 
 
 @router.post("/analyze/image")

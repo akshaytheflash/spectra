@@ -30,6 +30,8 @@ from app.core.storage import storage
 from app.db.models import Alert, AlertStatus, Channel, Evidence, Identifier, Post, PostStatus, utcnow
 from app.ml import extractors
 from app.ml.engine import engine
+from app.ml.fusion import fuse
+from app.ml.llm import Verdict, scanner
 from app.pipeline import evidence as evidence_mod
 from app.pipeline import speech, vision
 
@@ -52,6 +54,7 @@ class ProcessResult:
     alert_id: str | None = None
     identifier_count: int = 0
     media: dict = field(default_factory=dict)
+    flag_source: str = "engine"
     error: str | None = None
 
 
@@ -163,11 +166,15 @@ def process_post(
     max_ocr_passes: int | None = None,
     commit: bool = True,
     prediction: dict | None = None,
+    do_llm: bool = True,
+    llm_verdict: Verdict | None = None,
 ) -> ProcessResult:
     """Classify a post, extract identifiers, create alert + evidence if flagged.
 
     ``prediction`` lets bulk callers pass a pre-computed :meth:`HybridEngine.predict`
-    result (batched inference over thousands of posts).
+    result (batched inference over thousands of posts). ``llm_verdict`` does the
+    same for a pre-computed LLM batch verdict; when omitted and ``do_llm`` is on,
+    the scanner is called for this message.
     """
     eng = engine()
     media: dict = {}
@@ -230,15 +237,22 @@ def process_post(
         existing.add((f.type, f.value, f.source))
 
     # --- classification ----------------------------------------------------
-    result = prediction if prediction is not None else eng.predict(full_text)
+    base = prediction if prediction is not None else eng.predict(full_text)
+    verdict = llm_verdict
+    if verdict is None and do_llm and settings.llm_ready and full_text.strip():
+        verdict = scanner().scan(full_text, context=post.channel)
+    result = fuse(base, verdict, text=full_text)
     post.language = (media.get("transcript") or {}).get("language") or detect_language(full_text)
     post.text_hash = hashlib.sha256((post.text or "").strip().lower().encode()).hexdigest()
+    post.llm = (result["explanation"].get("llm") or {})
 
     identifiers = [
         {"type": f.type, "value": f.value, "source": f.source, "raw": f.raw, "confidence": f.confidence}
         for f in found_all
     ]
     flagged = result["is_illicit"]
+    fusion = result["explanation"].get("fusion") or {}
+    emoji_signals = result["explanation"].get("emoji_signals") or []
     post.status = PostStatus.flagged.value if flagged else PostStatus.ok.value
 
     alert_id = None
@@ -255,6 +269,9 @@ def process_post(
                 "count": len(identifiers),
                 "values": [f"{i['type']}:{i['value']}" for i in identifiers][:12],
             },
+            flag_source=str(fusion.get("source") or "engine"),
+            llm=result["explanation"].get("llm") or {},
+            emoji=emoji_signals,
             status=AlertStatus.new.value,
         )
         db.add(alert)
@@ -268,7 +285,11 @@ def process_post(
             explanation=result["explanation"],
             extra={"ocr_text": (media.get("ocr") or {}).get("text", ""),
                    "transcript": (media.get("transcript") or {}).get("text", ""),
-                   "qr": [c.get("data") for c in (media.get("qr") or {}).get("codes", [])]},
+                   "qr": [c.get("data") for c in (media.get("qr") or {}).get("codes", [])],
+                   "llm_verdict": result["explanation"].get("llm") or {},
+                   "emoji_signals": emoji_signals,
+                   "flag_source": fusion.get("source"),
+                   "fusion_note": fusion.get("note")},
         )
         db.add(Evidence(alert_id=alert.id, payload=snap["payload"], sha256=snap["sha256"],
                         captured_at=utcnow()))
@@ -279,6 +300,7 @@ def process_post(
     return ProcessResult(
         post_id=post.id, status=post.status, category=result["category"], risk=result["risk"],
         confidence=result["confidence"], alert_id=alert_id, identifier_count=len(found_all), media=media,
+        flag_source=str(fusion.get("source") or "engine"),
     )
 
 

@@ -20,6 +20,7 @@ from app.db.session import get_db, session_scope
 from app.jobs import JobContext, create_job, job_dict, run_in_background
 from app.pipeline import ingest
 from app.pipeline import telegram as tg
+from app.pipeline.llm_batch import scan_texts
 from app.schemas import JobOut, PipelineRequest, TelegramIngestRequest
 from app.services import refresh_campaigns
 
@@ -91,8 +92,12 @@ def ingest_rows(ctx: JobContext, rows: list[dict[str, Any]], *, media_root: Path
         predictions = engine().predict_many(texts)
     except Exception:
         predictions = [None] * len(rows)
+    try:
+        verdicts = scan_texts(texts, predictions, context="upload", mode="candidates")
+    except Exception:
+        verdicts = [None] * len(rows)
     with session_scope() as db:
-        for row, prediction in zip(rows, predictions):
+        for row, prediction, verdict in zip(rows, predictions, verdicts):
             def col(name: str) -> str:
                 c = mapping.get(name)
                 return str(row.get(c) or "").strip() if c else ""
@@ -119,7 +124,8 @@ def ingest_rows(ctx: JobContext, rows: list[dict[str, Any]], *, media_root: Path
                     platform=col("platform") or "imported", label=col("label") or None,
                 )
                 res = ingest.process_post(db, post, media_path=media, do_ocr=do_ocr, max_ocr_passes=1,
-                                          prediction=prediction)
+                                          prediction=prediction, llm_verdict=verdict,
+                                          do_llm=verdict is None and media is None)
                 created += 1
                 if res.alert_id:
                     flagged += 1
@@ -150,7 +156,9 @@ async def _telegram_job(ctx: JobContext, req: TelegramIngestRequest) -> dict:
     from app.ml.engine import engine as get_engine
 
     text_preds = get_engine().predict_many([m.text or "" for m in msgs]) if msgs else []
-    for m, text_pred in zip(msgs, text_preds):
+    verdicts = scan_texts([m.text or "" for m in msgs], text_preds, context="telegram",
+                          mode=req.llm_mode)
+    for m, text_pred, verdict in zip(msgs, text_preds, verdicts):
         with session_scope() as db:
             try:
                 post = ingest.create_post(
@@ -160,6 +168,8 @@ async def _telegram_job(ctx: JobContext, req: TelegramIngestRequest) -> dict:
                 res = ingest.process_post(
                     db, post, media_path=Path(m.media_path) if m.media_path else None,
                     prediction=None if m.media_path else text_pred,
+                    llm_verdict=verdict,
+                    do_llm=verdict is None and not m.media_path,
                     do_ocr=req.do_ocr, max_ocr_passes=req.ocr_passes,
                 )
                 created += 1
@@ -310,8 +320,15 @@ async def pipeline_run(req: PipelineRequest, background: BackgroundTasks) -> dic
             posts = db.execute(q).scalars().all()
             ctx.set_total(len(posts))
             flagged = 0
-            for p in posts:
-                res = ingest.process_post(db, p, media_path=None)
+            texts = [p.text or "" for p in posts]
+            from app.ml.engine import engine as _engine
+
+            preds = _engine().predict_many(texts) if texts else []
+            verdicts = scan_texts(texts, preds, context="reanalyze",
+                                  mode="candidates" if req.use_llm else "off")
+            for p, pred, verdict in zip(posts, preds, verdicts):
+                res = ingest.process_post(db, p, media_path=None, prediction=pred,
+                                          llm_verdict=verdict, do_llm=False)
                 if res.alert_id:
                     flagged += 1
                 ctx.step()

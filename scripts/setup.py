@@ -58,10 +58,10 @@ def venv_env() -> dict:
 
 
 # --------------------------------------------------------------------------- steps
-def run(cmd: list[str], label: str) -> float:
+def run(cmd: list[str], label: str, cwd: Path | None = None) -> float:
     t0 = time.time()
     print(f"\n== {label} ==", flush=True)
-    subprocess.run(cmd, cwd=str(ROOT), env=venv_env(), check=True)
+    subprocess.run(cmd, cwd=str(cwd or ROOT), env=venv_env(), check=True)
     dt = time.time() - t0
     print(f"   done in {dt:.1f}s", flush=True)
     return dt
@@ -120,7 +120,7 @@ def ensure_deps(force: bool) -> None:
             "or your package manager, then re-run."
         )
     if not (ROOT / "frontend" / "node_modules").exists():
-        run(["npm", "install", "--silent"], "install frontend packages")
+        run(["npm", "install", "--silent"], "install frontend packages", cwd=ROOT / "frontend")
 
 
 def has_generated() -> bool:

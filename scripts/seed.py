@@ -123,7 +123,7 @@ def _attach_media_sample(p: dict, rng: random.Random) -> dict:
 
 
 def seed_posts(posts: list[dict], *, do_media: bool, max_media: int, max_ocr_passes: int,
-               run_ocr: bool = False) -> dict:
+               run_ocr: bool = False, llm_mode: str = "candidates", llm_limit: int = 60) -> dict:
     eng = get_engine()
     flagged = 0
     media_done = 0
@@ -132,6 +132,8 @@ def seed_posts(posts: list[dict], *, do_media: bool, max_media: int, max_ocr_pas
     # Batched text classification: one TF-IDF pass + one embedding pass for all
     # posts (posts that get media are re-classified with OCR text folded in).
     precomputed: dict[str, dict] = {}
+    preds: list[dict] = []
+    verdicts: list = []
     if eng.model is None:
         print("[seed] no trained model found - run `make model` first")
     else:
@@ -139,6 +141,16 @@ def seed_posts(posts: list[dict], *, do_media: bool, max_media: int, max_ocr_pas
         preds = eng.predict_many([p.get("text") or "" for p in posts])
         precomputed = {p["post_id"]: pr for p, pr in zip(posts, preds) if p.get("post_id")}
         print(f"[seed] batched classification of {len(posts)} posts in {time.time()-t_pred:.1f}s")
+        if llm_mode != "off":
+            from app.pipeline.llm_batch import scan_texts
+
+            t_llm = time.time()
+            verdicts = scan_texts(
+                [p.get("text") or "" for p in posts], preds, context="seed", mode=llm_mode,
+                limit=llm_limit,
+            )
+            print(f"[seed] LLM scanned {sum(1 for v in verdicts if v is not None)} posts "
+                  f"in {time.time()-t_llm:.1f}s")
     with session_scope() as db:
         # choose which posts carry demonstration media (spread over categories)
         media_targets: list[tuple[str, str]] = []
@@ -184,9 +196,12 @@ def seed_posts(posts: list[dict], *, do_media: bool, max_media: int, max_ocr_pas
             # Proof-of-concept demo media is processed WITHOUT OCR/STT so the
             # bootstrap stays fast; OCR/voice run on demand (Telegram ingest,
             # /analyze/image, /analyze/audio) and via `make seed --max-media N --ocr`.
+            verdict = verdicts[n] if n < len(verdicts) else None
             res = ingest.process_post(
                 db, post, media_path=media, do_ocr=run_ocr,
                 prediction=None if media is not None else precomputed.get(p.get("post_id")),
+                llm_verdict=verdict,
+                do_llm=bool(media is not None and llm_mode != "off"),
                 commit=False,
             )
             if (n + 1) % 250 == 0:  # batch commit keeps memory flat
@@ -270,6 +285,10 @@ def main() -> None:
     ap.add_argument("--max-media", type=int, default=8, help="how many media posts get OCR/STT at seed")
     ap.add_argument("--ocr-passes", type=int, default=1)
     ap.add_argument("--ocr", action="store_true", help="run OCR/STT on seeded media (slower)")
+    ap.add_argument("--llm", choices=["off", "candidates", "all"], default="candidates",
+                    help="LLM scan coverage while seeding (default: borderline/flagged only)")
+    ap.add_argument("--llm-limit", type=int, default=60,
+                    help="max posts sent to the LLM while seeding (endpoint is slow)")
     ap.add_argument("--no-reset", action="store_true")
     ap.add_argument("--force-reset", action="store_true", help="allow wiping a populated database")
     ap.add_argument("--phase", choices=["all", "import", "derive"], default="all",
@@ -307,7 +326,7 @@ def main() -> None:
             for r in sample_rows
         ]
         seed_posts(sample_posts, do_media=True, max_media=args.max_media, max_ocr_passes=args.ocr_passes,
-                   run_ocr=args.ocr)
+                   run_ocr=args.ocr, llm_mode=args.llm, llm_limit=args.llm_limit)
     else:
         print("[seed] no organizers dataset in data/sample - using synthetic bundle only")
 
@@ -319,7 +338,16 @@ def main() -> None:
     mode = "text-only (quick)" if args.quick else f"with {args.max_media} media posts"
     print(f"[seed] synthetic bundle: {len(posts)} posts, {mode}")
     seed_posts(posts, do_media=not args.quick, max_media=args.max_media, max_ocr_passes=args.ocr_passes,
-               run_ocr=args.ocr)
+               run_ocr=args.ocr, llm_mode=args.llm, llm_limit=args.llm_limit)
+
+    # Mark seeded channels as part of the monitoring watchlist (demo status).
+    with session_scope() as db:
+        for ch in db.execute(select(Channel)).scalars().all():
+            ch.is_monitored = True
+            if ch.join_status in ("unlisted", "pending", None, ""):
+                ch.join_status = "demo"
+            if ch.platform == "telegram" and ch.subscriber_count is None:
+                ch.subscriber_count = 1200 + (hash(ch.username) % 90000)
     if args.phase == "import":
         print(f"[seed] imported in {time.time()-start:.1f}s")
         return

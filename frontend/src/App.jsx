@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Overview from './pages/Overview';
 import Ingest from './pages/Ingest';
 import Alerts from './pages/Alerts';
+import Channels from './pages/Channels';
 import EntityGraph from './pages/EntityGraph';
 import Campaigns from './pages/Campaigns';
 import Identifiers from './pages/Identifiers';
@@ -20,6 +21,7 @@ export default function App() {
           <Route index element={<Overview />} />
           <Route path="ingest" element={<Ingest />} />
           <Route path="alerts" element={<Alerts />} />
+          <Route path="channels" element={<Channels />} />
           <Route path="graph" element={<EntityGraph />} />
           <Route path="campaigns" element={<Campaigns />} />
           <Route path="identifiers" element={<Identifiers />} />

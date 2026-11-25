@@ -1,0 +1,71 @@
+# Curated emoji signals for illicit-trade detection.
+#
+# Emojis are a first-class signal in this domain: listings often replace the
+# product word with one or two emojis (e.g. "fresh stock 🍁🔌"). The classifier
+# still reads the text; this file gives the analyst an explicit, auditable
+# emoji read-out and supplies a small confidence boost for emoji-led ads.
+#
+# weight: 0.9 strong / 0.6 moderate / 0.3 weak-or-ambiguous
+# `ambiguous: true` means the emoji is common in benign conversation and only
+# counts when a sale intent or another signal is also present.
+
+version: 1
+
+signals:
+  # ---- narcotics -----------------------------------------------------------
+  - {emoji: "🍁", category: drugs, meaning: "cannabis / weed", weight: 0.95}
+  - {emoji: "🌿", category: drugs, meaning: "herb / cannabis", weight: 0.7}
+  - {emoji: "☘️", category: drugs, meaning: "cannabis", weight: 0.6}
+  - {emoji: "🍀", category: drugs, meaning: "cannabis", weight: 0.5, ambiguous: true}
+  - {emoji: "❄️", category: drugs, meaning: "cocaine / snow", weight: 0.85}
+  - {emoji: "💊", category: drugs, meaning: "pills / MDMA / pharma", weight: 0.55, ambiguous: true}
+  - {emoji: "🍄", category: drugs, meaning: "magic mushrooms", weight: 0.8}
+  - {emoji: "🌵", category: drugs, meaning: "mescaline / cactus", weight: 0.5, ambiguous: true}
+  - {emoji: "🍫", category: drugs, meaning: "hash / edibles", weight: 0.45, ambiguous: true}
+  - {emoji: "🍪", category: drugs, meaning: "edibles", weight: 0.45, ambiguous: true}
+  - {emoji: "🧊", category: drugs, meaning: "ice / meth", weight: 0.8}
+  - {emoji: "💨", category: drugs, meaning: "smoke / puff", weight: 0.4, ambiguous: true}
+  - {emoji: "🚬", category: drugs, meaning: "smoking", weight: 0.4, ambiguous: true}
+  - {emoji: "💉", category: drugs, meaning: "injection / heroin", weight: 0.7}
+  - {emoji: "🔌", category: drugs, meaning: "plug / dealer", weight: 0.65}
+  - {emoji: "🌴", category: drugs, meaning: "weed / tropical strain", weight: 0.5, ambiguous: true}
+  - {emoji: "🥦", category: drugs, meaning: "weed", weight: 0.5, ambiguous: true}
+  - {emoji: "🪴", category: drugs, meaning: "cultivation", weight: 0.4, ambiguous: true}
+  - {emoji: "🍇", category: drugs, meaning: "lean / syrup", weight: 0.4, ambiguous: true}
+  - {emoji: "🍒", category: drugs, meaning: "strain / cherries", weight: 0.35, ambiguous: true}
+  - {emoji: "🍑", category: drugs, meaning: "strain / peach", weight: 0.3, ambiguous: true}
+  - {emoji: "🍍", category: drugs, meaning: "strain / pineapple", weight: 0.4, ambiguous: true}
+  - {emoji: "🧪", category: drugs, meaning: "synthetic drugs / lab", weight: 0.6}
+  - {emoji: "⚗️", category: drugs, meaning: "synthesis / lab", weight: 0.55}
+  - {emoji: "🧴", category: drugs, meaning: "syrup / solution", weight: 0.3, ambiguous: true}
+  - {emoji: "🍬", category: drugs, meaning: "edibles / candy", weight: 0.35, ambiguous: true}
+  - {emoji: "🍭", category: drugs, meaning: "edibles / lollipop", weight: 0.35, ambiguous: true}
+  - {emoji: "🫐", category: drugs, meaning: "strain / berries", weight: 0.3, ambiguous: true}
+
+  # ---- arms / explosives ---------------------------------------------------
+  - {emoji: "🔫", category: arms, meaning: "firearm / pistol", weight: 0.9, ambiguous: true}
+  - {emoji: "💣", category: arms, meaning: "bomb / explosive", weight: 0.85}
+  - {emoji: "🧨", category: arms, meaning: "dynamite / explosive", weight: 0.8}
+  - {emoji: "🗡️", category: arms, meaning: "blade / knife", weight: 0.6, ambiguous: true}
+  - {emoji: "⚔️", category: arms, meaning: "weapons", weight: 0.6, ambiguous: true}
+  - {emoji: "🪓", category: arms, meaning: "axe", weight: 0.45, ambiguous: true}
+  - {emoji: "🔪", category: arms, meaning: "knife", weight: 0.45, ambiguous: true}
+  - {emoji: "🏹", category: arms, meaning: "bow / arms", weight: 0.35, ambiguous: true}
+  - {emoji: "💥", category: arms, meaning: "blast", weight: 0.3, ambiguous: true}
+
+  # ---- fake documents ------------------------------------------------------
+  - {emoji: "🪪", category: fake_docs, meaning: "ID card", weight: 0.7, ambiguous: true}
+  - {emoji: "📇", category: fake_docs, meaning: "identity documents", weight: 0.45, ambiguous: true}
+  - {emoji: "📜", category: fake_docs, meaning: "certificate / document", weight: 0.4, ambiguous: true}
+  - {emoji: "🖨️", category: fake_docs, meaning: "printing / forgery", weight: 0.4, ambiguous: true}
+  - {emoji: "🖋️", category: fake_docs, meaning: "signature / forgery", weight: 0.3, ambiguous: true}
+
+  # ---- mule / financial ----------------------------------------------------
+  - {emoji: "🏦", category: mule_fin, meaning: "bank account", weight: 0.5, ambiguous: true}
+  - {emoji: "🏧", category: mule_fin, meaning: "ATM / card", weight: 0.55, ambiguous: true}
+  - {emoji: "💳", category: mule_fin, meaning: "card / account kit", weight: 0.5, ambiguous: true}
+  - {emoji: "💰", category: mule_fin, meaning: "cash / commission", weight: 0.35, ambiguous: true}
+  - {emoji: "💸", category: mule_fin, meaning: "money transfer", weight: 0.35, ambiguous: true}
+  - {emoji: "🤑", category: mule_fin, meaning: "easy money", weight: 0.4, ambiguous: true}
+  - {emoji: "🧾", category: mule_fin, meaning: "receipt / passbook", weight: 0.3, ambiguous: true}
+  - {emoji: "📲", category: mule_fin, meaning: "OTP / banking app", weight: 0.25, ambiguous: true}

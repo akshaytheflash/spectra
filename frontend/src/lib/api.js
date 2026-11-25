@@ -1,10 +1,8 @@
-// Thin API client + tiny helpers shared by all pages.
+// Thin API client + shared helpers.
 //
 // The backend may be (a) the same origin as the API, (b) the Vite dev server
 // proxying /api -> :8000, or (c) a separately hosted static build pointed at
-// the API via VITE_API_URL. All three are supported below.
-// Dev server proxies /api -> FastAPI (see vite.config.js); a static build is
-// served by the API on the same origin; VITE_API_URL overrides both.
+// the API via VITE_API_URL.
 const EXPLICIT = import.meta.env.VITE_API_URL;
 const DEV = import.meta.env.DEV;
 const BASE = EXPLICIT !== undefined && EXPLICIT !== '' ? EXPLICIT : (DEV ? '/api' : '');
@@ -16,10 +14,11 @@ function withTimeout(ms) {
 }
 
 async function req(path, opts = {}) {
-  const t = withTimeout(opts.timeout || 45000);
+  const t = withTimeout(opts.timeout || 60000);
   try {
     const res = await fetch(`${BASE}${path}`, {
       headers: { 'Content-Type': 'application/json', ...(opts.headers || {}) },
+      cache: 'no-store',
       signal: t.signal,
       ...opts,
     });
@@ -54,7 +53,6 @@ export const api = {
       t.done();
     }
   },
-  // Evidence media: /media/posts/<name> on the API origin.
   mediaUrl: (p) => {
     if (!p) return null;
     if (p.startsWith('http')) return p;
@@ -64,19 +62,27 @@ export const api = {
   rawUrl: (p) => `${BASE}${p}`,
 };
 
+// Mid-tone chart palette: legible on both the paper and the night theme.
 export const CATEGORY_COLORS = {
-  drugs: '#f472b6',
-  arms: '#fb7185',
-  fake_docs: '#fbbf24',
-  mule_account: '#34d399',
-  atm_card: '#22d3ee',
-  sim_card: '#a78bfa',
-  net_banking_kit: '#38bdf8',
-  mule_fin: '#34d399',
-  benign: '#64748b',
+  drugs: '#b45c86',
+  arms: '#c25448',
+  fake_docs: '#b08a35',
+  mule_account: '#3f8c77',
+  atm_card: '#5a87ac',
+  sim_card: '#8272ba',
+  net_banking_kit: '#4e979c',
+  mule_fin: '#3f8c77',
+  other_illegal: '#8a6b2f',
+  benign: '#7d8a83',
 };
 
-export const RISK_COLORS = { HIGH: '#f43f5e', MEDIUM: '#f59e0b', LOW: '#64748b' };
+export const RISK_COLORS = {
+  HIGH: 'rgb(var(--c-danger))',
+  MEDIUM: 'rgb(var(--c-warn))',
+  LOW: 'rgb(var(--c-muted))',
+};
+
+export const RISK_ORDER = { HIGH: 3, MEDIUM: 2, LOW: 1 };
 
 export const CATEGORY_LABELS = {
   drugs: 'Narcotics',
@@ -87,21 +93,30 @@ export const CATEGORY_LABELS = {
   sim_card: 'SIM card',
   net_banking_kit: 'Net-banking kit',
   mule_fin: 'Mule / financial',
+  other_illegal: 'Other illegal',
   benign: 'Benign',
 };
 
+export const FLAG_SOURCE_LABELS = {
+  engine: 'Engine',
+  llm: 'GLM',
+  'engine+llm': 'Engine + GLM',
+  emoji: 'Emoji signal',
+  'llm-veto': 'GLM cleared',
+};
+
 export const NODE_COLORS = {
-  Post: '#3b4a63',
-  Channel: '#22d3ee',
-  Phone: '#f472b6',
-  UPI: '#a3e635',
-  Wallet: '#fbbf24',
-  Username: '#c084fc',
-  Location: '#38bdf8',
-  Bank: '#fda4af',
-  Link: '#94a3b8',
-  ImageHash: '#64748b',
-  AudioHash: '#64748b',
+  Post: '#6f7d76',
+  Channel: '#2f8c77',
+  Phone: '#b45c86',
+  UPI: '#71923a',
+  Wallet: '#b08a35',
+  Username: '#8272ba',
+  Location: '#5a87ac',
+  Bank: '#c25448',
+  Link: '#8a948d',
+  ImageHash: '#7d8a83',
+  AudioHash: '#7d8a83',
 };
 
 export const fmtDate = (d) => {
@@ -111,5 +126,21 @@ export const fmtDate = (d) => {
   return dt.toLocaleString(undefined, { year: 'numeric', month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit' });
 };
 export const fmtDay = (d) => (d ? new Date(d).toLocaleDateString(undefined, { month: 'short', day: '2-digit' }) : '—');
+export const fmtTime = (d) => {
+  if (!d) return '—';
+  const dt = new Date(d);
+  if (Number.isNaN(dt.getTime())) return String(d);
+  return dt.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+};
+export const timeAgo = (d) => {
+  if (!d) return '—';
+  const dt = new Date(d);
+  if (Number.isNaN(dt.getTime())) return String(d);
+  const s = Math.max(1, Math.round((Date.now() - dt.getTime()) / 1000));
+  if (s < 60) return `${s}s ago`;
+  if (s < 3600) return `${Math.round(s / 60)}m ago`;
+  if (s < 86400) return `${Math.round(s / 3600)}h ago`;
+  return `${Math.round(s / 86400)}d ago`;
+};
 export const pct = (v) => `${Math.round((v || 0) * 100)}%`;
 export const cls = (...xs) => xs.filter(Boolean).join(' ');

@@ -57,6 +57,26 @@ class Settings(BaseSettings):
     TELEGRAM_BATCH_SIZE: int = 100
     TELEGRAM_MAX_MESSAGES: int = 500
 
+    # --- bot + auto-join / auto-pilot ---------------------------------------
+    TELEGRAM_BOT_TOKEN: str = ""
+    TELEGRAM_BOT_CHAT_ID: str = ""
+    AUTO_JOIN_ENABLED: bool = True
+    AUTO_JOIN_KEYWORDS: str = (
+        "ganja,charas,mdma,weed,heroin,cocaine,katta,tamancha,pistol,ammo,"
+        "mule account,account kiraye,atm card,net banking kit,fake aadhaar"
+    )
+    AUTO_PILOT_ENABLED: bool = True
+    AUTO_PILOT_INTERVAL: int = 900  # seconds between monitoring sweeps
+    AUTO_PILOT_BATCH: int = 40  # messages fetched per channel per sweep
+
+    # --- LLM (OpenAI-compatible; BharatCode by default) ----------------------
+    BHARATCODE_API_KEY: str = ""
+    BHARATCODE_BASE_URL: str = "https://bharatcode.ai/api/model/v1"
+    BHARATCODE_MODEL: str = "glm-5.3-flash"
+    LLM_ENABLED: bool = True
+    LLM_TIMEOUT: int = 120
+    LLM_MAX_CONCURRENCY: int = 2
+
     # --- ML ------------------------------------------------------------------
     EMBEDDING_MODEL: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     WHISPER_MODEL: str = "base"
@@ -94,6 +114,19 @@ class Settings(BaseSettings):
     @property
     def use_supabase_storage(self) -> bool:
         return self.STORAGE_MODE.lower() == "supabase" and bool(self.SUPABASE_URL and self.SUPABASE_SERVICE_KEY)
+
+    @property
+    def llm_ready(self) -> bool:
+        """True when an LLM key is configured and the scanner is enabled."""
+        return bool(self.LLM_ENABLED and self.BHARATCODE_API_KEY.strip())
+
+    @property
+    def bot_ready(self) -> bool:
+        return bool(self.TELEGRAM_BOT_TOKEN.strip())
+
+    @property
+    def auto_join_keywords(self) -> list[str]:
+        return [k.strip() for k in self.AUTO_JOIN_KEYWORDS.split(",") if k.strip()]
 
     def ensure_dirs(self) -> None:
         for p in (self.DATA_DIR, self.UPLOAD_DIR, self.REPORT_DIR, self.MODEL_DIR):

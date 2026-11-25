@@ -8,7 +8,8 @@ const DICT = {
   en: {
     'app.name': 'SPECTRA',
     'app.tagline': 'Entity Correlation & Threat Recognition',
-    'nav.overview': 'Overview',
+    'nav.overview': 'Watchfloor',
+    'nav.channels': 'Channels',
     'nav.ingest': 'Ingest & Analyze',
     'nav.alerts': 'Alerts',
     'nav.graph': 'Entity Graph',
@@ -62,6 +63,7 @@ const DICT = {
     'app.name': 'SPECTRA',
     'app.tagline': 'एंटिटी सहसंबंध और खतरा पहचान',
     'nav.overview': 'अवलोकन',
+    'nav.channels': 'चैनल',
     'nav.ingest': 'डेटा लोड और विश्लेषण',
     'nav.alerts': 'अलर्ट',
     'nav.graph': 'एंटिटी ग्राफ़',
@@ -131,12 +133,13 @@ export const useI18n = () => useContext(Ctx);
 export function LangToggle() {
   const { lang, setLang } = useI18n();
   return (
-    <div className="flex items-center rounded-lg border border-line bg-raised/60 p-0.5 text-[11px]">
+    <div className="seg">
       {['en', 'hi'].map((l) => (
         <button
           key={l}
+          data-on={lang === l}
           onClick={() => setLang(l)}
-          className={`rounded-md px-2 py-1 font-semibold transition-colors ${lang === l ? 'bg-accent/20 text-accent' : 'text-muted hover:text-ink'}`}
+          aria-pressed={lang === l}
         >
           {l === 'en' ? 'EN' : 'हिं'}
         </button>

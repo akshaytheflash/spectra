@@ -88,10 +88,14 @@ async def collect_channel(
     *,
     limit: int = 50,
     offset_id: int | None = None,
+    min_id: int | None = None,
     media_dir: Path,
     progress: ProgressFn | None = None,
 ) -> tuple[list[CollectedMessage], CollectReport]:
-    """Fetch the last ``limit`` messages of a public channel (read-only)."""
+    """Fetch the last ``limit`` messages of a public channel (read-only).
+
+    ``min_id`` fetches only messages newer than that id (incremental sweeps).
+    """
     decision: ScopeDecision = check_public_target(target)
     if not decision.allowed:
         return [], CollectReport(channel=target, error=decision.reason)
@@ -111,7 +115,9 @@ async def collect_channel(
         if not is_public_channel_entity(entity) or not isinstance(entity, TgChannel):
             report.error = "Rejected: target is not a public broadcast channel (private or group)"
             return [], report
-        async for msg in client.iter_messages(entity, limit=limit, offset_id=offset_id or 0):
+        async for msg in client.iter_messages(
+            entity, limit=limit, offset_id=offset_id or 0, min_id=min_id or 0
+        ):
             if msg is None:
                 continue
             report.fetched += 1

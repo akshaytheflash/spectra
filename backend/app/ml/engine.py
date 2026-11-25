@@ -20,6 +20,22 @@ from app.ml.train import lex_features, meta_features
 SEVERITY = {"arms": 1.2, "mule_fin": 1.1, "drugs": 1.0, "fake_docs": 1.0, "benign": 0.0}
 FLAG_CONFIDENCE = 0.55  # threshold above which a non-benign class is decided
 
+# Financial sub-types -> canonical UI categories (sub-type is kept in subcategories).
+FIN_TYPE_TO_CATEGORY = {
+    "bank_account": "mule_account",
+    "mule_account": "mule_account",
+    "atm_debit_card": "atm_card",
+    "atm_card": "atm_card",
+    "sim": "sim_card",
+    "sim_card": "sim_card",
+    "net_banking": "net_banking_kit",
+    "net_banking_kit": "net_banking_kit",
+}
+
+
+def _fin_category(fin) -> str:
+    return FIN_TYPE_TO_CATEGORY.get((fin.type or "").strip(), "mule_account")
+
 _lock = threading.Lock()
 _model: StackedEnsemble | None = None
 
@@ -79,7 +95,7 @@ class HybridEngine:
         if pred == "benign":
             category = "benign"
         elif fin.is_financial and pred == "mule_fin":
-            category = fin.type or "mule_account"
+            category = _fin_category(fin)
         else:
             category = self._best_category(pred, res)
         flagged = (
@@ -268,7 +284,7 @@ class HybridEngine:
         if pred == "benign":
             category = "benign"
         elif fin.is_financial and pred == "mule_fin":
-            category = fin.type or "mule_account"
+            category = _fin_category(fin)
         else:
             category = self._best_category(pred, res)
         flagged = (

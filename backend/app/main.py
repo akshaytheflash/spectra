@@ -12,7 +12,8 @@ from fastapi.staticfiles import StaticFiles
 from app.core.config import settings
 from app.core.security import AuthMiddleware
 from app.db.session import init_db
-from app.routes import alerts, analysis, analytics, ingest, lexicon, reports
+from app.pipeline import autopilot
+from app.routes import alerts, analysis, analytics, channels, identity, ingest, lexicon, ops, reports
 
 
 @asynccontextmanager
@@ -22,7 +23,16 @@ async def lifespan(app: FastAPI):
     from app.ml.engine import engine
 
     engine()
-    yield
+    # analyst pager + autonomous monitoring (no-ops without credentials)
+    from app.bot.service import start_bot, stop_bot
+
+    start_bot()
+    autopilot.start()
+    try:
+        yield
+    finally:
+        stop_bot()
+        await autopilot.stop()
 
 
 app = FastAPI(
@@ -40,6 +50,7 @@ if "null" not in _origins:
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_origins or ["*"],
+    allow_origin_regex=r"https://([a-z0-9-]+\.)*(vercel\.app|trycloudflare\.com|loca\.lt|ngrok-free\.app)",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -48,7 +59,7 @@ app.add_middleware(AuthMiddleware)
 
 # Notifications first: static `/alerts/recent` must resolve before `/alerts/{alert_id}`.
 app.include_router(reports.notify_router)
-for r in (analysis, ingest, reports, alerts, analytics, lexicon):
+for r in (analysis, ingest, reports, alerts, analytics, lexicon, channels, identity, ops):
     app.include_router(r.router)
 
 # Evidence media (originals) served read-only for the evidence view.
@@ -58,7 +69,10 @@ app.mount("/media", StaticFiles(directory=str(settings.UPLOAD_DIR)), name="media
 
 @app.get("/health")
 def health() -> dict:
+    from app.bot.service import bot_status
     from app.ml.engine import get_model
+    from app.pipeline import autopilot as pilot
+    from app.pipeline import telegram as tg
 
     model = get_model()
     return {
@@ -67,6 +81,9 @@ def health() -> dict:
         "storage": "supabase" if settings.use_supabase_storage else "local",
         "model": model.version if model else "not-trained",
         "auth": settings.AUTH_MODE,
+        "llm": {"configured": settings.llm_ready, "model": settings.BHARATCODE_MODEL},
+        "telegram": {"session": tg.live_available(), "bot": bot_status()},
+        "autopilot": pilot.status(),
     }
 
 

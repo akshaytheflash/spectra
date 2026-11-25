@@ -99,7 +99,7 @@ def metrics(db: Session = Depends(get_db)) -> dict:
     }
 
 
-@router.get("/channels")
+@router.get("/channels/names")
 def channels_list(db: Session = Depends(get_db)) -> dict:
     rows = db.execute(select(Post.channel)).scalars().all()
     return {"channels": sorted({r for r in rows if r})}
