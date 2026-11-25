@@ -1,0 +1,548 @@
+{
+ "value": "+919000011111",
+ "type": "phone",
+ "aliases": [
+  "90000-11111",
+  "9000011111"
+ ],
+ "channels": [
+  "aadhaar_ready_hub",
+  "account_kiraye",
+  "chicha_corner",
+  "city_ki_gully",
+  "delhi_night_things",
+  "docs_quick_ncr",
+  "katta_kings_ambala",
+  "lok_mela_up",
+  "mule_khata_rent",
+  "mumbai_snow_zone",
+  "ncr_maal_supply",
+  "netbanking_kits",
+  "sim_otp_store",
+  "tamancha_baazar"
+ ],
+ "upis": [],
+ "phones": [
+  "+919000011111"
+ ],
+ "wallets": [],
+ "handles": [],
+ "payee_names": [],
+ "first_seen": "2026-10-01T19:27:24.843689",
+ "last_seen": "2026-11-15T05:17:12.500154",
+ "risk_score": 100.0,
+ "categories": [
+  "atm_card",
+  "drugs",
+  "fake_docs",
+  "mule_account",
+  "sim_card"
+ ],
+ "posts": [
+  {
+   "id": "c29e631b-e4a8-525a-ba38-62908d06e177",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-15T05:17:12.500154",
+   "text": "Paper work service ready in one day, any identity document of your choice, call 9000011111",
+   "permalink": "https://t.me/delhi_night_things/gen_01061",
+   "media_type": null,
+   "category": null,
+   "risk": null,
+   "alert_id": null
+  },
+  {
+   "id": "7911c137-6cd2-572c-af72-22a372594585",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-11-13T15:12:38.723708",
+   "text": "Party supplies are back in town, hidden parcel delivery tonight Delhi NCR 9000011111",
+   "permalink": "https://t.me/mumbai_snow_zone/gen_01845",
+   "media_type": null,
+   "category": null,
+   "risk": null,
+   "alert_id": null
+  },
+  {
+   "id": "835d0769-debc-5748-8aaa-434df1307f18",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-11T22:49:27.889372",
+   "text": "Party supplies are back in town, hidden parcel delivery tonight Delhi NCR 9000011111",
+   "permalink": "https://t.me/delhi_night_things/gen_01616",
+   "media_type": null,
+   "category": null,
+   "risk": null,
+   "alert_id": null
+  },
+  {
+   "id": "75275f84-6878-569a-887c-040943bcf358",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-11T13:13:47.118609",
+   "text": "Paper work service ready in one day, any identity document of your choice, call 9000011111 #noida",
+   "permalink": "https://t.me/city_ki_gully/gen_00717",
+   "media_type": null,
+   "category": null,
+   "risk": null,
+   "alert_id": null
+  },
+  {
+   "id": "09bd9f1c-ec73-5050-b0d8-3a610139e323",
+   "channel": "netbanking_kits",
+   "timestamp": "2026-11-10T19:06:25.259854",
+   "text": "We buy ready to use money access documents, fair deal, no questions ९००००१११११",
+   "permalink": "https://t.me/netbanking_kits/para_0082",
+   "media_type": null,
+   "category": null,
+   "risk": null,
+   "alert_id": null
+  },
+  {
+   "id": "1dd58376-a3dc-5b21-8d1e-82a92f203ae2",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-10T17:30:44.339928",
+   "text": "Bank account rent pe chahiye urgent. daily 3000 commission. contact 9000011111",
+   "permalink": "https://t.me/city_ki_gully/gen_01181",
+   "media_type": null,
+   "category": "mule_account",
+   "risk": "HIGH",
+   "alert_id": "ce6c4b21-1d20-482c-9ea9-5262ef136950"
+  },
+  {
+   "id": "679edcf7-3a2f-5e4d-80dc-cea4f509aea7",
+   "channel": "sim_otp_store",
+   "timestamp": "2026-11-09T09:22:28.010979",
+   "text": "snow ❄️ premium quality direct farm price. only serious buyers plez. Mumbai 9000011111",
+   "permalink": "https://t.me/sim_otp_store/gen_01242",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "87fc3d34-80d7-4011-b376-4a915ed1355c"
+  },
+  {
+   "id": "e51bd15c-0c09-560d-840d-92df3989547a",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-09T03:54:22.685356",
+   "text": "Bank account rent pe chahiye urgent. daily 3000 commission. contact 9000011111",
+   "permalink": "https://t.me/delhi_night_things/gen_01389",
+   "media_type": null,
+   "category": "mule_account",
+   "risk": "HIGH",
+   "alert_id": "b0494d36-9878-4828-8d65-40ce3fd61b38"
+  },
+  {
+   "id": "0099cefe-2319-5d77-bdcc-11890656b7de",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-07T23:52:20.473878",
+   "text": "stock ready hai snow...cookies bhi hai. nasha nahi to paisa kyu? Pune se Bhopal tak delivery. 9000011111",
+   "permalink": "https://t.me/city_ki_gully/gen_00085",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "a4f9049e-684c-4dce-9081-a9593746089c"
+  },
+  {
+   "id": "0be5287d-70cd-507f-92b5-b4d928d0ea88",
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-11-04T20:04:51.849062",
+   "text": "Ready made Aadhaar and PAN card available. same day delivery. Bengaluru ९००००१११११",
+   "permalink": "https://t.me/mule_khata_rent/gen_01328",
+   "media_type": null,
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "alert_id": "6bfc32c4-a3d1-4630-958a-f98ecb420d57"
+  },
+  {
+   "id": "c4f230db-b804-5577-84f6-d63f12919788",
+   "channel": "tamancha_baazar",
+   "timestamp": "2026-10-26T02:20:45.022737",
+   "text": "shrooms maal aaya hai bhai 🔌 quality best, delivery Srinagar only. Contact 9000011111 #delhi",
+   "permalink": "https://t.me/tamancha_baazar/gen_00299",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "260834d1-667b-4b1e-b8fd-0dec41733091"
+  },
+  {
+   "id": "8f28faa0-2e37-55e6-9d29-a27db12d5bee",
+   "channel": "ncr_maal_supply",
+   "timestamp": "2026-10-20T10:54:54.039632",
+   "text": "old saving account for sale, corporate account with cheque book. 9000011111 DM fast",
+   "permalink": "https://t.me/ncr_maal_supply/gen_01080",
+   "media_type": null,
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "alert_id": "de69b066-ece6-473b-97a5-d8f9dd238f22"
+  },
+  {
+   "id": "9366116c-22f7-57da-b520-4cea96f378be",
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-10-20T09:58:32.050933",
+   "text": "Saving account + ATM card + passbook + SIM full set. per day 1500 rupees commission. Kochi me 90000-11111",
+   "permalink": "https://t.me/mule_khata_rent/gen_01407",
+   "media_type": null,
+   "category": "atm_card",
+   "risk": "LOW",
+   "alert_id": "7ef86f16-65ba-4b21-9a94-43c562780f81"
+  },
+  {
+   "id": "8cad7434-15be-5ba2-881a-f932d20b2cd1",
+   "channel": "katta_kings_ambala",
+   "timestamp": "2026-10-18T10:03:56.766781",
+   "text": "old saving account for sale, corporate account with cheque book. 9000011111 DM fast",
+   "permalink": "https://t.me/katta_kings_ambala/gen_00118",
+   "media_type": null,
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "alert_id": "b1928bdd-5784-4c83-9460-389103c989c6"
+  },
+  {
+   "id": "33776647-ec5d-5152-9c47-05648bd609a7",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-10-16T01:33:14.431329",
+   "text": "Marksheet, degree certificate aur experience certificate ready made. verified look. 9000011111",
+   "permalink": "https://t.me/mumbai_snow_zone/gen_01077",
+   "media_type": null,
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "alert_id": "09a61cf5-3a3d-4425-a95b-1622af6a94c3"
+  },
+  {
+   "id": "4129a93d-6489-5594-95e2-e7a6ad48344d",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-10-15T19:12:25.446757",
+   "text": "fake DL, marksheet, passport banwa lo 100% original look. Ghaziabad me contact 9000011111",
+   "permalink": "https://t.me/lok_mela_up/gen_01642",
+   "media_type": null,
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "alert_id": "4977560d-969e-4057-bdac-5b3bc2185a5e"
+  },
+  {
+   "id": "0c8856da-c195-5443-b863-a1cc96e35c95",
+   "channel": "account_kiraye",
+   "timestamp": "2026-10-14T19:02:34.554585",
+   "text": "old saving account for sale, corporate account with cheque book. 9000011111 DM fast",
+   "permalink": "https://t.me/account_kiraye/gen_01221",
+   "media_type": null,
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "alert_id": "0acd3e2f-9ed6-4f72-b272-4da6ad99a03e"
+  },
+  {
+   "id": "218a7bfa-d330-522d-99dc-7ddc981c6a29",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-10-14T16:48:21.960192",
+   "text": "brownie aur cookies bhi mil jayega 😶‍🌫️🍪 Lucknow \n9000011111",
+   "permalink": "https://t.me/delhi_night_things/gen_01055",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "8d88b0b6-a155-4069-ab1f-09513bd2f5e0"
+  },
+  {
+   "id": "70d9e03f-0fa5-56a9-bce2-cfcb5ed02451",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-10-14T06:04:37.015598",
+   "text": "otp linked sim available, fresh sim card with full otp access. daily rent 1500. 9000011111",
+   "permalink": "https://t.me/docs_quick_ncr/gen_01487",
+   "media_type": null,
+   "category": "sim_card",
+   "risk": "MEDIUM",
+   "alert_id": "dba48933-48ec-4cfb-abb7-54d6513c6d5e"
+  },
+  {
+   "id": "69cb74f4-e164-5b0e-9881-aa145e81ec31",
+   "channel": "sim_otp_store",
+   "timestamp": "2026-10-11T08:27:58.853344",
+   "text": "old saving account for sale, corporate account with cheque book. 9000011111 DM fast #noida",
+   "permalink": "https://t.me/sim_otp_store/gen_00788",
+   "media_type": null,
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "alert_id": "5cdf8cf2-6f59-4443-ac43-1cc2ef1dadfc"
+  },
+  {
+   "id": "d6b822f5-869f-5897-ab07-20fa711fb942",
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-10-09T18:50:34.557042",
+   "text": "Marksheet, degree certificate aur experience certificate ready made. verified look. 9000011111",
+   "permalink": "https://t.me/aadhaar_ready_hub/gen_01727",
+   "media_type": null,
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "alert_id": "fc2714af-89d4-4b0b-9472-13cd6641b7be"
+  },
+  {
+   "id": "d2ad8c59-3192-5184-8a6c-78bf03f7c5e6",
+   "channel": "tamancha_baazar",
+   "timestamp": "2026-10-08T19:32:41.743615",
+   "text": "आधार कार्ड और पैन कार्ड बनवा लो उसी दिन . Mumbai 9000011111",
+   "permalink": "https://t.me/tamancha_baazar/gen_01634",
+   "media_type": null,
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "alert_id": "9e03d045-2923-42cc-b4e0-ee2e0341a9d8"
+  },
+  {
+   "id": "292304b2-8d40-5173-ac00-0ac2161ad5e5",
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-10-08T05:40:38.674139",
+   "text": "Weed killer spray 500ml available in our garden store. Call 9000011111 for orders.",
+   "permalink": "https://t.me/aadhaar_ready_hub/gen_01794",
+   "media_type": null,
+   "category": null,
+   "risk": null,
+   "alert_id": null
+  },
+  {
+   "id": "0452c231-3dcd-592e-b16f-8c03d415e1d5",
+   "channel": "chicha_corner",
+   "timestamp": "2026-10-06T10:12:00",
+   "text": "🍁 premium stuff landed, bhai DISCREET packing, Agra delivery, 9000011111",
+   "permalink": "https://t.me/chicha_corner/gen_00023",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "91075f46-9977-47b4-87b8-6695c043f881"
+  },
+  {
+   "id": "220932d6-888d-5ee4-95f3-70539d72836c",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-10-05T11:00:00",
+   "text": "🍁 premium stuff✅ landed, discreet packings Lucknow delivery, 9000011111",
+   "permalink": "https://t.me/delhi_night_things/gen_00022",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "ad434534-6449-4fae-8a9a-3377dda2d010"
+  },
+  {
+   "id": "5d5d9a49-8ff9-5348-8c14-fa8545c8438c",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-10-04T22:48:00",
+   "text": "🍁 premium stuff landed, discrees p@cking, Indore delivery, 9000011111",
+   "permalink": "https://t.me/lok_mela_up/gen_00021",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "15f871ac-588d-4f33-b6e2-ff92cca49fc1"
+  },
+  {
+   "id": "e5df1e72-8564-5f04-b5dc-852c398e9311",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-10-04T00:36:00",
+   "text": "🍁 PREMIUM stufs landed, discreet packing, Nagpur DELIVERY, 9000011111",
+   "permalink": "https://t.me/mumbai_snow_zone/gen_00020",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "9ebd74ee-21eb-41a5-b99a-d770bdfd2180"
+  },
+  {
+   "id": "f08268a2-17bf-5c98-a688-469ad715a79f",
+   "channel": "chicha_corner",
+   "timestamp": "2026-10-02T11:12:00",
+   "text": "🍁 premium stufs landed, discreet packing, Ludhiana deliverys 9000011111",
+   "permalink": "https://t.me/chicha_corner/gen_00018",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "1220518f-5efc-4c60-997f-86fff037f154"
+  },
+  {
+   "id": "219d798c-bd8f-57bf-9b32-75891d83295e",
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-10-01T19:27:24.843689",
+   "text": "LSD maal aaya hai bhai 🔌 quality best, delivery Agra only. Contact 9000011111",
+   "permalink": "https://t.me/mule_khata_rent/gen_00152",
+   "media_type": null,
+   "category": "drugs",
+   "risk": "HIGH",
+   "alert_id": "61eb7af6-501d-484e-a284-6f4e19c39894"
+  }
+ ],
+ "alerts": [
+  {
+   "id": "fc2714af-89d4-4b0b-9472-13cd6641b7be",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:21.347752"
+  },
+  {
+   "id": "4977560d-969e-4057-bdac-5b3bc2185a5e",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:20.950952"
+  },
+  {
+   "id": "9e03d045-2923-42cc-b4e0-ee2e0341a9d8",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9806,
+   "status": "confirmed",
+   "created_at": "2026-11-24T16:03:20.902268"
+  },
+  {
+   "id": "dba48933-48ec-4cfb-abb7-54d6513c6d5e",
+   "category": "sim_card",
+   "risk": "MEDIUM",
+   "confidence": 0.9987,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:20.183312"
+  },
+  {
+   "id": "7ef86f16-65ba-4b21-9a94-43c562780f81",
+   "category": "atm_card",
+   "risk": "LOW",
+   "confidence": 0.9999,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:19.831031"
+  },
+  {
+   "id": "b0494d36-9878-4828-8d65-40ce3fd61b38",
+   "category": "mule_account",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "dismissed",
+   "created_at": "2026-11-24T16:03:19.744171"
+  },
+  {
+   "id": "6bfc32c4-a3d1-4630-958a-f98ecb420d57",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "confirmed",
+   "created_at": "2026-11-24T16:03:19.450727"
+  },
+  {
+   "id": "87fc3d34-80d7-4011-b376-4a915ed1355c",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9955,
+   "status": "confirmed",
+   "created_at": "2026-11-24T16:03:19.000772"
+  },
+  {
+   "id": "0acd3e2f-9ed6-4f72-b272-4da6ad99a03e",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9992,
+   "status": "dismissed",
+   "created_at": "2026-11-24T16:03:18.893330"
+  },
+  {
+   "id": "ce6c4b21-1d20-482c-9ea9-5262ef136950",
+   "category": "mule_account",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:18.693702"
+  },
+  {
+   "id": "de69b066-ece6-473b-97a5-d8f9dd238f22",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9992,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:18.195637"
+  },
+  {
+   "id": "09a61cf5-3a3d-4425-a95b-1622af6a94c3",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:18.180756"
+  },
+  {
+   "id": "8d88b0b6-a155-4069-ab1f-09513bd2f5e0",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:18.066852"
+  },
+  {
+   "id": "5cdf8cf2-6f59-4443-ac43-1cc2ef1dadfc",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9992,
+   "status": "confirmed",
+   "created_at": "2026-11-24T16:03:16.724939"
+  },
+  {
+   "id": "260834d1-667b-4b1e-b8fd-0dec41733091",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9997,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:14.369015"
+  },
+  {
+   "id": "61eb7af6-501d-484e-a284-6f4e19c39894",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9997,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:13.710666"
+  },
+  {
+   "id": "b1928bdd-5784-4c83-9460-389103c989c6",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9992,
+   "status": "new",
+   "created_at": "2026-11-24T16:03:13.562887"
+  },
+  {
+   "id": "a4f9049e-684c-4dce-9081-a9593746089c",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9954,
+   "status": "dismissed",
+   "created_at": "2026-11-24T16:03:13.403211"
+  },
+  {
+   "id": "91075f46-9977-47b4-87b8-6695c043f881",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9989,
+   "status": "dismissed",
+   "created_at": "2026-11-24T16:02:53.071261"
+  },
+  {
+   "id": "ad434534-6449-4fae-8a9a-3377dda2d010",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9961,
+   "status": "new",
+   "created_at": "2026-11-24T16:02:53.064533"
+  },
+  {
+   "id": "15f871ac-588d-4f33-b6e2-ff92cca49fc1",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9989,
+   "status": "new",
+   "created_at": "2026-11-24T16:02:53.058768"
+  },
+  {
+   "id": "9ebd74ee-21eb-41a5-b99a-d770bdfd2180",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9831,
+   "status": "confirmed",
+   "created_at": "2026-11-24T16:02:53.052282"
+  },
+  {
+   "id": "1220518f-5efc-4c60-997f-86fff037f154",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9828,
+   "status": "new",
+   "created_at": "2026-11-24T16:02:06.339161"
+  }
+ ]
+}

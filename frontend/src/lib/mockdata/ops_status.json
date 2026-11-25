@@ -1,0 +1,30 @@
+{
+ "llm": {
+  "configured": true,
+  "model": "glm-5.3-flash",
+  "base_url": "https://bharatcode.ai/api/model/v1",
+  "scan_mode": "candidates"
+ },
+ "telegram": {
+  "user_session": false,
+  "bot": {
+   "enabled": false,
+   "running": false,
+   "subscribers": 0
+  },
+  "auto_join": true
+ },
+ "autopilot": {
+  "enabled": true,
+  "running": false,
+  "discovery": false,
+  "interval_seconds": 900,
+  "batch": 40
+ },
+ "counts": {
+  "channels": 14,
+  "monitored": 14,
+  "posts": 2108,
+  "alerts": 938
+ }
+}

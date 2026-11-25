@@ -1,0 +1,27 @@
+{
+ "telegram_session": false,
+ "telegram_bot": {
+  "enabled": false,
+  "running": false,
+  "subscribers": 0
+ },
+ "autopilot": {
+  "enabled": true,
+  "running": false,
+  "discovery": false,
+  "interval_seconds": 900,
+  "batch": 40
+ },
+ "auto_join_enabled": true,
+ "channels_total": 14,
+ "channels_monitored": 14,
+ "keywords": [
+  "ganja",
+  "charas",
+  "mdma",
+  "weapons",
+  "katta",
+  "tamancha",
+  "mule account"
+ ]
+}

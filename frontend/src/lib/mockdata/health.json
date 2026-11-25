@@ -1,0 +1,26 @@
+{
+ "status": "ok",
+ "database": "sqlite",
+ "storage": "local",
+ "model": "spectra-hybrid-v1",
+ "auth": "open",
+ "llm": {
+  "configured": true,
+  "model": "glm-5.3-flash"
+ },
+ "telegram": {
+  "session": false,
+  "bot": {
+   "enabled": false,
+   "running": false,
+   "subscribers": 0
+  }
+ },
+ "autopilot": {
+  "enabled": true,
+  "running": false,
+  "discovery": false,
+  "interval_seconds": 900,
+  "batch": 40
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "model": {
+  "version": "spectra-hybrid-v1",
+  "labels": [
+   "drugs",
+   "arms",
+   "fake_docs",
+   "mule_fin",
+   "benign"
+  ],
+  "macro_f1": 0.9499,
+  "weighted_f1": 0.9501,
+  "per_class": {
+   "drugs": {
+    "precision": 1.0,
+    "recall": 0.9306,
+    "f1": 0.964,
+    "support": 72
+   },
+   "arms": {
+    "precision": 1.0,
+    "recall": 0.8889,
+    "f1": 0.9412,
+    "support": 63
+   },
+   "fake_docs": {
+    "precision": 1.0,
+    "recall": 0.9167,
+    "f1": 0.9565,
+    "support": 48
+   },
+   "mule_fin": {
+    "precision": 0.9706,
+    "recall": 0.9041,
+    "f1": 0.9362,
+    "support": 73
+   },
+   "benign": {
+    "precision": 0.9109,
+    "recall": 0.9956,
+    "f1": 0.9514,
+    "support": 226
+   }
+  },
+  "confusion_matrix": [
+   [
+    67,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    56,
+    0,
+    1,
+    6
+   ],
+   [
+    0,
+    0,
+    44,
+    0,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    66,
+    7
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    225
+   ]
+  ],
+  "confusion_labels": [
+   "drugs",
+   "arms",
+   "fake_docs",
+   "mule_fin",
+   "benign"
+  ],
+  "train_size": 1518,
+  "test_size": 482,
+  "hard_negatives": {
+   "tested": 240,
+   "flagged": 0,
+   "false_positive_rate": 0.0,
+   "examples": [],
+   "curated_cases": 14
+  },
+  "paraphrase_holdout": {
+   "n": 9,
+   "illicit_detected": 3,
+   "recall": 0.333,
+   "examples": [
+    {
+     "text": "New collection landed at the usual spot, discreet packing, ping me on telegram @dealer_x",
+     "predicted": "drugs",
+     "confidence": 0.533
+    },
+    {
+     "text": "Party supplies are back in town, hidden parcel delivery tonight Faridabad 9000012345",
+     "predicted": "benign",
+     "confidence": 0.858
+    },
+    {
+     "text": "Premium garden treats ready for the season, direct farm price, inbox only",
+     "predicted": "benign",
+     "confidence": 0.36
+    },
+    {
+     "text": "Paper work service ready in one day, any identity document of your choice, call 9000012345",
+     "predicted": "benign",
+     "confidence": 0.912
+    },
+    {
+     "text": "Empty bank profiles available with all codes working, weekly payout, ping @dealer_x",
+     "predicted": "benign",
+     "confidence": 0.778
+    },
+    {
+     "text": "We buy ready to use money access documents, fair deal, no questions, dm",
+     "predicted": "benign",
+     "confidence": 0.36
+    }
+   ]
+  },
+  "embedding_block": true,
+  "embed_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "lexicon_version": 3,
+  "calibration": "OOF-stacked LogisticRegression (multinomial)",
+  "train_seconds": 136.9,
+  "block_macro_f1": {
+   "tfidf_lexicon_augmented": 0.9102,
+   "embedding_head": 0.949,
+   "lexicon_only": 0.9457
+  }
+ },
+ "latest_run": null,
+ "feedback_count": 420
+}

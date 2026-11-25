@@ -1,0 +1,140 @@
+{
+ "items": [
+  {
+   "id": "d47ef760-e3e6-4ef6-8283-a7e0eee6319b",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "channel": "ncr_maal_supply",
+   "text": "Bank account safety tips: never share OTP or rent your account to anyone.",
+   "created_at": "2026-11-24T16:03:23.053140",
+   "status": "new"
+  },
+  {
+   "id": "4402d829-f8b5-4b20-b25d-3e429aa23f46",
+   "category": "mule_account",
+   "risk": "LOW",
+   "channel": "chicha_corner",
+   "text": "Report mule account ads: our helpline is open 24x7 for fraud complaints.",
+   "created_at": "2026-11-24T16:03:22.789611",
+   "status": "dismissed"
+  },
+  {
+   "id": "0d1a4d8a-33a7-4ee0-9a1f-c45e3fa3e74d",
+   "category": "fake_docs",
+   "risk": "MEDIUM",
+   "channel": "ncr_maal_supply",
+   "text": "Account statement printing service at the cyber cafe, bring your ID proof.",
+   "created_at": "2026-11-24T16:03:22.713342",
+   "status": "new"
+  },
+  {
+   "id": "51102dc5-de0f-42c9-b836-c6461f68f51f",
+   "category": "drugs",
+   "risk": "HIGH",
+   "channel": "account_kiraye",
+   "text": "snow ❄️ premium quality direct farm price. only serious buyers plez. Kolkata 9000395376",
+   "created_at": "2026-11-24T16:03:22.669930",
+   "status": "dismissed"
+  },
+  {
+   "id": "d66b322d-b59a-4c99-a08e-e7cdc020096e",
+   "category": "drugs",
+   "risk": "HIGH",
+   "channel": "lok_mela_up",
+   "text": "stock ready hai ganja...garda bhi hai. nasha nahi to paisa kyu? Pune se Guwahati tak delivery. +91-90000-48281",
+   "created_at": "2026-11-24T16:03:22.661321",
+   "status": "new"
+  },
+  {
+   "id": "e5d9607e-4b38-4155-b7f3-b1c2360fff16",
+   "category": "arms",
+   "risk": "HIGH",
+   "channel": "docs_quick_ncr",
+   "text": "country made pistol + cartridges kit 3000. delivery all india. telegram @monu213_deal",
+   "created_at": "2026-11-24T16:03:22.652067",
+   "status": "new"
+  },
+  {
+   "id": "525536e7-6a6c-4b1f-8a6d-81353342a149",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "channel": "mule_khata_rent",
+   "text": "Ready made Aadhaar and PAN card available. same day delivery. Howrah 9000637940",
+   "created_at": "2026-11-24T16:03:22.643013",
+   "status": "new"
+  },
+  {
+   "id": "412abedc-8fc3-465b-b5f2-0c6a64829f94",
+   "category": "drugs",
+   "risk": "HIGH",
+   "channel": "city_ki_gully",
+   "text": "Fresh MDMA available Nagpur. Pure quality, home delivery. Rate 800 per 10g. DM @aman695_boss",
+   "created_at": "2026-11-24T16:03:22.636967",
+   "status": "new"
+  },
+  {
+   "id": "bade7a85-1cee-4150-b3ab-63c9bb7440fa",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "channel": "account_kiraye",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 9000012269",
+   "created_at": "2026-11-24T16:03:22.628430",
+   "status": "confirmed"
+  },
+  {
+   "id": "7cda2468-f3cf-4555-b394-0b25d7a77db3",
+   "category": "drugs",
+   "risk": "HIGH",
+   "channel": "katta_kings_ambala",
+   "text": "MDMA cry$t@ls & LSD t@bs Pun3 3000 p3r s7rip. discreet packing. dm me",
+   "created_at": "2026-11-24T16:03:22.618843",
+   "status": "new"
+  },
+  {
+   "id": "e9ea1b71-9ccc-4d14-9ce7-69087533adaf",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "channel": "delhi_night_things",
+   "text": "Aadhaar + PAN + driving licence ready made documents. price 1200. DM @ravi614_india",
+   "created_at": "2026-11-24T16:03:22.610287",
+   "status": "new"
+  },
+  {
+   "id": "317018f4-aefd-47fa-a503-4af3e5d35605",
+   "category": "mule_account",
+   "risk": "LOW",
+   "channel": "delhi_night_things",
+   "text": "खाता किराये पर उपलब्ध है . केवाईसी डन . डेली कमीशन . 9000341316",
+   "created_at": "2026-11-24T16:03:22.605287",
+   "status": "new"
+  },
+  {
+   "id": "7dd0fc36-2719-4553-9054-f3182724265a",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "channel": "tamancha_baazar",
+   "text": "fake id proof available, voter id ghotala documentation. Agra only. telegram @aman75_supply",
+   "created_at": "2026-11-24T16:03:22.599254",
+   "status": "new"
+  },
+  {
+   "id": "f3342a28-9d6e-4d40-b746-3a772f16bed1",
+   "category": "arms",
+   "risk": "HIGH",
+   "channel": "mule_khata_rent",
+   "text": "sutli bomb and crude bomb materials available for 800 per set. dm me #offer",
+   "created_at": "2026-11-24T16:03:22.591454",
+   "status": "confirmed"
+  },
+  {
+   "id": "8d4a2ce3-bf7c-418c-99a1-9f2e77553be2",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "channel": "mumbai_snow_zone",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 90001-32677",
+   "created_at": "2026-11-24T16:03:22.584833",
+   "status": "new"
+  }
+ ],
+ "count": 15
+}

@@ -1,0 +1,4186 @@
+{
+ "total": 149,
+ "items": [
+  {
+   "type": "location",
+   "value": "Noida",
+   "post_count": 55,
+   "channel_count": 14,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T12:12:00",
+   "last_seen": "2026-11-15T22:19:38.221052",
+   "risk_score": 100.0,
+   "alert_count": 29,
+   "campaign_count": 13,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Mumbai",
+   "post_count": 49,
+   "channel_count": 14,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T12:23:53.460151",
+   "last_seen": "2026-11-14T06:20:54.785830",
+   "risk_score": 100.0,
+   "alert_count": 38,
+   "campaign_count": 11,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000011111",
+   "post_count": 29,
+   "channel_count": 14,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-01T19:27:24.843689",
+   "last_seen": "2026-11-15T05:17:12.500154",
+   "risk_score": 100.0,
+   "alert_count": 23,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000121913",
+   "post_count": 22,
+   "channel_count": 14,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T07:51:53.307559",
+   "last_seen": "2026-11-13T13:19:25.503514",
+   "risk_score": 100.0,
+   "alert_count": 17,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Delhi",
+   "post_count": 63,
+   "channel_count": 13,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T20:57:09.251713",
+   "last_seen": "2026-11-16T00:35:24.150936",
+   "risk_score": 100.0,
+   "alert_count": 31,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000013389",
+   "post_count": 37,
+   "channel_count": 13,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T18:00:00",
+   "last_seen": "2026-11-15T11:45:14.376193",
+   "risk_score": 100.0,
+   "alert_count": 32,
+   "campaign_count": 13,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000247317",
+   "post_count": 27,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-04T09:28:54.369135",
+   "last_seen": "2026-11-12T07:35:35.922372",
+   "risk_score": 100.0,
+   "alert_count": 21,
+   "campaign_count": 9,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Kochi",
+   "post_count": 26,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-02T01:00:27.762514",
+   "last_seen": "2026-11-15T21:34:40.615558",
+   "risk_score": 100.0,
+   "alert_count": 20,
+   "campaign_count": 9,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000288095",
+   "post_count": 26,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T19:19:00.639446",
+   "last_seen": "2026-11-14T16:27:22.473361",
+   "risk_score": 100.0,
+   "alert_count": 21,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Surat",
+   "post_count": 25,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T11:58:28.013625",
+   "last_seen": "2026-11-14T10:40:43.060539",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Gurugram",
+   "post_count": 25,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-05T16:25:31.000053",
+   "last_seen": "2026-11-13T14:42:48.113132",
+   "risk_score": 100.0,
+   "alert_count": 13,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Bhopal",
+   "post_count": 24,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T01:21:00.817439",
+   "last_seen": "2026-11-15T04:33:38.128513",
+   "risk_score": 100.0,
+   "alert_count": 13,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000048281",
+   "post_count": 24,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-03T11:58:28.013625",
+   "last_seen": "2026-11-13T04:10:30.699449",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ravisupply_ncr",
+   "post_count": 22,
+   "channel_count": 12,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T15:00:00",
+   "last_seen": "2026-11-12T20:44:44.079176",
+   "risk_score": 100.0,
+   "alert_count": 17,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000341316",
+   "post_count": 22,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-05T18:12:55.758226",
+   "last_seen": "2026-11-14T22:03:14.848809",
+   "risk_score": 100.0,
+   "alert_count": 17,
+   "campaign_count": 9,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000106513",
+   "post_count": 22,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-03T16:50:54.372711",
+   "last_seen": "2026-11-15T21:34:40.615558",
+   "risk_score": 100.0,
+   "alert_count": 17,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000648350",
+   "post_count": 22,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-04T10:02:48.022756",
+   "last_seen": "2026-11-14T20:43:43.863453",
+   "risk_score": 100.0,
+   "alert_count": 16,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000012269",
+   "post_count": 21,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-01T18:29:51.384991",
+   "last_seen": "2026-11-13T21:49:16.024019",
+   "risk_score": 100.0,
+   "alert_count": 16,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000849696",
+   "post_count": 20,
+   "channel_count": 12,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T03:32:32.969191",
+   "last_seen": "2026-11-14T06:20:54.785830",
+   "risk_score": 100.0,
+   "alert_count": 15,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000816184",
+   "post_count": 17,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-10T04:34:21.744593",
+   "last_seen": "2026-11-15T22:19:38.221052",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000183473",
+   "post_count": 16,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T13:23:23.734866",
+   "last_seen": "2026-11-15T22:06:17.597405",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Faridabad",
+   "post_count": 16,
+   "channel_count": 12,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T13:23:23.734866",
+   "last_seen": "2026-11-14T19:52:22.016016",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000553419",
+   "post_count": 23,
+   "channel_count": 11,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-04T12:36:35.983654",
+   "last_seen": "2026-11-13T22:19:26.309091",
+   "risk_score": 100.0,
+   "alert_count": 19,
+   "campaign_count": 10,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Muzaffarpur",
+   "post_count": 22,
+   "channel_count": 11,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T03:01:50.165686",
+   "last_seen": "2026-11-15T11:39:33.137532",
+   "risk_score": 100.0,
+   "alert_count": 16,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ravi614_india",
+   "post_count": 20,
+   "channel_count": 11,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T12:12:00",
+   "last_seen": "2026-11-13T18:36:32.462434",
+   "risk_score": 100.0,
+   "alert_count": 19,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Agra",
+   "post_count": 19,
+   "channel_count": 11,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-01T19:27:24.843689",
+   "last_seen": "2026-11-12T16:55:13.612636",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Lucknow",
+   "post_count": 24,
+   "channel_count": 10,
+   "channels": [
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-05T11:00:00",
+   "last_seen": "2026-11-14T16:27:22.473361",
+   "risk_score": 100.0,
+   "alert_count": 19,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000465787",
+   "post_count": 23,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-03T00:14:04.769965",
+   "last_seen": "2026-11-15T04:33:38.128513",
+   "risk_score": 100.0,
+   "alert_count": 20,
+   "campaign_count": 11,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000346247",
+   "post_count": 22,
+   "channel_count": 10,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-06T19:27:57.017568",
+   "last_seen": "2026-11-15T11:12:08.297548",
+   "risk_score": 100.0,
+   "alert_count": 19,
+   "campaign_count": 9,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000480184",
+   "post_count": 22,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-02T22:17:30.346651",
+   "last_seen": "2026-11-11T13:03:37.496537",
+   "risk_score": 100.0,
+   "alert_count": 18,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000637940",
+   "post_count": 21,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-03T19:10:11.965128",
+   "last_seen": "2026-11-14T20:19:06.307314",
+   "risk_score": 100.0,
+   "alert_count": 19,
+   "campaign_count": 11,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Nagpur",
+   "post_count": 20,
+   "channel_count": 10,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T20:01:23.242794",
+   "last_seen": "2026-11-12T04:15:09.786193",
+   "risk_score": 100.0,
+   "alert_count": 15,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000104332",
+   "post_count": 20,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T01:21:00.817439",
+   "last_seen": "2026-11-12T07:52:34.198679",
+   "risk_score": 100.0,
+   "alert_count": 17,
+   "campaign_count": 10,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Srinagar",
+   "post_count": 16,
+   "channel_count": 10,
+   "channels": [
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-01T18:29:51.384991",
+   "last_seen": "2026-11-13T17:31:40.226358",
+   "risk_score": 100.0,
+   "alert_count": 14,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Bengaluru",
+   "post_count": 21,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T01:22:52.904557",
+   "last_seen": "2026-11-13T09:47:49.113403",
+   "risk_score": 100.0,
+   "alert_count": 16,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Ahmedabad",
+   "post_count": 20,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-03T17:38:38.226102",
+   "last_seen": "2026-11-15T11:12:08.297548",
+   "risk_score": 100.0,
+   "alert_count": 15,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Indore",
+   "post_count": 15,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T07:24:00",
+   "last_seen": "2026-11-07T00:04:48.087048",
+   "risk_score": 98.25,
+   "alert_count": 13,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Dehradun",
+   "post_count": 14,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T12:00:00",
+   "last_seen": "2026-11-13T09:18:28.180776",
+   "risk_score": 98.0,
+   "alert_count": 12,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000132677",
+   "post_count": 19,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-06T21:20:22.074668",
+   "last_seen": "2026-11-15T00:22:16.707887",
+   "risk_score": 96.3,
+   "alert_count": 15,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Ghaziabad",
+   "post_count": 13,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-04T09:28:54.369135",
+   "last_seen": "2026-11-12T05:27:18.703580",
+   "risk_score": 95.8,
+   "alert_count": 12,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Ludhiana",
+   "post_count": 16,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-02T11:12:00",
+   "last_seen": "2026-11-04T13:37:44.297902",
+   "risk_score": 95.6,
+   "alert_count": 12,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000631165",
+   "post_count": 16,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-06T11:36:41.328172",
+   "last_seen": "2026-11-11T06:19:42.686420",
+   "risk_score": 94.35,
+   "alert_count": 15,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Meerut",
+   "post_count": 16,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T10:00:00",
+   "last_seen": "2026-11-13T04:52:10.139214",
+   "risk_score": 94.0,
+   "alert_count": 12,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Patna",
+   "post_count": 16,
+   "channel_count": 8,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-09T06:58:52.226369",
+   "last_seen": "2026-11-14T06:20:54.785830",
+   "risk_score": 91.2,
+   "alert_count": 12,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Delhi NCR",
+   "post_count": 20,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-06T03:14:00.213053",
+   "last_seen": "2026-11-15T10:11:24.402939",
+   "risk_score": 91.1,
+   "alert_count": 11,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000395376",
+   "post_count": 17,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T17:10:56.585011",
+   "last_seen": "2026-11-15T11:14:01.607452",
+   "risk_score": 88.9,
+   "alert_count": 13,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000511615",
+   "post_count": 16,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-09T14:14:08.393106",
+   "last_seen": "2026-11-14T10:40:43.060539",
+   "risk_score": 88.1,
+   "alert_count": 13,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman313_deal",
+   "post_count": 12,
+   "channel_count": 10,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-10T07:43:23.452337",
+   "last_seen": "2026-11-15T01:52:46.193070",
+   "risk_score": 86.3,
+   "alert_count": 11,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000303911",
+   "post_count": 19,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-02T01:39:05.453852",
+   "last_seen": "2026-11-14T11:35:29.427411",
+   "risk_score": 85.55,
+   "alert_count": 15,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Howrah",
+   "post_count": 15,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T17:37:31.995984",
+   "last_seen": "2026-11-10T05:13:44.789663",
+   "risk_score": 85.35,
+   "alert_count": 11,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000983930",
+   "post_count": 16,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T22:45:41.394916",
+   "last_seen": "2026-11-07T15:00:56.389162",
+   "risk_score": 84.65,
+   "alert_count": 13,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000980500",
+   "post_count": 16,
+   "channel_count": 8,
+   "channels": [
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-04T03:01:50.165686",
+   "last_seen": "2026-11-15T06:34:19.266422",
+   "risk_score": 84.4,
+   "alert_count": 15,
+   "campaign_count": 8,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Thane",
+   "post_count": 16,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-05T10:56:34.983421",
+   "last_seen": "2026-11-15T05:14:30.865172",
+   "risk_score": 81.35,
+   "alert_count": 11,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Amritsar",
+   "post_count": 15,
+   "channel_count": 8,
+   "channels": [
+    "account_kiraye",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T14:12:00",
+   "last_seen": "2026-11-12T22:41:58.707703",
+   "risk_score": 77.2,
+   "alert_count": 11,
+   "campaign_count": 4,
+   "sources": [
+    "image_ocr",
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Kolkata",
+   "post_count": 12,
+   "channel_count": 8,
+   "channels": [
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T14:52:38.622385",
+   "last_seen": "2026-11-16T00:35:24.150936",
+   "risk_score": 73.6,
+   "alert_count": 10,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000647468",
+   "post_count": 18,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-06T06:47:43.189435",
+   "last_seen": "2026-11-15T05:08:14.112271",
+   "risk_score": 72.6,
+   "alert_count": 12,
+   "campaign_count": 7,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Guwahati",
+   "post_count": 14,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T20:57:09.251713",
+   "last_seen": "2026-11-15T14:12:11.787030",
+   "risk_score": 72.5,
+   "alert_count": 10,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sunil455_deal",
+   "post_count": 15,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T11:37:08.588131",
+   "last_seen": "2026-11-15T10:37:15.392608",
+   "risk_score": 70.95,
+   "alert_count": 11,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu794_deal",
+   "post_count": 11,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "delhi_night_things",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-03T12:35:41.838163",
+   "last_seen": "2026-11-10T13:23:29.685351",
+   "risk_score": 66.8,
+   "alert_count": 8,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000782489",
+   "post_count": 9,
+   "channel_count": 8,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "ncr_maal_supply",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account"
+   ],
+   "first_seen": "2026-10-03T17:38:38.226102",
+   "last_seen": "2026-11-15T14:12:11.787030",
+   "risk_score": 66.0,
+   "alert_count": 9,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "phone",
+   "value": "+919000091699",
+   "post_count": 14,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit",
+    "sim_card"
+   ],
+   "first_seen": "2026-10-09T05:46:16.774887",
+   "last_seen": "2026-11-12T02:44:22.091840",
+   "risk_score": 65.3,
+   "alert_count": 10,
+   "campaign_count": 6,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@shiv864_supply",
+   "post_count": 13,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-06T12:14:39.304912",
+   "last_seen": "2026-11-15T22:29:45.017413",
+   "risk_score": 64.55,
+   "alert_count": 11,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Hyderabad",
+   "post_count": 15,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T06:32:11.437912",
+   "last_seen": "2026-11-06T09:47:48.987353",
+   "risk_score": 64.45,
+   "alert_count": 9,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman79_admin",
+   "post_count": 15,
+   "channel_count": 8,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T08:09:12.550584",
+   "last_seen": "2026-11-14T09:13:36.933106",
+   "risk_score": 62.8,
+   "alert_count": 13,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu213_deal",
+   "post_count": 12,
+   "channel_count": 8,
+   "channels": [
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-07T10:09:32.399271",
+   "last_seen": "2026-11-08T09:29:58.290230",
+   "risk_score": 62.0,
+   "alert_count": 9,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman695_boss",
+   "post_count": 12,
+   "channel_count": 7,
+   "channels": [
+    "account_kiraye",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-05T10:56:34.983421",
+   "last_seen": "2026-11-12T04:15:09.786193",
+   "risk_score": 61.95,
+   "alert_count": 9,
+   "campaign_count": 1,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu494_deal",
+   "post_count": 11,
+   "channel_count": 8,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T20:39:55.119070",
+   "last_seen": "2026-11-10T02:27:18.066342",
+   "risk_score": 59.2,
+   "alert_count": 8,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@shiv260_deal",
+   "post_count": 11,
+   "channel_count": 6,
+   "channels": [
+    "account_kiraye",
+    "delhi_night_things",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "fake_docs",
+    "mule_account"
+   ],
+   "first_seen": "2026-10-03T01:57:20.848291",
+   "last_seen": "2026-11-07T00:21:23.281864",
+   "risk_score": 58.7,
+   "alert_count": 9,
+   "campaign_count": 5,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Chennai",
+   "post_count": 9,
+   "channel_count": 6,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-06T17:25:20.099481",
+   "last_seen": "2026-11-13T12:17:58.474522",
+   "risk_score": 57.1,
+   "alert_count": 9,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@kittu894_boss",
+   "post_count": 10,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-08T22:58:56.957422",
+   "last_seen": "2026-11-01T19:17:14.254080",
+   "risk_score": 56.4,
+   "alert_count": 8,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@gram",
+   "post_count": 9,
+   "channel_count": 6,
+   "channels": [
+    "aadhaar_ready_hub",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs"
+   ],
+   "first_seen": "2026-10-01T18:44:46.353227",
+   "last_seen": "2026-11-15T10:53:05.893148",
+   "risk_score": 56.0,
+   "alert_count": 8,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sunil152_deal",
+   "post_count": 12,
+   "channel_count": 7,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-11T06:25:46.712138",
+   "last_seen": "2026-11-12T22:41:58.707703",
+   "risk_score": 53.95,
+   "alert_count": 9,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ravi961_supply",
+   "post_count": 11,
+   "channel_count": 6,
+   "channels": [
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T22:44:19.774088",
+   "last_seen": "2026-11-12T05:27:18.703580",
+   "risk_score": 53.7,
+   "alert_count": 11,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman731_admin",
+   "post_count": 11,
+   "channel_count": 7,
+   "channels": [
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T21:02:35.718215",
+   "last_seen": "2026-11-15T17:29:33.624255",
+   "risk_score": 53.15,
+   "alert_count": 9,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu171_admin",
+   "post_count": 12,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T20:14:46.681035",
+   "last_seen": "2026-10-31T05:57:22.246829",
+   "risk_score": 49.2,
+   "alert_count": 8,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman743_boss",
+   "post_count": 11,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T05:11:25.436603",
+   "last_seen": "2026-11-13T16:29:30.578738",
+   "risk_score": 49.15,
+   "alert_count": 7,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Jaipur",
+   "post_count": 12,
+   "channel_count": 7,
+   "channels": [
+    "chicha_corner",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T09:28:54.369135",
+   "last_seen": "2026-11-13T13:19:25.503514",
+   "risk_score": 49.15,
+   "alert_count": 9,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@shiv563_xx",
+   "post_count": 11,
+   "channel_count": 7,
+   "channels": [
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T03:08:36.188289",
+   "last_seen": "2026-11-09T08:00:31.723258",
+   "risk_score": 48.35,
+   "alert_count": 9,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@kittu620_india",
+   "post_count": 8,
+   "channel_count": 6,
+   "channels": [
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T01:00:27.762514",
+   "last_seen": "2026-11-16T00:35:24.150936",
+   "risk_score": 45.6,
+   "alert_count": 8,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sunil836_admin",
+   "post_count": 12,
+   "channel_count": 5,
+   "channels": [
+    "chicha_corner",
+    "lok_mela_up",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-01T16:57:11.242577",
+   "last_seen": "2026-11-10T10:19:32.127071",
+   "risk_score": 44.1,
+   "alert_count": 10,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Kanpur",
+   "post_count": 14,
+   "channel_count": 9,
+   "channels": [
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T08:57:28.754974",
+   "last_seen": "2026-11-08T12:07:51.442709",
+   "risk_score": 40.3,
+   "alert_count": 6,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sunil420_supply",
+   "post_count": 10,
+   "channel_count": 9,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-07T09:36:05.529334",
+   "last_seen": "2026-11-14T09:29:40.410977",
+   "risk_score": 40.3,
+   "alert_count": 6,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Varanasi",
+   "post_count": 9,
+   "channel_count": 6,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-10T01:50:22.369528",
+   "last_seen": "2026-10-31T10:56:04.858724",
+   "risk_score": 40.2,
+   "alert_count": 6,
+   "campaign_count": 1,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu262_ncr",
+   "post_count": 9,
+   "channel_count": 7,
+   "channels": [
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T08:09:27.827655",
+   "last_seen": "2026-11-13T17:31:40.226358",
+   "risk_score": 39.65,
+   "alert_count": 7,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Ranchi",
+   "post_count": 12,
+   "channel_count": 7,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-05T15:32:56.534215",
+   "last_seen": "2026-11-11T23:08:57.697253",
+   "risk_score": 38.05,
+   "alert_count": 7,
+   "campaign_count": 1,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sunil294_deal",
+   "post_count": 7,
+   "channel_count": 7,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-04T01:04:15.708854",
+   "last_seen": "2026-11-05T09:21:58.098749",
+   "risk_score": 33.35,
+   "alert_count": 5,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman531_india",
+   "post_count": 8,
+   "channel_count": 4,
+   "channels": [
+    "chicha_corner",
+    "mule_khata_rent",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "fake_docs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-04T10:48:36.600370",
+   "last_seen": "2026-11-09T19:56:34.886252",
+   "risk_score": 32.0,
+   "alert_count": 8,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Pune",
+   "post_count": 8,
+   "channel_count": 5,
+   "channels": [
+    "account_kiraye",
+    "city_ki_gully",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-06T22:27:54.092589",
+   "last_seen": "2026-11-07T23:52:20.473878",
+   "risk_score": 31.25,
+   "alert_count": 5,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman75_supply",
+   "post_count": 7,
+   "channel_count": 6,
+   "channels": [
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-09T03:49:34.830744",
+   "last_seen": "2026-11-14T18:58:56.909267",
+   "risk_score": 31.1,
+   "alert_count": 5,
+   "campaign_count": 3,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu469_deal",
+   "post_count": 7,
+   "channel_count": 6,
+   "channels": [
+    "aadhaar_ready_hub",
+    "city_ki_gully",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-13T03:13:49.760630",
+   "last_seen": "2026-10-31T12:33:59.510991",
+   "risk_score": 27.7,
+   "alert_count": 7,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Chandigarh",
+   "post_count": 8,
+   "channel_count": 6,
+   "channels": [
+    "account_kiraye",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-05T11:42:16.125518",
+   "last_seen": "2026-11-15T01:52:46.193070",
+   "risk_score": 26.8,
+   "alert_count": 4,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@va1lable",
+   "post_count": 4,
+   "channel_count": 4,
+   "channels": [
+    "account_kiraye",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-02T03:08:36.188289",
+   "last_seen": "2026-10-31T05:56:08.504603",
+   "risk_score": 23.2,
+   "alert_count": 4,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ravi178_india",
+   "post_count": 7,
+   "channel_count": 7,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mule_khata_rent",
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T15:54:45.530996",
+   "last_seen": "2026-11-13T19:48:22.036828",
+   "risk_score": 22.9,
+   "alert_count": 6,
+   "campaign_count": 4,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu783_boss",
+   "post_count": 5,
+   "channel_count": 4,
+   "channels": [
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "mumbai_snow_zone"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T22:38:44.217498",
+   "last_seen": "2026-11-08T12:45:36.881190",
+   "risk_score": 20.0,
+   "alert_count": 4,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ravi479_ncr",
+   "post_count": 6,
+   "channel_count": 5,
+   "channels": [
+    "account_kiraye",
+    "delhi_night_things",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "atm_card",
+    "mule_account",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T12:23:33.783443",
+   "last_seen": "2026-11-13T17:13:08.733772",
+   "risk_score": 13.8,
+   "alert_count": 4,
+   "campaign_count": 2,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@fastdeal",
+   "post_count": 3,
+   "channel_count": 3,
+   "channels": [
+    "city_ki_gully",
+    "delhi_night_things",
+    "mule_khata_rent"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs"
+   ],
+   "first_seen": "2026-10-01T10:00:00",
+   "last_seen": "2026-10-03T01:24:00",
+   "risk_score": 12.05,
+   "alert_count": 3,
+   "campaign_count": 0,
+   "sources": [
+    "image_ocr"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "av@ilable",
+   "post_count": 3,
+   "channel_count": 2,
+   "channels": [
+    "katta_kings_ambala",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "arms",
+    "drugs",
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T23:04:36.596412",
+   "last_seen": "2026-11-10T14:58:14.705722",
+   "risk_score": 11.5,
+   "alert_count": 3,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "av@ilabl3",
+   "post_count": 3,
+   "channel_count": 2,
+   "channels": [
+    "account_kiraye",
+    "lok_mela_up"
+   ],
+   "categories": [
+    "arms"
+   ],
+   "first_seen": "2026-10-07T14:49:14.071466",
+   "last_seen": "2026-10-19T22:49:40.796090",
+   "risk_score": 11.4,
+   "alert_count": 2,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "aadh@ar",
+   "post_count": 2,
+   "channel_count": 2,
+   "channels": [
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-26T17:14:35.148971",
+   "last_seen": "2026-11-07T09:24:52.630689",
+   "risk_score": 9.8,
+   "alert_count": 2,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@vailable",
+   "post_count": 2,
+   "channel_count": 2,
+   "channels": [
+    "account_kiraye",
+    "netbanking_kits"
+   ],
+   "categories": [
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-17T09:22:55.519607",
+   "last_seen": "2026-10-26T17:14:35.148971",
+   "risk_score": 9.8,
+   "alert_count": 2,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "il@ble",
+   "post_count": 2,
+   "channel_count": 2,
+   "channels": [
+    "ncr_maal_supply",
+    "sim_otp_store"
+   ],
+   "categories": [
+    "atm_card",
+    "drugs"
+   ],
+   "first_seen": "2026-10-05T09:00:00",
+   "last_seen": "2026-10-07T19:36:00",
+   "risk_score": 5.8,
+   "alert_count": 2,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu494_deeal",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "netbanking_kits"
+   ],
+   "categories": [
+    "arms"
+   ],
+   "first_seen": "2026-10-24T21:31:16.708236",
+   "last_seen": "2026-10-24T21:31:16.708236",
+   "risk_score": 5.25,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "re@dy",
+   "post_count": 2,
+   "channel_count": 1,
+   "channels": [
+    "netbanking_kits"
+   ],
+   "categories": [
+    "fake_docs"
+   ],
+   "first_seen": "2026-10-26T17:14:35.148971",
+   "last_seen": "2026-10-28T03:22:20.043815",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ravi614_indis",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "delhi_night_things"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-01T10:00:00",
+   "last_seen": "2026-10-01T10:00:00",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "qu@lity",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-02T12:12:00",
+   "last_seen": "2026-10-02T12:12:00",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "sahil2350@fakebank",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-02T12:12:00",
+   "last_seen": "2026-10-02T12:12:00",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "qr"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "vail@ble",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "mule_khata_rent"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-12T19:58:08.225958",
+   "last_seen": "2026-10-12T19:58:08.225958",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@vail",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "mule_khata_rent"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-12T19:58:08.225958",
+   "last_seen": "2026-10-12T19:58:08.225958",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "qu@l17y",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-11-04T05:22:43.695335",
+   "last_seen": "2026-11-04T05:22:43.695335",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@rav1supply_ncr",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "sim_otp_store"
+   ],
+   "categories": [
+    "fake_docs"
+   ],
+   "first_seen": "2026-11-07T09:24:52.630689",
+   "last_seen": "2026-11-07T09:24:52.630689",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman695_bo",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "docs_quick_ncr"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-19T04:34:38.430622",
+   "last_seen": "2026-10-19T04:34:38.430622",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman75_",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "ncr_maal_supply"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-11-13T03:37:44.793798",
+   "last_seen": "2026-11-13T03:37:44.793798",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@shiv260_de",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "docs_quick_ncr"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-11-03T00:23:23.764358",
+   "last_seen": "2026-11-03T00:23:23.764358",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "cont@c7",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "aadhaar_ready_hub"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-28T06:08:17.587282",
+   "last_seen": "2026-10-28T06:08:17.587282",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sun1l420_supply",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "sim_otp_store"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-22T18:09:27.897266",
+   "last_seen": "2026-10-22T18:09:27.897266",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "pay8g45@fakebank",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "delhi_night_things"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-01T10:00:00",
+   "last_seen": "2026-10-01T10:00:00",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "image_ocr"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "i.k1111@fakebank",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "city_ki_gully"
+   ],
+   "categories": [
+    "drugs"
+   ],
+   "first_seen": "2026-10-03T01:24:00",
+   "last_seen": "2026-10-03T01:24:00",
+   "risk_score": 4.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "image_ocr"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "kir@ye",
+   "post_count": 2,
+   "channel_count": 1,
+   "channels": [
+    "sim_otp_store"
+   ],
+   "categories": [
+    "atm_card",
+    "mule_account"
+   ],
+   "first_seen": "2026-10-07T19:36:00",
+   "last_seen": "2026-10-22T06:29:28.166317",
+   "risk_score": 0.9,
+   "alert_count": 2,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "corpor@t3",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "city_ki_gully"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-10-07T21:13:27.921284",
+   "last_seen": "2026-10-07T21:13:27.921284",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@ccount",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "city_ki_gully"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-10-07T21:13:27.921284",
+   "last_seen": "2026-10-07T21:13:27.921284",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sh1v260_deal",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "katta_kings_ambala"
+   ],
+   "categories": [
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-03T23:04:36.596412",
+   "last_seen": "2026-10-03T23:04:36.596412",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "va1l@ble",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "chicha_corner"
+   ],
+   "categories": [
+    "atm_card"
+   ],
+   "first_seen": "2026-10-01T16:57:11.242577",
+   "last_seen": "2026-10-01T16:57:11.242577",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@va1l",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "chicha_corner"
+   ],
+   "categories": [
+    "atm_card"
+   ],
+   "first_seen": "2026-10-01T16:57:11.242577",
+   "last_seen": "2026-10-01T16:57:11.242577",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "aman731_@dm1n",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "sim_otp_store"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-10-22T06:29:28.166317",
+   "last_seen": "2026-10-22T06:29:28.166317",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@aman731_",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "sim_otp_store"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-10-22T06:29:28.166317",
+   "last_seen": "2026-10-22T06:29:28.166317",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "cont@ct",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "katta_kings_ambala"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-10-22T03:07:18.287464",
+   "last_seen": "2026-10-22T03:07:18.287464",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@cc0unt",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "tamancha_baazar"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-11-06T20:50:50.837240",
+   "last_seen": "2026-11-06T20:50:50.837240",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@m0nu494_deal",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "sim_otp_store"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-10-04T12:16:34.580518",
+   "last_seen": "2026-10-04T12:16:34.580518",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "guw@hat1",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "city_ki_gully"
+   ],
+   "categories": [
+    "atm_card"
+   ],
+   "first_seen": "2026-10-31T11:38:47.795308",
+   "last_seen": "2026-10-31T11:38:47.795308",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@monu494_d3al",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "lok_mela_up"
+   ],
+   "categories": [
+    "atm_card"
+   ],
+   "first_seen": "2026-11-10T05:04:19.231855",
+   "last_seen": "2026-11-10T05:04:19.231855",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@m0nu171_admin",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "delhi_night_things"
+   ],
+   "categories": [
+    "mule_account"
+   ],
+   "first_seen": "2026-11-11T11:11:34.832778",
+   "last_seen": "2026-11-11T11:11:34.832778",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "username",
+   "value": "@sunil294_de",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "account_kiraye"
+   ],
+   "categories": [
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-11-12T05:20:18.155662",
+   "last_seen": "2026-11-12T05:20:18.155662",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "realdeal1837@fakebank",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "mule_khata_rent"
+   ],
+   "categories": [
+    "atm_card"
+   ],
+   "first_seen": "2026-10-01T15:00:00",
+   "last_seen": "2026-10-01T15:00:00",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 0,
+   "sources": [
+    "image_ocr"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "kgzo5@fakebank",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "account_kiraye"
+   ],
+   "categories": [
+    "net_banking_kit"
+   ],
+   "first_seen": "2026-10-02T14:12:00",
+   "last_seen": "2026-10-02T14:12:00",
+   "risk_score": 0.45,
+   "alert_count": 1,
+   "campaign_count": 1,
+   "sources": [
+    "image_ocr"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "bake@180c",
+   "post_count": 20,
+   "channel_count": 13,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-06T04:40:52.111751",
+   "last_seen": "2026-11-14T23:51:14.991164",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "available@20",
+   "post_count": 19,
+   "channel_count": 13,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-04T12:23:53.460151",
+   "last_seen": "2026-11-13T06:55:54.357767",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "card@full",
+   "post_count": 20,
+   "channel_count": 11,
+   "channels": [
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-04T12:12:51.060308",
+   "last_seen": "2026-11-15T11:19:31.774939",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "bank",
+   "value": "sbi",
+   "post_count": 19,
+   "channel_count": 11,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-06T18:41:13.171283",
+   "last_seen": "2026-11-14T03:38:25.773183",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "distribution@community",
+   "post_count": 18,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-05T16:43:27.044984",
+   "last_seen": "2026-11-12T16:55:13.612636",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "news@9pm",
+   "post_count": 18,
+   "channel_count": 10,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-04T08:40:38.530399",
+   "last_seen": "2026-11-14T15:11:07.100518",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "available@50",
+   "post_count": 18,
+   "channel_count": 9,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-04T05:16:25.696212",
+   "last_seen": "2026-11-15T00:07:49.807557",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "ekyc@your",
+   "post_count": 15,
+   "channel_count": 8,
+   "channels": [
+    "aadhaar_ready_hub",
+    "chicha_corner",
+    "city_ki_gully",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-04T01:11:03.893663",
+   "last_seen": "2026-11-15T10:27:04.849790",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "location",
+   "value": "Goa",
+   "post_count": 6,
+   "channel_count": 5,
+   "channels": [
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "docs_quick_ncr",
+    "ncr_maal_supply"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-02T23:05:27.568324",
+   "last_seen": "2026-10-22T17:16:44.333736",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "available@low",
+   "post_count": 6,
+   "channel_count": 5,
+   "channels": [
+    "aadhaar_ready_hub",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "ncr_maal_supply",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-07T22:59:52.355673",
+   "last_seen": "2026-11-13T13:11:53.071499",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "available@our",
+   "post_count": 6,
+   "channel_count": 5,
+   "channels": [
+    "chicha_corner",
+    "delhi_night_things",
+    "katta_kings_ambala",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-11T17:27:19.684971",
+   "last_seen": "2026-11-14T14:48:41.303840",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "loans@low",
+   "post_count": 6,
+   "channel_count": 5,
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "city_ki_gully",
+    "delhi_night_things",
+    "ncr_maal_supply"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-03T10:38:53.401654",
+   "last_seen": "2026-11-12T00:18:36.515749",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "available@wholesale",
+   "post_count": 6,
+   "channel_count": 5,
+   "channels": [
+    "aadhaar_ready_hub",
+    "city_ki_gully",
+    "katta_kings_ambala",
+    "netbanking_kits",
+    "sim_otp_store"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-16T18:16:28.955480",
+   "last_seen": "2026-11-07T07:37:08.141030",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "buy@authorised",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "netbanking_kits"
+   ],
+   "categories": [],
+   "first_seen": "2026-11-07T06:01:21.128447",
+   "last_seen": "2026-11-07T06:01:21.128447",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  },
+  {
+   "type": "upi",
+   "value": "fertiliser@our",
+   "post_count": 1,
+   "channel_count": 1,
+   "channels": [
+    "mule_khata_rent"
+   ],
+   "categories": [],
+   "first_seen": "2026-10-04T18:26:43.183889",
+   "last_seen": "2026-10-04T18:26:43.183889",
+   "risk_score": 0.0,
+   "alert_count": 0,
+   "campaign_count": 0,
+   "sources": [
+    "text"
+   ]
+  }
+ ]
+}

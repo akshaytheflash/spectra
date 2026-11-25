@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 
+import yaml
+
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -36,7 +38,7 @@ def _reload(db: Session) -> None:
 @router.get("/lexicon")
 def get_lexicon(db: Session = Depends(get_db)) -> dict:
     with open(lexmod.LEXICON_PATH, encoding="utf-8") as fh:
-        base = json.load(fh)
+        base = yaml.safe_load(fh)
     overlay = [
         {"id": t.id, "category": t.category, "term": t.term, "kind": t.kind, "weight": t.weight,
          "language": t.language, "created_by": t.created_by, "created_at": t.created_at}

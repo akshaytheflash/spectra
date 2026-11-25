@@ -1,0 +1,254 @@
+{
+ "query": "drugs",
+ "mode": "hybrid",
+ "total": 19,
+ "hits": [
+  {
+   "post_id": "7466d078-56b4-5bf6-9cf7-2ffd9fb85f14",
+   "alert_id": null,
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-12T23:02:31.976305",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "9fdc94ab-7099-5fb7-82b1-e9f53b53ebf7",
+   "alert_id": null,
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-11-11T19:44:15.995896",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "fe26cbdd-525d-500b-b4d6-b10b2de4f816",
+   "alert_id": null,
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-11-10T11:29:46.040823",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "39da4b2d-927b-5d39-8810-baf3c02159e6",
+   "alert_id": null,
+   "channel": "ncr_maal_supply",
+   "timestamp": "2026-11-05T04:34:34.856456",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs. #noida",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "9046f4ac-3e57-5438-92b5-d433a08a8a02",
+   "alert_id": null,
+   "channel": "netbanking_kits",
+   "timestamp": "2026-11-04T21:57:53.637661",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "9daf37d6-45e5-5b1b-977a-fd7e5666c095",
+   "alert_id": null,
+   "channel": "katta_kings_ambala",
+   "timestamp": "2026-11-02T00:27:17.321615",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "65fa8751-c908-55d8-ac0d-6cf1fe8f487a",
+   "alert_id": null,
+   "channel": "lok_mela_up",
+   "timestamp": "2026-10-31T04:21:42.124048",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "fbd453c3-3b1c-539c-92d5-b961cd78ca12",
+   "alert_id": null,
+   "channel": "city_ki_gully",
+   "timestamp": "2026-10-28T21:52:10.971636",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "ddc54905-2694-5806-a120-062deab2d10e",
+   "alert_id": null,
+   "channel": "city_ki_gully",
+   "timestamp": "2026-10-27T09:47:58.901697",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "379a8de2-ed30-5789-a6c7-b6efd2af75b0",
+   "alert_id": null,
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-10-22T07:39:51.667989",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "a14ab0fb-8872-50e7-9949-a50ecd8777fb",
+   "alert_id": null,
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-10-19T08:36:23.028580",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "9a11a43d-15d9-5769-8c53-59e13e47de9f",
+   "alert_id": null,
+   "channel": "ncr_maal_supply",
+   "timestamp": "2026-10-18T08:57:29.854971",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "0000c27c-3f33-51df-aa11-575c90f628c8",
+   "alert_id": null,
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-10-17T05:34:37.137004",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "39ef737b-cef2-57d8-90af-e603b43f6c7e",
+   "alert_id": null,
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-10-16T11:12:46.246787",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "617bef79-bfb1-5d03-ab67-4062927a2345",
+   "alert_id": null,
+   "channel": "lok_mela_up",
+   "timestamp": "2026-10-13T15:54:57.219327",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "d3b9dd5f-f7f2-502e-945b-8147d9bc8954",
+   "alert_id": null,
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-10-12T02:14:48.708503",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "ba999b80-8fca-5711-ae82-72ec99a9ab38",
+   "alert_id": null,
+   "channel": "sim_otp_store",
+   "timestamp": "2026-10-11T14:36:07.205697",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "9855f7aa-6d58-5d8a-8a1f-bc3f2ffda134",
+   "alert_id": null,
+   "channel": "city_ki_gully",
+   "timestamp": "2026-10-05T12:49:23.205349",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs. #offer",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  },
+  {
+   "post_id": "9b30de00-770d-5ea3-aee2-22f2d179ccbc",
+   "alert_id": null,
+   "channel": "tamancha_baazar",
+   "timestamp": "2026-10-04T18:35:21.190758",
+   "text": "Pharmacy: new stock of medicines arrived. Ask chemist for prescription drugs.",
+   "category": "benign",
+   "label": "benign",
+   "score": 1.0,
+   "matched": [
+    "drugs"
+   ]
+  }
+ ]
+}

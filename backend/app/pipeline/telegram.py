@@ -23,7 +23,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Awaitable, Callable
 
-from app.core.config import settings
+from app.core.config import ROOT, settings
 from app.core.scope import ScopeDecision, check_public_target, is_public_channel_entity
 
 ProgressFn = Callable[[str], Awaitable[None] | None]
@@ -57,7 +57,7 @@ def _session_path() -> Path | None:
     candidates = []
     if settings.TELEGRAM_SESSION:
         candidates.append(Path(settings.TELEGRAM_SESSION))
-    candidates.append(settings.ROOT / ".telegram_session" / "spectra")
+    candidates.append(ROOT / ".telegram_session" / "spectra")
     for c in candidates:
         if c.suffix != ".session":
             c = c.with_suffix(".session")

@@ -29,7 +29,10 @@ function JoinForm({ onDone }) {
     try {
       const r = await api.post('/channels/join', { target: target.trim(), monitor });
       setMsg({ ok: r.ok, text: r.ok ? `Joined @${r.channel.username} and added it to the watchlist.` : r.reason });
-      if (r.ok) { setTarget(''); onDone?.(); }
+      // A queued join (no Telegram session yet) still persists the channel, so
+      // refresh the watchlist either way.
+      if (r.channel) onDone?.();
+      if (r.ok) setTarget('');
     } catch (err) {
       setMsg({ ok: false, text: err.message });
     } finally { setBusy(false); }

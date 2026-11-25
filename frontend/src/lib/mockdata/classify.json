@@ -1,0 +1,212 @@
+{
+ "label": "drugs",
+ "category": "drugs",
+ "subcategory": null,
+ "confidence": 0.9774,
+ "risk": "HIGH",
+ "is_illicit": true,
+ "scores": {
+  "drugs": 0.9774,
+  "benign": 0.0086,
+  "arms": 0.0064,
+  "mule_fin": 0.0038,
+  "fake_docs": 0.0037
+ },
+ "explanation": {
+  "spans": [
+   {
+    "start": 0,
+    "end": 4,
+    "text": "weed",
+    "kind": "slang",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "start": 5,
+    "end": 10,
+    "text": "ganja",
+    "kind": "slang",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "start": 11,
+    "end": 20,
+    "text": "available",
+    "kind": "intent",
+    "category": "drugs",
+    "weight": 0.8
+   }
+  ],
+  "top_features": [
+   {
+    "feature": "terms:weed",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "feature": "terms:ganja",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "feature": "intent:available",
+    "category": "drugs",
+    "weight": 0.8
+   }
+  ],
+  "matched_terms": [
+   "available",
+   "ganja",
+   "weed"
+  ],
+  "intent_phrases": [
+   "available",
+   "telegram"
+  ],
+  "hard_negatives": [],
+  "category_weights": {
+   "drugs": 2.8
+  },
+  "markup": [
+   {
+    "text": "weed",
+    "kind": "slang",
+    "category": "drugs"
+   },
+   {
+    "text": " ",
+    "kind": "plain"
+   },
+   {
+    "text": "ganja",
+    "kind": "slang",
+    "category": "drugs"
+   },
+   {
+    "text": " ",
+    "kind": "plain"
+   },
+   {
+    "text": "available",
+    "kind": "intent",
+    "category": "drugs"
+   },
+   {
+    "text": ", telegram @seller99, upi 9876543210@okaxis",
+    "kind": "plain"
+   }
+  ],
+  "reasons": [
+   "Lexicon hits: weed (drugs), ganja (drugs), available (drugs)",
+   "Intent phrases: available, telegram",
+   "Model posterior: drugs = 0.98"
+  ],
+  "financial": {
+   "is_financial": false,
+   "type": null,
+   "types": [],
+   "intent": "SELL",
+   "risk": "LOW",
+   "commission": null,
+   "has_contact": true,
+   "evidence": [
+    {
+     "kind": "sell",
+     "phrase": "available",
+     "start": 11,
+     "end": 20
+    }
+   ],
+   "notes": [
+    "No mule-recruitment signal (needs account/card/SIM + rent/sale intent or commission)."
+   ]
+  },
+  "lexicon_only": {
+   "category_weights": {
+    "drugs": 2.8
+   },
+   "_probs": {
+    "drugs": 0.7567567567567568,
+    "arms": 0.0,
+    "fake_docs": 0.0,
+    "mule_fin": 0.0,
+    "benign": 0.24324324324324326
+   }
+  },
+  "model_used": true,
+  "model_version": "spectra-hybrid-v1",
+  "emoji_signals": [],
+  "emoji_summary": [],
+  "llm": {
+   "flag": false,
+   "category": "benign",
+   "severity": "LOW",
+   "confidence": 0.0,
+   "language": "other",
+   "emoji_signals": [],
+   "evidence": [],
+   "explanation": "",
+   "identifiers": [],
+   "available": false,
+   "model": "",
+   "latency_ms": 0,
+   "error": "http 503"
+  },
+  "fusion": {
+   "source": "engine",
+   "note": "llm unavailable: http 503",
+   "engine": {
+    "flag": true,
+    "category": "drugs",
+    "confidence": 0.977,
+    "risk": "HIGH"
+   },
+   "llm": {
+    "available": false,
+    "flag": false,
+    "category": "benign",
+    "confidence": 0.0,
+    "severity": "LOW",
+    "model": ""
+   },
+   "emoji_boost": {}
+  }
+ },
+ "identifiers": [
+  {
+   "type": "phone",
+   "value": "+919876543210",
+   "raw": "9876543210",
+   "start": 46,
+   "end": 56,
+   "confidence": 0.9,
+   "source": "text",
+   "extra": {}
+  },
+  {
+   "type": "upi",
+   "value": "9876543210@okaxis",
+   "raw": "9876543210@okaxis",
+   "start": 46,
+   "end": 63,
+   "confidence": 0.92,
+   "source": "text",
+   "extra": {
+    "handle_known": true,
+    "payee": "9876543210"
+   }
+  },
+  {
+   "type": "username",
+   "value": "@seller99",
+   "raw": "@seller99",
+   "start": 31,
+   "end": 40,
+   "confidence": 0.85,
+   "source": "text",
+   "extra": {}
+  }
+ ]
+}

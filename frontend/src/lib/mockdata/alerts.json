@@ -1,0 +1,1231 @@
+{
+ "total": 938,
+ "page": 1,
+ "page_size": 50,
+ "items": [
+  {
+   "id": "b28407f0-79af-4038-8231-75bf87c4d909",
+   "post_id": "4e60402f-818c-57cb-a260-2ebbc37b0dd7",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "confirmed",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-11-16T01:08:36.587984",
+   "text": "Marksheet, degree certificate aur experience certificate ready made. verified look. 9000...1316",
+   "source_types": [],
+   "identifier_types": [],
+   "cluster_id": "086eb657-a6d1-4856-9dda-9e31db6f91e3",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "f97b11d1-3b95-4b43-9a37-a9c2d7847b54",
+   "post_id": "98abfb43-59a6-59f6-a281-402b92f610e4",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-16T00:35:24.150936",
+   "text": "ATM card with pin + net banking kit + OTP linked SIM. rent pe le lo. Kolkata @kittu620_india #delhi",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "username"
+   ],
+   "cluster_id": "885aaeff-c77f-48c9-954d-2a50db18652f",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "37ae3ced-d57f-447b-977e-7fed3f2db9cb",
+   "post_id": "2e43bcdd-c006-593f-9678-e61f1266d77a",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9998,
+   "status": "confirmed",
+   "channel": "sim_otp_store",
+   "timestamp": "2026-11-15T22:29:45.017413",
+   "text": "Ganja snow supplies available. 1 tola 1k. fast delivery 24x7. tg @shiv864_supply",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "c8faf4d2-fdce-4d49-994f-6ca780bc25b6",
+   "post_id": "bff3f479-7ac2-5944-a2c7-6e44d41251ef",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9961,
+   "status": "new",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-15T22:06:17.597405",
+   "text": "old saving account for sale, corporate account with cheque book. 9000183473 DM fast",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "67a28353-3c27-4ce7-9199-66905e5ec283",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "fb8a1a57-06e9-4b1f-86c8-9189b0b8d0b3",
+   "post_id": "498de264-2100-5e07-aa0b-895b6d0eb164",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-11-15T21:34:40.615558",
+   "text": "fake DL, marksheet, passport banwa lo 100% original look. Kochi me contact 9000106513",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "c61ee75f-20aa-47d2-b075-ba4d5318dd6b",
+   "post_id": "840b0a12-7adf-55f8-8dc1-c15373fea4bd",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9997,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-15T14:12:11.787030",
+   "text": "ganja maal aaya hai bhai 🔌 quality best, delivery Guwahati only. Contact 9000782489",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": [
+    {
+     "emoji": "🔌",
+     "category": "drugs",
+     "meaning": "plug / dealer",
+     "weight": 0.65,
+     "start": 25,
+     "end": 26,
+     "ambiguous": false,
+     "repeated": 1
+    }
+   ]
+  },
+  {
+   "id": "f709f812-405d-4157-9f13-93ea4c0babc6",
+   "post_id": "7b30c98e-a651-51c0-abbd-715535b69953",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9989,
+   "status": "new",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-11-15T11:14:01.607452",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 9000395376",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "f32a7b5e-2bf2-4d13-a6c5-d96d98c17789",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "cf4a0fc8-d926-480b-a026-3f96e92da3bb",
+   "post_id": "62ff48d9-ce6d-51ed-8f27-4220871184b4",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "netbanking_kits",
+   "timestamp": "2026-11-15T11:12:08.297548",
+   "text": "Ready made Aadhaar and PAN card available. same day delivery. Ahmedabad 9000346247",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "ef928856-d4a0-4533-8b83-84b3caa8d5c5",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "40d90596-0880-41ff-a827-2d3208f11c9c",
+   "post_id": "08cd0aa8-2af6-5bef-8764-558639e566d1",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9625,
+   "status": "confirmed",
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-11-15T10:53:05.893148",
+   "text": "Weed {d1} {d2} aur {d3} available hai. {city} me delivery free. telegram {handle}",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": "8ec13b39-575e-4af4-8f84-2bc1e6ac7cc8",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "0db17973-8a86-49ab-a620-3de8c6075a8b",
+   "post_id": "0fa23e66-6784-5dec-81ee-1fa15dd0fb40",
+   "category": "arms",
+   "risk": "HIGH",
+   "confidence": 0.9983,
+   "status": "confirmed",
+   "channel": "chicha_corner",
+   "timestamp": "2026-11-15T10:37:15.392608",
+   "text": "country made pistol + cartridges kit 2000. delivery all india. telegram @sunil455_deal",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "3a73f887-b559-4de1-8ad6-b6a1972c6533",
+   "post_id": "9716b6d1-8c3f-5f74-af4d-fb0fe449f628",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9955,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-15T10:11:24.402939",
+   "text": "stock ready hai ganja...stuff bhi hai. nasha nahi to paisa kyu? Delhi NCR se Guwahati tak delivery. 9000013389",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "6269799b-13f9-4a43-8cf0-a982461208c7",
+   "post_id": "3a85028f-c1ed-5809-af32-4056ef08d020",
+   "category": "arms",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "confirmed",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-15T07:02:37.927758",
+   "text": "Desi katta 9mm with 6 cartridges available. price {w1}k. {city} only. {phone} #noida",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location"
+   ],
+   "cluster_id": "5feaf178-b53f-488d-951b-ae1193718342",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "df208236-f2d6-4bca-b76f-5f72afa59033",
+   "post_id": "aeb1d81b-6851-5c98-ade3-2f61e6f3dcad",
+   "category": "sim_card",
+   "risk": "MEDIUM",
+   "confidence": 0.9987,
+   "status": "new",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-15T06:34:19.266422",
+   "text": "otp linked sim available, fresh sim card with full otp access. daily rent 2500. 9000980500",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "6b3d5845-6026-4695-ba5b-c44d3ee372d8",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "78f54c7e-2ad8-4de2-951b-ca246c414b11",
+   "post_id": "3812fb78-156b-57d1-8a75-64a9824d45d6",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9802,
+   "status": "confirmed",
+   "channel": "tamancha_baazar",
+   "timestamp": "2026-11-15T05:08:14.112271",
+   "text": "आधार कार्ड और पैन कार्ड बनवा लो उसी दिन . Kochi 9000647468",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "2d38ef5b-2091-445a-abfe-02b33cd8579d",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "72d7e1a5-4d48-48b3-950d-8e36c4d742b7",
+   "post_id": "94588586-8607-5844-bb8b-1fcfb3125b9d",
+   "category": "atm_card",
+   "risk": "MEDIUM",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-15T04:33:38.128513",
+   "text": "Saving account + ATM card + passbook + SIM full set. per day 2500 rupees commission. Bhopal me 9000465787",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "2c82ce91-d4a5-42d0-aef3-990b0c3d5363",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "32272330-a832-4d6f-a1a6-baab6e8c9a45",
+   "post_id": "62eb4952-a6b2-557b-8850-a9b1fc0eb089",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9963,
+   "status": "confirmed",
+   "channel": "sim_otp_store",
+   "timestamp": "2026-11-15T02:46:26.636312",
+   "text": "old saving account for sale, corporate account with cheque book. 9000647468 DM fast",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "67a28353-3c27-4ce7-9199-66905e5ec283",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "fe2e7edd-7715-4d57-9766-7599addcddda",
+   "post_id": "97135d91-c81e-54db-bf5b-17dc05667637",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "netbanking_kits",
+   "timestamp": "2026-11-15T01:52:46.193070",
+   "text": "Weed heroin garda aur snow available hai. Chandigarh me delivery free. telegram @aman313_deal\n🍁🔌💨",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": [
+    {
+     "emoji": "🍁",
+     "category": "drugs",
+     "meaning": "cannabis / weed",
+     "weight": 0.95,
+     "start": 94,
+     "end": 95,
+     "ambiguous": false,
+     "repeated": 1
+    },
+    {
+     "emoji": "🔌",
+     "category": "drugs",
+     "meaning": "plug / dealer",
+     "weight": 0.65,
+     "start": 95,
+     "end": 96,
+     "ambiguous": false,
+     "repeated": 1
+    },
+    {
+     "emoji": "💨",
+     "category": "drugs",
+     "meaning": "smoke / puff",
+     "weight": 0.22,
+     "start": 96,
+     "end": 97,
+     "ambiguous": true,
+     "repeated": 1
+    }
+   ]
+  },
+  {
+   "id": "519884f2-7245-4449-8232-2ac06a102fa1",
+   "post_id": "afcb7450-f71c-5341-b7ee-21690d65b5c3",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9968,
+   "status": "confirmed",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-15T00:22:16.707887",
+   "text": "otp linked sim ava1labl3, fresh sim c@rd with full otp access. da1ly rent 1500. 9000132677",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "6b3d5845-6026-4695-ba5b-c44d3ee372d8",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "cb98ccfd-8ef7-4f2d-8595-fa47215d22b4",
+   "post_id": "4c57b73c-6905-5ac6-bda4-f6a535357de3",
+   "category": "mule_account",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "account_kiraye",
+   "timestamp": "2026-11-14T22:03:14.848809",
+   "text": "Bank account rent pe chahiye urgent. daily 3000 commission. contact 9000341316",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "4ef5058d-4c89-4da2-a8b3-52361ae5fdfa",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "59f1f317-888e-464c-bcf8-4bb5469e08e9",
+   "post_id": "5fffef57-82b1-5e8f-b01a-aee7b710a0a5",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9804,
+   "status": "new",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-14T20:19:06.307314",
+   "text": "आधार कार्ड और पैन कार्ड बनवा लो उसी दिन . Noida 9000637940",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "2d38ef5b-2091-445a-abfe-02b33cd8579d",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "c5032f2b-9975-4f6a-b8be-745d3dcb3e29",
+   "post_id": "bb546744-57d1-552a-ba5f-0c7220f4381a",
+   "category": "arms",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-11-14T19:52:22.016016",
+   "text": "pistol and revolver ka full stock hai. desi katta lowest price Faridabad. contact 9000980500",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "b90b7cbe-1ffc-40f3-8c48-1ad9e0096e2e",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "47afcd86-4749-4c67-973e-340a63402134",
+   "post_id": "4db83ac6-4b74-5fed-b612-b1c7ec3dd268",
+   "category": "atm_card",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-11-14T18:58:56.909267",
+   "text": "Account kiraye pe available. KYC done account with SIM, ATM card + passbook. Daily commission 3000. DM @aman75_supply",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": "cbffb3a1-48f1-4358-b191-15735451d3ac",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "efb476df-957e-4781-a727-36126b153f62",
+   "post_id": "f20baecd-d48c-5e6a-be66-f2eb04a62147",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9963,
+   "status": "new",
+   "channel": "tamancha_baazar",
+   "timestamp": "2026-11-14T18:01:50.911289",
+   "text": "old saving account for sale, corporate account with cheque book. 9000106513 DM fast",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "67a28353-3c27-4ce7-9199-66905e5ec283",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "5c72aff0-685e-426f-962a-d7e59f153ca7",
+   "post_id": "d6c06610-f0f9-562c-8a62-b2212102e443",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9976,
+   "status": "new",
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-11-14T14:55:50.877945",
+   "text": "MDMA crystals & LSD tabs Guwaahati 2000 per strip. discreet packing. dm me",
+   "source_types": [],
+   "identifier_types": [],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "8d909776-a865-42b3-9bb0-95d7a3e69dec",
+   "post_id": "0f1dc205-557a-58d3-ba8d-38e61f00404e",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9802,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-14T12:06:15.166877",
+   "text": "आधार कार्ड और पैन कार्ड बनवा लो उसी दिन . Thane 9000346247",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "2d38ef5b-2091-445a-abfe-02b33cd8579d",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "7544d120-ff11-49ab-9691-f9294f78da68",
+   "post_id": "ec54e621-5956-5829-b4b5-b2b97757535f",
+   "category": "sim_card",
+   "risk": "MEDIUM",
+   "confidence": 0.9987,
+   "status": "confirmed",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-14T11:35:29.427411",
+   "text": "otp linked sim available, fresh sim card with full otp access. daily rent 2500. 9000303911",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "6b3d5845-6026-4695-ba5b-c44d3ee372d8",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "6c967dd4-1e6d-4bba-a88f-a0c1719aa4a0",
+   "post_id": "53f66d3d-1d2e-5b3d-86f3-305f77f565a3",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9979,
+   "status": "new",
+   "channel": "tamancha_baazar",
+   "timestamp": "2026-11-14T10:40:43.060539",
+   "text": "credit card and debit card kit with pin for sale. Surat 9000511615",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "fed2c41f-661c-43b3-a193-5f12cd3c5626",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "0612acc4-f722-4a15-b235-6a84b19639b6",
+   "post_id": "6a99d92f-4380-5c75-a02d-efd668b3e3f2",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.998,
+   "status": "new",
+   "channel": "account_kiraye",
+   "timestamp": "2026-11-14T09:13:36.933106",
+   "text": "fake id proof available, voter id ghotala documentation. Ahmedabad only. telegram @aman79_admin",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "username"
+   ],
+   "cluster_id": "4c3b69c5-a526-4fc7-a93f-acd1d4a7f4d1",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "eeac14e8-9d84-4345-b194-5f067c10bd0b",
+   "post_id": "f3016ce6-2941-54ad-92f6-4d85617531e6",
+   "category": "arms",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-14T07:01:18.231874",
+   "text": "Desi katta 9mm with 6 cartridges available. price 2k. Kolkata only. 9000...0500",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "42528692-66ae-4c3a-bf52-b2002a1f125c",
+   "post_id": "f1620964-05f0-5cf4-bf53-04d8922c406c",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9954,
+   "status": "confirmed",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-14T06:20:54.785830",
+   "text": "stock ready hai heroin...stuff bhi hai. nasha nahi to paisa kyu? Patna se Mumbai tak delivery. 9000849696",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "1fead03d-3e71-453d-8d9b-09582db61866",
+   "post_id": "25cc781b-ee2c-59e7-a41c-25bdf492015b",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9994,
+   "status": "confirmed",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-11-14T03:51:00.872826",
+   "text": "Charas maal supplies available. 1 tola 500k. fast delivery 24x7. tg @aman313_deal",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "cadd9f74-8825-40c7-ba9b-63f6344c081c",
+   "post_id": "ee7ffdad-3618-55ff-9ed1-9c669f57b64f",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9989,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-13T21:49:16.024019",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 9000012269",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "f32a7b5e-2bf2-4d13-a6c5-d96d98c17789",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "77ebf163-f1ff-4d14-9afe-e7e7591aeedd",
+   "post_id": "3215ef43-bcdf-58a4-a65a-7d9c2f5f2691",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9999,
+   "status": "dismissed",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-13T19:48:22.036828",
+   "text": "ATM card with pin + net banking kit + OTP linked SIM. rent pe le lo. Chandigarh @ravi178_india",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": "885aaeff-c77f-48c9-954d-2a50db18652f",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "b2134471-4a96-4bd3-930b-2d4443872b5e",
+   "post_id": "659604aa-5a8e-5a21-82df-bac1098dc50b",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9997,
+   "status": "confirmed",
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-11-13T19:26:15.610878",
+   "text": "cocaine maal aaya hai bhai 🔌 quality best, delivery Surat only. Contact 9000341316",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": [
+    {
+     "emoji": "🔌",
+     "category": "drugs",
+     "meaning": "plug / dealer",
+     "weight": 0.65,
+     "start": 27,
+     "end": 28,
+     "ambiguous": false,
+     "repeated": 1
+    }
+   ]
+  },
+  {
+   "id": "b0476eb9-a386-4658-a2b9-15069515d0d9",
+   "post_id": "d4ac3be1-0c10-510e-87ae-2b197c8be11f",
+   "category": "atm_card",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "confirmed",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-13T18:36:32.462434",
+   "text": "Account kiraye pe available. KYC done account with SIM, ATM card + passbook. Daily commission 2000. DM @ravi614_india",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": "cbffb3a1-48f1-4358-b191-15735451d3ac",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "ef294e02-4b7c-40ce-a1c9-2e341980fc03",
+   "post_id": "8c9edb0a-bef8-5049-9147-eacd758a3818",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9979,
+   "status": "new",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-13T17:31:40.226358",
+   "text": "Fresh snow available Srinagar. Pure quality, home delivery. Rate 1 per 10g. DM @monu262_ncr",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "a5573fc8-ee1e-4683-a42f-a473c322fb2c",
+   "post_id": "13a4eb92-4576-500d-bab3-0456efd22732",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9989,
+   "status": "confirmed",
+   "channel": "netbanking_kits",
+   "timestamp": "2026-11-13T17:31:15.154638",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 9000511615",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "f32a7b5e-2bf2-4d13-a6c5-d96d98c17789",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "0dba9c5b-e53d-4ed3-aa06-b15f0feaa571",
+   "post_id": "ad2a0ad0-e3f5-50ed-91b8-8e81521e9f57",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "account_kiraye",
+   "timestamp": "2026-11-13T17:13:08.733772",
+   "text": "net banking kit with otp availabe full access. rent or sale. 500 one time. @ravi479_ncr",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "3c4399b4-69ad-4c81-ba65-96629ff88969",
+   "post_id": "3631ffb5-cf0b-5026-8117-27221c0f70b7",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-13T16:29:30.578738",
+   "text": "Weed charas garda aur weed available hai. Mumbai me delivery free. telegram @aman743_boss #noida",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "a6f30075-32b5-4d87-96a4-a7289e08a326",
+   "post_id": "34288d48-4ed8-5f9a-a782-e15cd5ffd8a4",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9989,
+   "status": "new",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-13T14:42:53.055642",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 9000553419",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "f32a7b5e-2bf2-4d13-a6c5-d96d98c17789",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "772aa43c-f920-4541-b476-4a73a6a549cd",
+   "post_id": "51c5e029-1f93-567d-ae9d-040e6b36740d",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9995,
+   "status": "new",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-13T13:58:37.529996",
+   "text": "Aadhaar + PAN + driving licenc3 ready made documen7s. price 2000. DM @$h1v260_de@l",
+   "source_types": [],
+   "identifier_types": [],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "57b93045-03ce-4f49-8b89-86515b91ccc5",
+   "post_id": "d757292f-f296-5081-bc1d-80d10790e40a",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9997,
+   "status": "new",
+   "channel": "mule_khata_rent",
+   "timestamp": "2026-11-13T13:19:25.503514",
+   "text": "ganja maal aaya hai bhai 🔌 quality best, delivery Jaipur only. Contact 9000121913",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": [
+    {
+     "emoji": "🔌",
+     "category": "drugs",
+     "meaning": "plug / dealer",
+     "weight": 0.65,
+     "start": 25,
+     "end": 26,
+     "ambiguous": false,
+     "repeated": 1
+    }
+   ]
+  },
+  {
+   "id": "b79f3a32-081d-4b97-a32f-ec11ed3224e5",
+   "post_id": "81a32a59-3327-5be0-91a0-ef2860569105",
+   "category": "mule_account",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "confirmed",
+   "channel": "chicha_corner",
+   "timestamp": "2026-11-13T12:53:11.531669",
+   "text": "Bank account rent pe chahiye urgent. daily 3000 commission. contact 9000106513",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "4ef5058d-4c89-4da2-a8b3-52361ae5fdfa",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "96a26df6-f1d3-4a49-9410-47a32998d59a",
+   "post_id": "44a9ab5e-d288-533d-a381-a0e23679f725",
+   "category": "arms",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "dismissed",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-11-13T12:17:58.474522",
+   "text": "pistol and revolver ka full stock hai. desi katta lowest price Chennai. contact 9000395376",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "b90b7cbe-1ffc-40f3-8c48-1ad9e0096e2e",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "479f0623-f86c-4b31-86cb-78333e07b8db",
+   "post_id": "8efb2b9d-b771-5b16-9a58-e8809ae3fcdc",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9976,
+   "status": "new",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-11-13T12:16:34.661585",
+   "text": "MDMA crystals & LSD tabs Kochi 3000 per strip. discreet packing. dm me",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "18abc86e-f2a0-4c15-a2cc-780a0c66a592",
+   "post_id": "f5f83a6e-775e-5d09-8359-a420353c90dc",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "confirmed",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-13T09:18:28.180776",
+   "text": "fake DL, marksheet, passport banwa lo 100% original look. Dehradun me contact 9000782489",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "cb42167b-148c-4a13-96c7-14654a0c1ca5",
+   "post_id": "da72565f-edde-5055-a026-928f78e0665c",
+   "category": "atm_card",
+   "risk": "MEDIUM",
+   "confidence": 0.9999,
+   "status": "confirmed",
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-11-13T08:48:51.182111",
+   "text": "Saving account + ATM card + passbook + SIM full set. per day 800 rupees commission. Guwahati me 9000132677",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "51692c17-5bb9-4acb-8af8-9c5ec4eb958e",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "fa4051ca-906c-49e9-9136-60fc9bf094f3",
+   "post_id": "32463c35-0f43-5d2f-b852-ed06cd52fe49",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9943,
+   "status": "confirmed",
+   "channel": "account_kiraye",
+   "timestamp": "2026-11-13T04:52:10.139214",
+   "text": "काला माल आ गया है. cocaine बहुत बढ़िया क्वालिटी. डिलीवरी Meerut. 9000553419",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "4024fa38-0e28-437b-9920-438c9e4abbe4",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "e9ea1b71-9ccc-4d14-9ce7-69087533adaf",
+   "post_id": "ff865bf8-45f2-5b9b-8d6b-52f997a78328",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9995,
+   "status": "new",
+   "channel": "delhi_night_things",
+   "timestamp": "2026-11-13T04:19:42.827070",
+   "text": "Aadhaar + PAN + driving licence ready made documents. price 1200. DM @ravi614_india",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "24e0a6c7-9025-4022-93fb-e0916fb1f7cc",
+   "post_id": "1630df85-2784-5a04-b5bb-51db390c6875",
+   "category": "mule_account",
+   "risk": "LOW",
+   "confidence": 0.9933,
+   "status": "confirmed",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-11-13T04:10:30.699449",
+   "text": "खाता किराये पर उपलब्ध है . केवाईसी डन . डेली कमीशन . 9000048281",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "a61cde79-bf76-4eaf-bba2-5a46e93a29b4",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  }
+ ]
+}

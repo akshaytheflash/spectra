@@ -1,0 +1,599 @@
+{
+ "id": "37ae3ced-d57f-447b-977e-7fed3f2db9cb",
+ "post": {
+  "id": "2e43bcdd-c006-593f-9678-e61f1266d77a",
+  "channel": "sim_otp_store",
+  "timestamp": "2026-11-15T22:29:45.017413",
+  "text": "Ganja snow supplies available. 1 tola 1k. fast delivery 24x7. tg @shiv864_supply",
+  "permalink": "https://t.me/sim_otp_store/gen_01356",
+  "media_path": null,
+  "media_type": null,
+  "media_sha256": null,
+  "image_hash": null,
+  "audio_hash": null,
+  "language": "en",
+  "views": null,
+  "ocr": {},
+  "qr": {},
+  "transcript": {},
+  "external_id": "gen_01356",
+  "platform": "telegram"
+ },
+ "category": "drugs",
+ "risk": "HIGH",
+ "confidence": 0.9998,
+ "status": "confirmed",
+ "explanation": {
+  "spans": [
+   {
+    "start": 0,
+    "end": 5,
+    "text": "Ganja",
+    "kind": "slang",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "start": 6,
+    "end": 10,
+    "text": "snow",
+    "kind": "slang",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "start": 20,
+    "end": 29,
+    "text": "available",
+    "kind": "intent",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "1k",
+    "kind": "price",
+    "category": "drugs",
+    "weight": 0.6
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "1k",
+    "kind": "price",
+    "category": "arms",
+    "weight": 0.6
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "1k",
+    "kind": "price",
+    "category": "fake_docs",
+    "weight": 0.57
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "1k",
+    "kind": "price",
+    "category": "atm_card",
+    "weight": 0.6
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "1k",
+    "kind": "price",
+    "category": "sim_card",
+    "weight": 0.57
+   },
+   {
+    "start": 38,
+    "end": 40,
+    "text": "1k",
+    "kind": "price",
+    "category": "net_banking_kit",
+    "weight": 0.69
+   },
+   {
+    "start": 42,
+    "end": 55,
+    "text": "fast delivery",
+    "kind": "intent",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "start": 56,
+    "end": 60,
+    "text": "24x7",
+    "kind": "intent",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "start": 74,
+    "end": 80,
+    "text": "supply",
+    "kind": "intent",
+    "category": "drugs",
+    "weight": 0.8
+   }
+  ],
+  "top_features": [
+   {
+    "feature": "terms:ganja",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "feature": "slang:snow",
+    "category": "drugs",
+    "weight": 1.0
+   },
+   {
+    "feature": "intent:available",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "feature": "intent:supply",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "feature": "intent:24x7",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "feature": "intent:fast delivery",
+    "category": "drugs",
+    "weight": 0.8
+   },
+   {
+    "feature": "price:1k",
+    "category": "net_banking_kit",
+    "weight": 0.69
+   },
+   {
+    "feature": "price:1k",
+    "category": "drugs",
+    "weight": 0.6
+   }
+  ],
+  "matched_terms": [
+   "1k",
+   "24x7",
+   "Ganja",
+   "available",
+   "fast delivery",
+   "snow",
+   "supply"
+  ],
+  "intent_phrases": [
+   "available",
+   "delivery"
+  ],
+  "hard_negatives": [],
+  "category_weights": {
+   "drugs": 5.8,
+   "arms": 0.6,
+   "fake_docs": 0.57,
+   "atm_card": 0.6,
+   "sim_card": 0.57,
+   "net_banking_kit": 0.69
+  },
+  "markup": [
+   {
+    "text": "Ganja",
+    "kind": "slang",
+    "category": "drugs"
+   },
+   {
+    "text": " ",
+    "kind": "plain"
+   },
+   {
+    "text": "snow",
+    "kind": "slang",
+    "category": "drugs"
+   },
+   {
+    "text": " supplies ",
+    "kind": "plain"
+   },
+   {
+    "text": "available",
+    "kind": "intent",
+    "category": "drugs"
+   },
+   {
+    "text": ". 1 tola ",
+    "kind": "plain"
+   },
+   {
+    "text": "1k",
+    "kind": "price",
+    "category": "drugs"
+   },
+   {
+    "text": ". ",
+    "kind": "plain"
+   },
+   {
+    "text": "fast delivery",
+    "kind": "intent",
+    "category": "drugs"
+   },
+   {
+    "text": " ",
+    "kind": "plain"
+   },
+   {
+    "text": "24x7",
+    "kind": "intent",
+    "category": "drugs"
+   },
+   {
+    "text": ". tg @shiv864_",
+    "kind": "plain"
+   },
+   {
+    "text": "supply",
+    "kind": "intent",
+    "category": "drugs"
+   }
+  ],
+  "reasons": [
+   "Lexicon hits: ganja (drugs), snow (drugs), available (drugs), supply (drugs)",
+   "Intent phrases: available, delivery",
+   "Model posterior: drugs = 1.00"
+  ],
+  "financial": {
+   "is_financial": false,
+   "type": null,
+   "types": [],
+   "intent": "SELL",
+   "risk": "LOW",
+   "commission": null,
+   "has_contact": true,
+   "evidence": [
+    {
+     "kind": "sell",
+     "phrase": "available",
+     "start": 20,
+     "end": 29
+    }
+   ],
+   "notes": [
+    "No mule-recruitment signal (needs account/card/SIM + rent/sale intent or commission)."
+   ]
+  },
+  "lexicon_only": {
+   "category_weights": {
+    "drugs": 5.8,
+    "arms": 0.6,
+    "fake_docs": 0.57,
+    "atm_card": 0.6,
+    "sim_card": 0.57,
+    "net_banking_kit": 0.69
+   }
+  },
+  "model_used": true,
+  "model_version": "spectra-hybrid-v1",
+  "emoji_signals": [],
+  "emoji_summary": [],
+  "llm": {
+   "flag": false,
+   "category": "benign",
+   "severity": "LOW",
+   "confidence": 0.0,
+   "language": "other",
+   "emoji_signals": [],
+   "evidence": [],
+   "explanation": "",
+   "identifiers": [],
+   "available": false,
+   "model": "",
+   "latency_ms": 0,
+   "error": "not-run"
+  },
+  "fusion": {
+   "source": "engine",
+   "note": "llm unavailable: not-run",
+   "engine": {
+    "flag": true,
+    "category": "drugs",
+    "confidence": 1.0,
+    "risk": "HIGH"
+   },
+   "llm": {
+    "available": false,
+    "flag": false,
+    "category": "benign",
+    "confidence": 0.0,
+    "severity": "LOW",
+    "model": ""
+   },
+   "emoji_boost": {}
+  },
+  "scores": {
+   "drugs": 0.9998,
+   "arms": 0.0001,
+   "benign": 0.0001,
+   "fake_docs": 0.0,
+   "mule_fin": 0.0
+  }
+ },
+ "subcategories": {
+  "is_financial": false,
+  "type": null,
+  "types": [],
+  "intent": "SELL",
+  "risk": "LOW",
+  "commission": null,
+  "has_contact": true,
+  "evidence": [
+   {
+    "kind": "sell",
+    "phrase": "available",
+    "start": 20,
+    "end": 29
+   }
+  ],
+  "notes": [
+   "No mule-recruitment signal (needs account/card/SIM + rent/sale intent or commission)."
+  ]
+ },
+ "identifiers": [
+  {
+   "type": "username",
+   "value": "@shiv864_supply",
+   "raw": "@shiv864_supply",
+   "source": "text",
+   "confidence": 0.85,
+   "extra": {}
+  }
+ ],
+ "evidence": {
+  "id": "6f38fee1-7faa-4532-a058-15afb15f0414",
+  "payload": {
+   "post_id": "2e43bcdd-c006-593f-9678-e61f1266d77a",
+   "channel": "sim_otp_store",
+   "post_text": "Ganja snow supplies available. 1 tola 1k. fast delivery 24x7. tg @shiv864_supply",
+   "timestamp": "2026-11-15T22:29:45.017413+00:00",
+   "permalink": "https://t.me/sim_otp_store/gen_01356",
+   "media_path": null,
+   "media_sha256": null,
+   "identifiers": [
+    {
+     "type": "username",
+     "value": "@shiv864_supply",
+     "source": "text"
+    }
+   ],
+   "classification": {
+    "category": "drugs",
+    "risk": "HIGH",
+    "confidence": 0.9998
+   },
+   "explanation": {
+    "matched_terms": [
+     "1k",
+     "24x7",
+     "Ganja",
+     "available",
+     "fast delivery",
+     "snow",
+     "supply"
+    ],
+    "intent_phrases": [
+     "available",
+     "delivery"
+    ],
+    "category_weights": {
+     "drugs": 5.8,
+     "arms": 0.6,
+     "fake_docs": 0.57,
+     "atm_card": 0.6,
+     "sim_card": 0.57,
+     "net_banking_kit": 0.69
+    },
+    "spans": [
+     {
+      "start": 0,
+      "end": 5,
+      "text": "Ganja",
+      "kind": "slang",
+      "category": "drugs",
+      "weight": 1.0
+     },
+     {
+      "start": 6,
+      "end": 10,
+      "text": "snow",
+      "kind": "slang",
+      "category": "drugs",
+      "weight": 1.0
+     },
+     {
+      "start": 20,
+      "end": 29,
+      "text": "available",
+      "kind": "intent",
+      "category": "drugs",
+      "weight": 0.8
+     },
+     {
+      "start": 38,
+      "end": 40,
+      "text": "1k",
+      "kind": "price",
+      "category": "drugs",
+      "weight": 0.6
+     },
+     {
+      "start": 38,
+      "end": 40,
+      "text": "1k",
+      "kind": "price",
+      "category": "arms",
+      "weight": 0.6
+     },
+     {
+      "start": 38,
+      "end": 40,
+      "text": "1k",
+      "kind": "price",
+      "category": "fake_docs",
+      "weight": 0.57
+     },
+     {
+      "start": 38,
+      "end": 40,
+      "text": "1k",
+      "kind": "price",
+      "category": "atm_card",
+      "weight": 0.6
+     },
+     {
+      "start": 38,
+      "end": 40,
+      "text": "1k",
+      "kind": "price",
+      "category": "sim_card",
+      "weight": 0.57
+     },
+     {
+      "start": 38,
+      "end": 40,
+      "text": "1k",
+      "kind": "price",
+      "category": "net_banking_kit",
+      "weight": 0.69
+     },
+     {
+      "start": 42,
+      "end": 55,
+      "text": "fast delivery",
+      "kind": "intent",
+      "category": "drugs",
+      "weight": 0.8
+     },
+     {
+      "start": 56,
+      "end": 60,
+      "text": "24x7",
+      "kind": "intent",
+      "category": "drugs",
+      "weight": 0.8
+     },
+     {
+      "start": 74,
+      "end": 80,
+      "text": "supply",
+      "kind": "intent",
+      "category": "drugs",
+      "weight": 0.8
+     }
+    ]
+   },
+   "captured_at": "2026-11-24T16:03:19.583068+00:00",
+   "extra": {
+    "ocr_text": "",
+    "transcript": "",
+    "qr": [],
+    "llm_verdict": {
+     "flag": false,
+     "category": "benign",
+     "severity": "LOW",
+     "confidence": 0.0,
+     "language": "other",
+     "emoji_signals": [],
+     "evidence": [],
+     "explanation": "",
+     "identifiers": [],
+     "available": false,
+     "model": "",
+     "latency_ms": 0,
+     "error": "not-run"
+    },
+    "emoji_signals": [],
+    "flag_source": "engine",
+    "fusion_note": "llm unavailable: not-run"
+   }
+  },
+  "sha256": "9cbbdc434702721ea1d07f0dc8ab383099e1b81a27c1824df45bad2bcfc3af7f",
+  "captured_at": "2026-11-24T16:03:19.583068"
+ },
+ "audit": [
+  {
+   "id": "c412c141-82be-4b4f-87f7-89e53bc9fc07",
+   "actor": "inspector.k",
+   "action": "status_change",
+   "from_status": "new",
+   "to_status": "under_review",
+   "notes": "Same UPI as campaign X",
+   "at": "2026-11-24T16:03:23.295825"
+  },
+  {
+   "id": "9e7cbf03-ec86-443a-8ff6-793a2a25f0b0",
+   "actor": "analyst.a",
+   "action": "status_change",
+   "from_status": "under_review",
+   "to_status": "confirmed",
+   "notes": "Matched with FIR 2026/1158",
+   "at": "2026-11-24T16:03:23.295825"
+  },
+  {
+   "id": "62bf343b-37dc-40e1-ac1e-b7c9f13c5a76",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:28:17.755334"
+  },
+  {
+   "id": "a5e3de78-58bf-415a-a14e-0859d6ff863e",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:35:10.935739"
+  }
+ ],
+ "cluster_id": null,
+ "analyst_notes": [
+  {
+   "actor": "analyst",
+   "notes": "Cross-checked @handle across 3 channels",
+   "at": "2026-11-24T16:03:19.582049",
+   "status": "confirmed"
+  }
+ ],
+ "related": {
+  "campaign": null
+ },
+ "flag_source": "engine",
+ "llm": {
+  "flag": false,
+  "category": "benign",
+  "severity": "LOW",
+  "confidence": 0.0,
+  "language": "other",
+  "emoji_signals": [],
+  "evidence": [],
+  "explanation": "",
+  "identifiers": [],
+  "available": false,
+  "model": "",
+  "latency_ms": 0,
+  "error": "not-run"
+ },
+ "emoji": []
+}

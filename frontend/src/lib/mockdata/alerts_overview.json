@@ -1,0 +1,225 @@
+{
+ "total": 938,
+ "page": 1,
+ "page_size": 9,
+ "items": [
+  {
+   "id": "b28407f0-79af-4038-8231-75bf87c4d909",
+   "post_id": "4e60402f-818c-57cb-a260-2ebbc37b0dd7",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "confirmed",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-11-16T01:08:36.587984",
+   "text": "Marksheet, degree certificate aur experience certificate ready made. verified look. 9000...1316",
+   "source_types": [],
+   "identifier_types": [],
+   "cluster_id": "086eb657-a6d1-4856-9dda-9e31db6f91e3",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "f97b11d1-3b95-4b43-9a37-a9c2d7847b54",
+   "post_id": "98abfb43-59a6-59f6-a281-402b92f610e4",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-16T00:35:24.150936",
+   "text": "ATM card with pin + net banking kit + OTP linked SIM. rent pe le lo. Kolkata @kittu620_india #delhi",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "username"
+   ],
+   "cluster_id": "885aaeff-c77f-48c9-954d-2a50db18652f",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "37ae3ced-d57f-447b-977e-7fed3f2db9cb",
+   "post_id": "2e43bcdd-c006-593f-9678-e61f1266d77a",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9998,
+   "status": "confirmed",
+   "channel": "sim_otp_store",
+   "timestamp": "2026-11-15T22:29:45.017413",
+   "text": "Ganja snow supplies available. 1 tola 1k. fast delivery 24x7. tg @shiv864_supply",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "c8faf4d2-fdce-4d49-994f-6ca780bc25b6",
+   "post_id": "bff3f479-7ac2-5944-a2c7-6e44d41251ef",
+   "category": "mule_account",
+   "risk": "MEDIUM",
+   "confidence": 0.9961,
+   "status": "new",
+   "channel": "city_ki_gully",
+   "timestamp": "2026-11-15T22:06:17.597405",
+   "text": "old saving account for sale, corporate account with cheque book. 9000183473 DM fast",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "67a28353-3c27-4ce7-9199-66905e5ec283",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "fb8a1a57-06e9-4b1f-86c8-9189b0b8d0b3",
+   "post_id": "498de264-2100-5e07-aa0b-895b6d0eb164",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 1.0,
+   "status": "new",
+   "channel": "mumbai_snow_zone",
+   "timestamp": "2026-11-15T21:34:40.615558",
+   "text": "fake DL, marksheet, passport banwa lo 100% original look. Kochi me contact 9000106513",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "c61ee75f-20aa-47d2-b075-ba4d5318dd6b",
+   "post_id": "840b0a12-7adf-55f8-8dc1-c15373fea4bd",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9997,
+   "status": "new",
+   "channel": "docs_quick_ncr",
+   "timestamp": "2026-11-15T14:12:11.787030",
+   "text": "ganja maal aaya hai bhai 🔌 quality best, delivery Guwahati only. Contact 9000782489",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": null,
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": [
+    {
+     "emoji": "🔌",
+     "category": "drugs",
+     "meaning": "plug / dealer",
+     "weight": 0.65,
+     "start": 25,
+     "end": 26,
+     "ambiguous": false,
+     "repeated": 1
+    }
+   ]
+  },
+  {
+   "id": "f709f812-405d-4157-9f13-93ea4c0babc6",
+   "post_id": "7b30c98e-a651-51c0-abbd-715535b69953",
+   "category": "net_banking_kit",
+   "risk": "MEDIUM",
+   "confidence": 0.9989,
+   "status": "new",
+   "channel": "lok_mela_up",
+   "timestamp": "2026-11-15T11:14:01.607452",
+   "text": "netbanking kit rent pe chahiye with token, immediate. 9000395376",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "phone"
+   ],
+   "cluster_id": "f32a7b5e-2bf2-4d13-a6c5-d96d98c17789",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "cf4a0fc8-d926-480b-a026-3f96e92da3bb",
+   "post_id": "62ff48d9-ce6d-51ed-8f27-4220871184b4",
+   "category": "fake_docs",
+   "risk": "HIGH",
+   "confidence": 0.9999,
+   "status": "new",
+   "channel": "netbanking_kits",
+   "timestamp": "2026-11-15T11:12:08.297548",
+   "text": "Ready made Aadhaar and PAN card available. same day delivery. Ahmedabad 9000346247",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "location",
+    "phone"
+   ],
+   "cluster_id": "ef928856-d4a0-4533-8b83-84b3caa8d5c5",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  },
+  {
+   "id": "40d90596-0880-41ff-a827-2d3208f11c9c",
+   "post_id": "08cd0aa8-2af6-5bef-8764-558639e566d1",
+   "category": "drugs",
+   "risk": "HIGH",
+   "confidence": 0.9625,
+   "status": "confirmed",
+   "channel": "aadhaar_ready_hub",
+   "timestamp": "2026-11-15T10:53:05.893148",
+   "text": "Weed {d1} {d2} aur {d3} available hai. {city} me delivery free. telegram {handle}",
+   "source_types": [
+    "text"
+   ],
+   "identifier_types": [
+    "username"
+   ],
+   "cluster_id": "8ec13b39-575e-4af4-8f84-2bc1e6ac7cc8",
+   "media_type": null,
+   "has_evidence": true,
+   "flag_source": "engine",
+   "llm_flag": false,
+   "emoji": []
+  }
+ ]
+}

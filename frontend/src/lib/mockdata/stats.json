@@ -1,0 +1,568 @@
+{
+ "posts_scanned": 2108,
+ "alerts": 938,
+ "high_risk": 666,
+ "unique_identifiers": 149,
+ "active_campaigns": 58,
+ "channels_monitored": 14,
+ "channels_joined": 14,
+ "alerts_by_category": {
+  "atm_card": 62,
+  "drugs": 292,
+  "net_banking_kit": 106,
+  "mule_account": 124,
+  "fake_docs": 145,
+  "arms": 178,
+  "sim_card": 31
+ },
+ "alerts_by_status": {
+  "new": 518,
+  "confirmed": 286,
+  "dismissed": 134
+ },
+ "alerts_over_time": [
+  {
+   "date": "2026-10-01",
+   "atm_card": 2,
+   "drugs": 3,
+   "net_banking_kit": 1,
+   "fake_docs": 2,
+   "arms": 2
+  },
+  {
+   "date": "2026-10-02",
+   "atm_card": 3,
+   "drugs": 6,
+   "net_banking_kit": 4,
+   "arms": 4,
+   "fake_docs": 2,
+   "mule_account": 1
+  },
+  {
+   "date": "2026-10-03",
+   "atm_card": 4,
+   "drugs": 6,
+   "net_banking_kit": 5,
+   "arms": 3,
+   "mule_account": 2,
+   "fake_docs": 4
+  },
+  {
+   "date": "2026-10-04",
+   "atm_card": 2,
+   "drugs": 11,
+   "net_banking_kit": 3,
+   "arms": 6,
+   "mule_account": 5,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-10-05",
+   "atm_card": 1,
+   "drugs": 7,
+   "net_banking_kit": 1,
+   "mule_account": 2,
+   "arms": 2,
+   "fake_docs": 1
+  },
+  {
+   "date": "2026-10-06",
+   "atm_card": 2,
+   "drugs": 8,
+   "arms": 9,
+   "fake_docs": 5,
+   "sim_card": 1,
+   "net_banking_kit": 2,
+   "mule_account": 2
+  },
+  {
+   "date": "2026-10-07",
+   "atm_card": 2,
+   "drugs": 4,
+   "mule_account": 3,
+   "fake_docs": 3,
+   "arms": 4,
+   "net_banking_kit": 4
+  },
+  {
+   "date": "2026-10-08",
+   "arms": 4,
+   "mule_account": 4,
+   "drugs": 6,
+   "atm_card": 2,
+   "fake_docs": 1
+  },
+  {
+   "date": "2026-10-09",
+   "sim_card": 2,
+   "arms": 3,
+   "drugs": 10,
+   "mule_account": 1,
+   "fake_docs": 2,
+   "atm_card": 1,
+   "net_banking_kit": 1
+  },
+  {
+   "date": "2026-10-10",
+   "drugs": 8,
+   "arms": 7,
+   "net_banking_kit": 1,
+   "fake_docs": 1,
+   "mule_account": 3
+  },
+  {
+   "date": "2026-10-11",
+   "mule_account": 7,
+   "atm_card": 3,
+   "fake_docs": 3,
+   "drugs": 9,
+   "arms": 2,
+   "net_banking_kit": 2,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-10-12",
+   "drugs": 5,
+   "mule_account": 4,
+   "arms": 4,
+   "fake_docs": 3,
+   "atm_card": 1
+  },
+  {
+   "date": "2026-10-13",
+   "drugs": 6,
+   "mule_account": 1,
+   "net_banking_kit": 1,
+   "atm_card": 2,
+   "fake_docs": 2,
+   "sim_card": 1,
+   "arms": 1
+  },
+  {
+   "date": "2026-10-14",
+   "arms": 4,
+   "mule_account": 8,
+   "sim_card": 2,
+   "drugs": 8,
+   "fake_docs": 2,
+   "net_banking_kit": 1
+  },
+  {
+   "date": "2026-10-15",
+   "fake_docs": 4,
+   "arms": 4,
+   "net_banking_kit": 3,
+   "atm_card": 1,
+   "drugs": 2
+  },
+  {
+   "date": "2026-10-16",
+   "drugs": 8,
+   "fake_docs": 4,
+   "net_banking_kit": 2,
+   "atm_card": 1,
+   "mule_account": 3,
+   "arms": 4
+  },
+  {
+   "date": "2026-10-17",
+   "drugs": 4,
+   "net_banking_kit": 5,
+   "arms": 7,
+   "fake_docs": 5,
+   "sim_card": 1,
+   "mule_account": 1
+  },
+  {
+   "date": "2026-10-18",
+   "net_banking_kit": 6,
+   "drugs": 10,
+   "mule_account": 2,
+   "fake_docs": 2,
+   "arms": 5,
+   "atm_card": 2
+  },
+  {
+   "date": "2026-10-19",
+   "drugs": 9,
+   "fake_docs": 6,
+   "mule_account": 3,
+   "arms": 7,
+   "net_banking_kit": 2,
+   "sim_card": 1,
+   "atm_card": 1
+  },
+  {
+   "date": "2026-10-20",
+   "fake_docs": 4,
+   "drugs": 9,
+   "net_banking_kit": 3,
+   "atm_card": 3,
+   "mule_account": 7,
+   "arms": 1,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-10-21",
+   "drugs": 8,
+   "net_banking_kit": 2,
+   "fake_docs": 2,
+   "arms": 2,
+   "mule_account": 1
+  },
+  {
+   "date": "2026-10-22",
+   "drugs": 7,
+   "arms": 6,
+   "atm_card": 1,
+   "mule_account": 4,
+   "net_banking_kit": 1,
+   "fake_docs": 3
+  },
+  {
+   "date": "2026-10-23",
+   "drugs": 5,
+   "fake_docs": 3,
+   "arms": 3,
+   "sim_card": 2,
+   "mule_account": 2,
+   "atm_card": 1,
+   "net_banking_kit": 4
+  },
+  {
+   "date": "2026-10-24",
+   "drugs": 5,
+   "fake_docs": 5,
+   "sim_card": 3,
+   "net_banking_kit": 1,
+   "arms": 6
+  },
+  {
+   "date": "2026-10-25",
+   "drugs": 9,
+   "atm_card": 3,
+   "arms": 2,
+   "sim_card": 1,
+   "fake_docs": 3,
+   "net_banking_kit": 2,
+   "mule_account": 3
+  },
+  {
+   "date": "2026-10-26",
+   "mule_account": 2,
+   "drugs": 3,
+   "arms": 3,
+   "net_banking_kit": 3,
+   "fake_docs": 3,
+   "atm_card": 1,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-10-27",
+   "drugs": 7,
+   "fake_docs": 7,
+   "arms": 5,
+   "net_banking_kit": 2,
+   "mule_account": 3,
+   "atm_card": 1
+  },
+  {
+   "date": "2026-10-28",
+   "sim_card": 1,
+   "atm_card": 2,
+   "drugs": 5,
+   "arms": 6,
+   "fake_docs": 4
+  },
+  {
+   "date": "2026-10-29",
+   "sim_card": 1,
+   "net_banking_kit": 3,
+   "drugs": 6,
+   "fake_docs": 3,
+   "mule_account": 2,
+   "arms": 2
+  },
+  {
+   "date": "2026-10-30",
+   "sim_card": 1,
+   "mule_account": 4,
+   "drugs": 11,
+   "net_banking_kit": 3,
+   "arms": 4,
+   "atm_card": 2,
+   "fake_docs": 2
+  },
+  {
+   "date": "2026-10-31",
+   "mule_account": 3,
+   "drugs": 2,
+   "arms": 5,
+   "net_banking_kit": 4,
+   "atm_card": 1,
+   "sim_card": 1,
+   "fake_docs": 1
+  },
+  {
+   "date": "2026-11-01",
+   "arms": 6,
+   "fake_docs": 6,
+   "drugs": 7,
+   "sim_card": 1,
+   "mule_account": 4
+  },
+  {
+   "date": "2026-11-02",
+   "mule_account": 7,
+   "drugs": 8,
+   "atm_card": 2,
+   "sim_card": 1,
+   "arms": 2,
+   "net_banking_kit": 1,
+   "fake_docs": 3
+  },
+  {
+   "date": "2026-11-03",
+   "arms": 1,
+   "atm_card": 5,
+   "fake_docs": 3,
+   "drugs": 7,
+   "mule_account": 2,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-11-04",
+   "arms": 4,
+   "drugs": 8,
+   "mule_account": 2,
+   "fake_docs": 5,
+   "net_banking_kit": 2
+  },
+  {
+   "date": "2026-11-05",
+   "mule_account": 2,
+   "arms": 2,
+   "drugs": 5,
+   "atm_card": 1,
+   "fake_docs": 1
+  },
+  {
+   "date": "2026-11-06",
+   "drugs": 6,
+   "net_banking_kit": 3,
+   "arms": 5,
+   "fake_docs": 4,
+   "mule_account": 2
+  },
+  {
+   "date": "2026-11-07",
+   "arms": 6,
+   "drugs": 4,
+   "fake_docs": 4,
+   "net_banking_kit": 5,
+   "mule_account": 4,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-11-08",
+   "drugs": 4,
+   "net_banking_kit": 4,
+   "arms": 5,
+   "fake_docs": 2,
+   "atm_card": 1,
+   "mule_account": 1,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-11-09",
+   "fake_docs": 2,
+   "net_banking_kit": 3,
+   "mule_account": 3,
+   "arms": 3,
+   "drugs": 5,
+   "sim_card": 1
+  },
+  {
+   "date": "2026-11-10",
+   "arms": 6,
+   "drugs": 4,
+   "net_banking_kit": 2,
+   "mule_account": 5,
+   "fake_docs": 2,
+   "atm_card": 2
+  },
+  {
+   "date": "2026-11-11",
+   "drugs": 8,
+   "fake_docs": 5,
+   "net_banking_kit": 3,
+   "arms": 2,
+   "mule_account": 3
+  },
+  {
+   "date": "2026-11-12",
+   "arms": 4,
+   "drugs": 4,
+   "fake_docs": 6,
+   "atm_card": 2,
+   "sim_card": 1,
+   "net_banking_kit": 2
+  },
+  {
+   "date": "2026-11-13",
+   "drugs": 7,
+   "net_banking_kit": 5,
+   "fake_docs": 3,
+   "atm_card": 2,
+   "mule_account": 2,
+   "arms": 1
+  },
+  {
+   "date": "2026-11-14",
+   "fake_docs": 3,
+   "atm_card": 1,
+   "mule_account": 2,
+   "net_banking_kit": 1,
+   "arms": 2,
+   "sim_card": 1,
+   "drugs": 3
+  },
+  {
+   "date": "2026-11-15",
+   "arms": 2,
+   "drugs": 5,
+   "sim_card": 1,
+   "mule_account": 2,
+   "net_banking_kit": 2,
+   "fake_docs": 3,
+   "atm_card": 1
+  },
+  {
+   "date": "2026-11-16",
+   "fake_docs": 1,
+   "net_banking_kit": 1
+  }
+ ],
+ "top_channels": [
+  {
+   "channel": "docs_quick_ncr",
+   "posts": 186,
+   "alerts": 95,
+   "views": 0
+  },
+  {
+   "channel": "ncr_maal_supply",
+   "posts": 169,
+   "alerts": 68,
+   "views": 0
+  },
+  {
+   "channel": "netbanking_kits",
+   "posts": 166,
+   "alerts": 79,
+   "views": 0
+  },
+  {
+   "channel": "tamancha_baazar",
+   "posts": 157,
+   "alerts": 67,
+   "views": 0
+  },
+  {
+   "channel": "mumbai_snow_zone",
+   "posts": 156,
+   "alerts": 69,
+   "views": 0
+  },
+  {
+   "channel": "mule_khata_rent",
+   "posts": 155,
+   "alerts": 66,
+   "views": 0
+  },
+  {
+   "channel": "lok_mela_up",
+   "posts": 151,
+   "alerts": 60,
+   "views": 0
+  },
+  {
+   "channel": "city_ki_gully",
+   "posts": 149,
+   "alerts": 67,
+   "views": 0
+  },
+  {
+   "channel": "account_kiraye",
+   "posts": 147,
+   "alerts": 70,
+   "views": 0
+  },
+  {
+   "channel": "chicha_corner",
+   "posts": 144,
+   "alerts": 60,
+   "views": 0
+  }
+ ],
+ "source_breakdown": {
+  "text": 1841,
+  "image_ocr": 8,
+  "qr": 1,
+  "voice": 0
+ },
+ "media_breakdown": {
+  "images": 6,
+  "audio": 0,
+  "text_only": 0
+ },
+ "risk_breakdown": {
+  "HIGH": 666,
+  "MEDIUM": 192,
+  "LOW": 80
+ },
+ "flag_source_breakdown": {
+  "engine+llm": 36,
+  "engine": 902
+ },
+ "llm": {
+  "configured": true,
+  "scanned": 36,
+  "flagged": 36,
+  "vetoed": 0
+ },
+ "emoji_top": [
+  {
+   "emoji": "🔌",
+   "count": 71
+  },
+  {
+   "emoji": "🍁",
+   "count": 49
+  },
+  {
+   "emoji": "🔫",
+   "count": 46
+  },
+  {
+   "emoji": "💨",
+   "count": 42
+  },
+  {
+   "emoji": "❄️",
+   "count": 35
+  },
+  {
+   "emoji": "🍪",
+   "count": 31
+  },
+  {
+   "emoji": "💣",
+   "count": 20
+  },
+  {
+   "emoji": "💊",
+   "count": 6
+  }
+ ]
+}

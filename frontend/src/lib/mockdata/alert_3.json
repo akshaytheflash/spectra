@@ -1,0 +1,451 @@
+{
+ "id": "c8faf4d2-fdce-4d49-994f-6ca780bc25b6",
+ "post": {
+  "id": "bff3f479-7ac2-5944-a2c7-6e44d41251ef",
+  "channel": "city_ki_gully",
+  "timestamp": "2026-11-15T22:06:17.597405",
+  "text": "old saving account for sale, corporate account with cheque book. 9000183473 DM fast",
+  "permalink": "https://t.me/city_ki_gully/gen_00890",
+  "media_path": null,
+  "media_type": null,
+  "media_sha256": null,
+  "image_hash": null,
+  "audio_hash": null,
+  "language": "en",
+  "views": null,
+  "ocr": {},
+  "qr": {},
+  "transcript": {},
+  "external_id": "gen_00890",
+  "platform": "telegram"
+ },
+ "category": "mule_account",
+ "risk": "MEDIUM",
+ "confidence": 0.9961,
+ "status": "new",
+ "explanation": {
+  "spans": [
+   {
+    "start": 4,
+    "end": 18,
+    "text": "saving account",
+    "kind": "slang",
+    "category": "mule_account",
+    "weight": 1.1
+   },
+   {
+    "start": 23,
+    "end": 27,
+    "text": "sale",
+    "kind": "intent",
+    "category": "mule_account",
+    "weight": 0.88
+   },
+   {
+    "start": 52,
+    "end": 63,
+    "text": "cheque book",
+    "kind": "slang",
+    "category": "mule_account",
+    "weight": 1.1
+   },
+   {
+    "start": 76,
+    "end": 78,
+    "text": "DM",
+    "kind": "intent",
+    "category": "drugs",
+    "weight": 0.8
+   }
+  ],
+  "top_features": [
+   {
+    "feature": "terms:cheque book",
+    "category": "mule_account",
+    "weight": 1.1
+   },
+   {
+    "feature": "terms:saving account",
+    "category": "mule_account",
+    "weight": 1.1
+   },
+   {
+    "feature": "intent:sale",
+    "category": "mule_account",
+    "weight": 0.88
+   },
+   {
+    "feature": "intent:dm",
+    "category": "drugs",
+    "weight": 0.8
+   }
+  ],
+  "matched_terms": [
+   "DM",
+   "cheque book",
+   "sale",
+   "saving account"
+  ],
+  "intent_phrases": [
+   "dm",
+   "sale"
+  ],
+  "hard_negatives": [],
+  "category_weights": {
+   "drugs": 0.8,
+   "mule_account": 3.08
+  },
+  "markup": [
+   {
+    "text": "old ",
+    "kind": "plain"
+   },
+   {
+    "text": "saving account",
+    "kind": "slang",
+    "category": "mule_account"
+   },
+   {
+    "text": " for ",
+    "kind": "plain"
+   },
+   {
+    "text": "sale",
+    "kind": "intent",
+    "category": "mule_account"
+   },
+   {
+    "text": ", corporate account with ",
+    "kind": "plain"
+   },
+   {
+    "text": "cheque book",
+    "kind": "slang",
+    "category": "mule_account"
+   },
+   {
+    "text": ". 9000183473 ",
+    "kind": "plain"
+   },
+   {
+    "text": "DM",
+    "kind": "intent",
+    "category": "drugs"
+   },
+   {
+    "text": " fast",
+    "kind": "plain"
+   }
+  ],
+  "reasons": [
+   "Lexicon hits: cheque book (mule_account), saving account (mule_account), sale (mule_account), dm (drugs)",
+   "Intent phrases: dm, sale",
+   "Model posterior: mule_fin = 1.00",
+   "Financial ad: type=bank_account, intent=SELL, risk=MEDIUM"
+  ],
+  "financial": {
+   "is_financial": true,
+   "type": "bank_account",
+   "types": [
+    "bank_account"
+   ],
+   "intent": "SELL",
+   "risk": "MEDIUM",
+   "commission": null,
+   "has_contact": true,
+   "evidence": [
+    {
+     "kind": "type",
+     "type": "bank_account",
+     "phrase": "saving account",
+     "start": 4,
+     "end": 18
+    },
+    {
+     "kind": "rent",
+     "phrase": "book",
+     "start": 59,
+     "end": 63
+    },
+    {
+     "kind": "sell",
+     "phrase": "sale",
+     "start": 23,
+     "end": 27
+    },
+    {
+     "kind": "offer",
+     "phrase": "cheque book",
+     "start": 52,
+     "end": 63
+    }
+   ],
+   "notes": [
+    "Explicit offer but missing payment/commission."
+   ]
+  },
+  "lexicon_only": {
+   "category_weights": {
+    "drugs": 0.8,
+    "mule_account": 3.08
+   }
+  },
+  "model_used": true,
+  "model_version": "spectra-hybrid-v1",
+  "emoji_signals": [],
+  "emoji_summary": [],
+  "llm": {
+   "flag": false,
+   "category": "benign",
+   "severity": "LOW",
+   "confidence": 0.0,
+   "language": "other",
+   "emoji_signals": [],
+   "evidence": [],
+   "explanation": "",
+   "identifiers": [],
+   "available": false,
+   "model": "",
+   "latency_ms": 0,
+   "error": "not-run"
+  },
+  "fusion": {
+   "source": "engine",
+   "note": "llm unavailable: not-run",
+   "engine": {
+    "flag": true,
+    "category": "bank_account",
+    "confidence": 0.996,
+    "risk": "MEDIUM"
+   },
+   "llm": {
+    "available": false,
+    "flag": false,
+    "category": "benign",
+    "confidence": 0.0,
+    "severity": "LOW",
+    "model": ""
+   },
+   "emoji_boost": {}
+  },
+  "scores": {
+   "mule_fin": 0.9961,
+   "arms": 0.0018,
+   "drugs": 0.001,
+   "fake_docs": 0.0006,
+   "benign": 0.0005
+  }
+ },
+ "subcategories": {
+  "is_financial": true,
+  "type": "bank_account",
+  "types": [
+   "bank_account"
+  ],
+  "intent": "SELL",
+  "risk": "MEDIUM",
+  "commission": null,
+  "has_contact": true,
+  "evidence": [
+   {
+    "kind": "type",
+    "type": "bank_account",
+    "phrase": "saving account",
+    "start": 4,
+    "end": 18
+   },
+   {
+    "kind": "rent",
+    "phrase": "book",
+    "start": 59,
+    "end": 63
+   },
+   {
+    "kind": "sell",
+    "phrase": "sale",
+    "start": 23,
+    "end": 27
+   },
+   {
+    "kind": "offer",
+    "phrase": "cheque book",
+    "start": 52,
+    "end": 63
+   }
+  ],
+  "notes": [
+   "Explicit offer but missing payment/commission."
+  ]
+ },
+ "identifiers": [
+  {
+   "type": "phone",
+   "value": "+919000183473",
+   "raw": "9000183473",
+   "source": "text",
+   "confidence": 0.9,
+   "extra": {}
+  }
+ ],
+ "evidence": {
+  "id": "7a09b705-cfce-4f5d-99e5-e9758f77475b",
+  "payload": {
+   "post_id": "bff3f479-7ac2-5944-a2c7-6e44d41251ef",
+   "channel": "city_ki_gully",
+   "post_text": "old saving account for sale, corporate account with cheque book. 9000183473 DM fast",
+   "timestamp": "2026-11-15T22:06:17.597405+00:00",
+   "permalink": "https://t.me/city_ki_gully/gen_00890",
+   "media_path": null,
+   "media_sha256": null,
+   "identifiers": [
+    {
+     "type": "phone",
+     "value": "+919000183473",
+     "source": "text"
+    }
+   ],
+   "classification": {
+    "category": "bank_account",
+    "risk": "MEDIUM",
+    "confidence": 0.9961
+   },
+   "explanation": {
+    "matched_terms": [
+     "DM",
+     "cheque book",
+     "sale",
+     "saving account"
+    ],
+    "intent_phrases": [
+     "dm",
+     "sale"
+    ],
+    "category_weights": {
+     "drugs": 0.8,
+     "mule_account": 3.08
+    },
+    "spans": [
+     {
+      "start": 4,
+      "end": 18,
+      "text": "saving account",
+      "kind": "slang",
+      "category": "mule_account",
+      "weight": 1.1
+     },
+     {
+      "start": 23,
+      "end": 27,
+      "text": "sale",
+      "kind": "intent",
+      "category": "mule_account",
+      "weight": 0.88
+     },
+     {
+      "start": 52,
+      "end": 63,
+      "text": "cheque book",
+      "kind": "slang",
+      "category": "mule_account",
+      "weight": 1.1
+     },
+     {
+      "start": 76,
+      "end": 78,
+      "text": "DM",
+      "kind": "intent",
+      "category": "drugs",
+      "weight": 0.8
+     }
+    ]
+   },
+   "captured_at": "2026-11-24T16:03:17.197815+00:00",
+   "extra": {
+    "ocr_text": "",
+    "transcript": "",
+    "qr": [],
+    "llm_verdict": {
+     "flag": false,
+     "category": "benign",
+     "severity": "LOW",
+     "confidence": 0.0,
+     "language": "other",
+     "emoji_signals": [],
+     "evidence": [],
+     "explanation": "",
+     "identifiers": [],
+     "available": false,
+     "model": "",
+     "latency_ms": 0,
+     "error": "not-run"
+    },
+    "emoji_signals": [],
+    "flag_source": "engine",
+    "fusion_note": "llm unavailable: not-run"
+   }
+  },
+  "sha256": "ddbbedbe8707cc8dd4e5ff33a16449ca5e96c1c58f5e677e2e1b4ed387484c57",
+  "captured_at": "2026-11-24T16:03:17.197815"
+ },
+ "audit": [
+  {
+   "id": "ab64f764-d6e7-469c-b5f3-4d195d1919cf",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:28:17.777305"
+  },
+  {
+   "id": "cceddcaa-4f6e-44b1-aef3-9c8bcf8f2be3",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:35:10.962960"
+  }
+ ],
+ "cluster_id": "67a28353-3c27-4ce7-9199-66905e5ec283",
+ "analyst_notes": [],
+ "related": {
+  "campaign": {
+   "id": "67a28353-3c27-4ce7-9199-66905e5ec283",
+   "title": "Mule-account network · 13 channels · 24 ads",
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "mule_khata_rent",
+    "mumbai_snow_zone",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "post_count": 24
+  }
+ },
+ "flag_source": "engine",
+ "llm": {
+  "flag": false,
+  "category": "benign",
+  "severity": "LOW",
+  "confidence": 0.0,
+  "language": "other",
+  "emoji_signals": [],
+  "evidence": [],
+  "explanation": "",
+  "identifiers": [],
+  "available": false,
+  "model": "",
+  "latency_ms": 0,
+  "error": "not-run"
+ },
+ "emoji": []
+}

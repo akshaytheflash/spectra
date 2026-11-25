@@ -1,0 +1,88 @@
+{
+ "items": [
+  {
+   "id": "d7f50245-2891-4b79-ad03-14175c701b51",
+   "username": "mule_khata_rent",
+   "title": "mule_khata_rent",
+   "description": "Public channel monitored for narcotics, arms and financial-crime listings.",
+   "is_public": true,
+   "is_monitored": true,
+   "join_status": "demo",
+   "subscriber_count": 32619,
+   "last_scraped": "2026-11-24T17:07:03.714327",
+   "posts": 155,
+   "alerts": 66,
+   "added_by": "seed"
+  },
+  {
+   "id": "eb2a272d-55fa-4b8f-bf4c-b3b42412456e",
+   "username": "account_kiraye",
+   "title": "account_kiraye",
+   "description": "Public channel monitored for narcotics, arms and financial-crime listings.",
+   "is_public": true,
+   "is_monitored": true,
+   "join_status": "demo",
+   "subscriber_count": 19597,
+   "last_scraped": "2026-11-24T17:04:03.714327",
+   "posts": 147,
+   "alerts": 70,
+   "added_by": "seed"
+  },
+  {
+   "id": "c8ebcc1b-61f4-431c-b36f-5392f8f8176b",
+   "username": "netbanking_kits",
+   "title": "netbanking_kits",
+   "description": "Public channel monitored for narcotics, arms and financial-crime listings.",
+   "is_public": true,
+   "is_monitored": true,
+   "join_status": "demo",
+   "subscriber_count": 66042,
+   "last_scraped": "2026-11-24T17:01:03.714327",
+   "posts": 166,
+   "alerts": 79,
+   "added_by": "seed"
+  },
+  {
+   "id": "d7dd16a9-71f0-4edf-a330-00f1f103419f",
+   "username": "sim_otp_store",
+   "title": "sim_otp_store",
+   "description": "Public channel monitored for narcotics, arms and financial-crime listings.",
+   "is_public": true,
+   "is_monitored": true,
+   "join_status": "demo",
+   "subscriber_count": 6876,
+   "last_scraped": "2026-11-24T16:58:03.714327",
+   "posts": 131,
+   "alerts": 57,
+   "added_by": "seed"
+  },
+  {
+   "id": "b2e132b3-4c49-4a8e-9743-0f664dea01e6",
+   "username": "city_ki_gully",
+   "title": "city_ki_gully",
+   "description": "Public channel monitored for narcotics, arms and financial-crime listings.",
+   "is_public": true,
+   "is_monitored": true,
+   "join_status": "demo",
+   "subscriber_count": 77815,
+   "last_scraped": "2026-11-24T16:55:03.714327",
+   "posts": 149,
+   "alerts": 67,
+   "added_by": "seed"
+  },
+  {
+   "id": "f9dc3557-321e-4fc5-8f9b-2677352a6185",
+   "username": "delhi_night_things",
+   "title": "delhi_night_things",
+   "description": "Public channel monitored for narcotics, arms and financial-crime listings.",
+   "is_public": true,
+   "is_monitored": true,
+   "join_status": "demo",
+   "subscriber_count": 64737,
+   "last_scraped": "2026-11-24T16:52:03.714327",
+   "posts": 142,
+   "alerts": 70,
+   "added_by": "seed"
+  }
+ ]
+}

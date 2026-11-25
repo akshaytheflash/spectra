@@ -1,0 +1,428 @@
+{
+ "points": [
+  {
+   "name": "Delhi",
+   "lat": 28.6139,
+   "lng": 77.209,
+   "count": 63,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Noida",
+   "lat": 28.5355,
+   "lng": 77.391,
+   "count": 55,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "mule_account",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Mumbai",
+   "lat": 19.1136,
+   "lng": 72.8697,
+   "count": 49,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Kochi",
+   "lat": 9.9312,
+   "lng": 76.2673,
+   "count": 26,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Surat",
+   "lat": 21.1702,
+   "lng": 72.8311,
+   "count": 25,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Gurugram",
+   "lat": 28.4595,
+   "lng": 77.0266,
+   "count": 25,
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Lucknow",
+   "lat": 26.8467,
+   "lng": 80.9462,
+   "count": 24,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Bhopal",
+   "lat": 23.2599,
+   "lng": 77.4126,
+   "count": 24,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Muzaffarpur",
+   "lat": 26.1225,
+   "lng": 85.3906,
+   "count": 22,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Bengaluru",
+   "lat": 12.9698,
+   "lng": 77.7499,
+   "count": 21,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Nagpur",
+   "lat": 21.1458,
+   "lng": 79.0882,
+   "count": 20,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Delhi NCR",
+   "lat": 28.5355,
+   "lng": 77.391,
+   "count": 20,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Ahmedabad",
+   "lat": 23.0225,
+   "lng": 72.5714,
+   "count": 20,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Agra",
+   "lat": 27.1767,
+   "lng": 78.0081,
+   "count": 19,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Meerut",
+   "lat": 28.9845,
+   "lng": 77.7064,
+   "count": 16,
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Ludhiana",
+   "lat": 30.901,
+   "lng": 75.8573,
+   "count": 16,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Thane",
+   "lat": 19.2183,
+   "lng": 72.9781,
+   "count": 16,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Srinagar",
+   "lat": 34.0837,
+   "lng": 74.7973,
+   "count": 16,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Patna",
+   "lat": 25.5941,
+   "lng": 85.1376,
+   "count": 16,
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Faridabad",
+   "lat": 28.4089,
+   "lng": 77.3178,
+   "count": 16,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Indore",
+   "lat": 22.7196,
+   "lng": 75.8577,
+   "count": 15,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Hyderabad",
+   "lat": 17.385,
+   "lng": 78.4867,
+   "count": 15,
+   "categories": [
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Amritsar",
+   "lat": 31.634,
+   "lng": 74.8723,
+   "count": 15,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Howrah",
+   "lat": 22.5958,
+   "lng": 88.2636,
+   "count": 15,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Dehradun",
+   "lat": 30.3165,
+   "lng": 78.0322,
+   "count": 14,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Kanpur",
+   "lat": 26.4499,
+   "lng": 80.3319,
+   "count": 14,
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Guwahati",
+   "lat": 26.1445,
+   "lng": 91.7362,
+   "count": 14,
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Ghaziabad",
+   "lat": 28.6692,
+   "lng": 77.4538,
+   "count": 13,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Kolkata",
+   "lat": 22.5726,
+   "lng": 88.3639,
+   "count": 12,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Ranchi",
+   "lat": 23.3441,
+   "lng": 85.3096,
+   "count": 12,
+   "categories": [
+    "atm_card",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Jaipur",
+   "lat": 26.9124,
+   "lng": 75.7873,
+   "count": 12,
+   "categories": [
+    "arms",
+    "atm_card",
+    "drugs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Chennai",
+   "lat": 13.0827,
+   "lng": 80.2707,
+   "count": 9,
+   "categories": [
+    "arms",
+    "drugs",
+    "fake_docs",
+    "net_banking_kit"
+   ]
+  },
+  {
+   "name": "Varanasi",
+   "lat": 25.3176,
+   "lng": 82.9739,
+   "count": 9,
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Chandigarh",
+   "lat": 30.7333,
+   "lng": 76.7794,
+   "count": 8,
+   "categories": [
+    "drugs"
+   ]
+  },
+  {
+   "name": "Pune",
+   "lat": 18.5204,
+   "lng": 73.8567,
+   "count": 8,
+   "categories": [
+    "drugs",
+    "fake_docs"
+   ]
+  },
+  {
+   "name": "Goa",
+   "lat": 15.2993,
+   "lng": 74.124,
+   "count": 6,
+   "categories": []
+  }
+ ]
+}

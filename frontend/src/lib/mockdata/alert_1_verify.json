@@ -1,0 +1,21 @@
+{
+ "ok": true,
+ "stored_sha256": "10146c2456b1ab02a50178d2d60c230dd172c6d34c9abb5080c6efd30e9c2aeb",
+ "recomputed_sha256": "10146c2456b1ab02a50178d2d60c230dd172c6d34c9abb5080c6efd30e9c2aeb",
+ "algorithm": "SHA-256 (canonical JSON: sorted keys, no whitespace, utf-8)",
+ "fields": [
+  "captured_at",
+  "channel",
+  "classification",
+  "explanation",
+  "extra",
+  "identifiers",
+  "media_path",
+  "media_sha256",
+  "permalink",
+  "post_id",
+  "post_text",
+  "timestamp"
+ ],
+ "verified_at": "2026-11-25T10:36:14.603951+00:00"
+}

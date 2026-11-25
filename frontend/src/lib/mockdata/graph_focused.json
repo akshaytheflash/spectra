@@ -1,0 +1,1927 @@
+{
+ "nodes": [
+  {
+   "id": "22bfd188-80e5-533e-b154-e9005a57db5c",
+   "kind": "Post",
+   "label": "Fresh {d1} @vail@ble {city}. Pure quality, hom3 del1very. Ra",
+   "channel": "mule_khata_rent",
+   "category": "drugs",
+   "timestamp": "2026-10-12T19:58:08.225958",
+   "alert_id": "f0466adf-b8b3-445a-b19d-e30fd0631db3",
+   "cluster_id": null
+  },
+  {
+   "id": "ch:mule_khata_rent",
+   "kind": "Channel",
+   "label": "mule_khata_rent"
+  },
+  {
+   "id": "upi:vail@ble",
+   "kind": "UPI",
+   "label": "vail@ble",
+   "id_type": "upi"
+  },
+  {
+   "id": "username:@vail",
+   "kind": "Username",
+   "label": "@vail",
+   "id_type": "username"
+  }
+ ],
+ "edges": [
+  {
+   "source": "ch:mule_khata_rent",
+   "target": "22bfd188-80e5-533e-b154-e9005a57db5c",
+   "kind": "posted_in"
+  },
+  {
+   "source": "22bfd188-80e5-533e-b154-e9005a57db5c",
+   "target": "upi:vail@ble",
+   "kind": "mentions"
+  },
+  {
+   "source": "22bfd188-80e5-533e-b154-e9005a57db5c",
+   "target": "username:@vail",
+   "kind": "mentions"
+  }
+ ],
+ "meta": {
+  "found": true,
+  "identifier": "username:@vail",
+  "hops": 2,
+  "node_count": 4,
+  "edge_count": 3,
+  "cross_channel": [
+   {
+    "node": "location:Noida",
+    "type": "location",
+    "value": "Noida",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 55
+   },
+   {
+    "node": "phone:+919000011111",
+    "type": "phone",
+    "value": "+919000011111",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 29
+   },
+   {
+    "node": "location:Mumbai",
+    "type": "location",
+    "value": "Mumbai",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 49
+   },
+   {
+    "node": "phone:+919000121913",
+    "type": "phone",
+    "value": "+919000121913",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "location:Delhi",
+    "type": "location",
+    "value": "Delhi",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 63
+   },
+   {
+    "node": "phone:+919000013389",
+    "type": "phone",
+    "value": "+919000013389",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 37
+   },
+   {
+    "node": "upi:bake@180c",
+    "type": "upi",
+    "value": "bake@180c",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "upi:available@20",
+    "type": "upi",
+    "value": "available@20",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 19
+   },
+   {
+    "node": "phone:+919000816184",
+    "type": "phone",
+    "value": "+919000816184",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 17
+   },
+   {
+    "node": "phone:+919000183473",
+    "type": "phone",
+    "value": "+919000183473",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "phone:+919000106513",
+    "type": "phone",
+    "value": "+919000106513",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "location:Kochi",
+    "type": "location",
+    "value": "Kochi",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 26
+   },
+   {
+    "node": "location:Bhopal",
+    "type": "location",
+    "value": "Bhopal",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 24
+   },
+   {
+    "node": "phone:+919000341316",
+    "type": "phone",
+    "value": "+919000341316",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "phone:+919000648350",
+    "type": "phone",
+    "value": "+919000648350",
+    "channels": [
+     "aadhaar_ready_hub",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "location:Faridabad",
+    "type": "location",
+    "value": "Faridabad",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "phone:+919000288095",
+    "type": "phone",
+    "value": "+919000288095",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 26
+   },
+   {
+    "node": "location:Surat",
+    "type": "location",
+    "value": "Surat",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 25
+   },
+   {
+    "node": "phone:+919000849696",
+    "type": "phone",
+    "value": "+919000849696",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "phone:+919000012269",
+    "type": "phone",
+    "value": "+919000012269",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 21
+   },
+   {
+    "node": "location:Gurugram",
+    "type": "location",
+    "value": "Gurugram",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 25
+   },
+   {
+    "node": "phone:+919000048281",
+    "type": "phone",
+    "value": "+919000048281",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 24
+   },
+   {
+    "node": "username:@ravisupply_ncr",
+    "type": "username",
+    "value": "@ravisupply_ncr",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "phone:+919000247317",
+    "type": "phone",
+    "value": "+919000247317",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 27
+   },
+   {
+    "node": "location:Muzaffarpur",
+    "type": "location",
+    "value": "Muzaffarpur",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "upi:card@full",
+    "type": "upi",
+    "value": "card@full",
+    "channels": [
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "bank:sbi",
+    "type": "bank",
+    "value": "sbi",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 19
+   },
+   {
+    "node": "phone:+919000553419",
+    "type": "phone",
+    "value": "+919000553419",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 23
+   },
+   {
+    "node": "username:@ravi614_india",
+    "type": "username",
+    "value": "@ravi614_india",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "location:Agra",
+    "type": "location",
+    "value": "Agra",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 19
+   },
+   {
+    "node": "phone:+919000395376",
+    "type": "phone",
+    "value": "+919000395376",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 17
+   },
+   {
+    "node": "phone:+919000346247",
+    "type": "phone",
+    "value": "+919000346247",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "location:Delhi NCR",
+    "type": "location",
+    "value": "Delhi NCR",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "phone:+919000465787",
+    "type": "phone",
+    "value": "+919000465787",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 23
+   },
+   {
+    "node": "username:@aman313_deal",
+    "type": "username",
+    "value": "@aman313_deal",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "phone:+919000132677",
+    "type": "phone",
+    "value": "+919000132677",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 19
+   },
+   {
+    "node": "phone:+919000637940",
+    "type": "phone",
+    "value": "+919000637940",
+    "channels": [
+     "aadhaar_ready_hub",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 21
+   },
+   {
+    "node": "location:Lucknow",
+    "type": "location",
+    "value": "Lucknow",
+    "channels": [
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 24
+   },
+   {
+    "node": "upi:news@9pm",
+    "type": "upi",
+    "value": "news@9pm",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 18
+   },
+   {
+    "node": "phone:+919000511615",
+    "type": "phone",
+    "value": "+919000511615",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "location:Srinagar",
+    "type": "location",
+    "value": "Srinagar",
+    "channels": [
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "location:Dehradun",
+    "type": "location",
+    "value": "Dehradun",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 14
+   },
+   {
+    "node": "location:Meerut",
+    "type": "location",
+    "value": "Meerut",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "upi:distribution@community",
+    "type": "upi",
+    "value": "distribution@community",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 18
+   },
+   {
+    "node": "phone:+919000104332",
+    "type": "phone",
+    "value": "+919000104332",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "location:Nagpur",
+    "type": "location",
+    "value": "Nagpur",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "phone:+919000480184",
+    "type": "phone",
+    "value": "+919000480184",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 22
+   },
+   {
+    "node": "location:Ludhiana",
+    "type": "location",
+    "value": "Ludhiana",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "username:@shiv864_supply",
+    "type": "username",
+    "value": "@shiv864_supply",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 13
+   },
+   {
+    "node": "location:Guwahati",
+    "type": "location",
+    "value": "Guwahati",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "tamancha_baazar"
+    ],
+    "post_count": 14
+   },
+   {
+    "node": "location:Ahmedabad",
+    "type": "location",
+    "value": "Ahmedabad",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 20
+   },
+   {
+    "node": "username:@sunil455_deal",
+    "type": "username",
+    "value": "@sunil455_deal",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "location:Thane",
+    "type": "location",
+    "value": "Thane",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "phone:+919000647468",
+    "type": "phone",
+    "value": "+919000647468",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 18
+   },
+   {
+    "node": "upi:available@50",
+    "type": "upi",
+    "value": "available@50",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 18
+   },
+   {
+    "node": "phone:+919000303911",
+    "type": "phone",
+    "value": "+919000303911",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 19
+   },
+   {
+    "node": "username:@sunil420_supply",
+    "type": "username",
+    "value": "@sunil420_supply",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "tamancha_baazar"
+    ],
+    "post_count": 10
+   },
+   {
+    "node": "username:@aman743_boss",
+    "type": "username",
+    "value": "@aman743_boss",
+    "channels": [
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "location:Bengaluru",
+    "type": "location",
+    "value": "Bengaluru",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 21
+   },
+   {
+    "node": "location:Ghaziabad",
+    "type": "location",
+    "value": "Ghaziabad",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 13
+   },
+   {
+    "node": "phone:+919000091699",
+    "type": "phone",
+    "value": "+919000091699",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 14
+   },
+   {
+    "node": "phone:+919000631165",
+    "type": "phone",
+    "value": "+919000631165",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "username:@monu794_deal",
+    "type": "username",
+    "value": "@monu794_deal",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "delhi_night_things",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "location:Howrah",
+    "type": "location",
+    "value": "Howrah",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "location:Kanpur",
+    "type": "location",
+    "value": "Kanpur",
+    "channels": [
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 14
+   },
+   {
+    "node": "phone:+919000983930",
+    "type": "phone",
+    "value": "+919000983930",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "location:Indore",
+    "type": "location",
+    "value": "Indore",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "location:Hyderabad",
+    "type": "location",
+    "value": "Hyderabad",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "username:@kittu894_boss",
+    "type": "username",
+    "value": "@kittu894_boss",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 10
+   },
+   {
+    "node": "username:@monu171_admin",
+    "type": "username",
+    "value": "@monu171_admin",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "location:Kolkata",
+    "type": "location",
+    "value": "Kolkata",
+    "channels": [
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "phone:+919000782489",
+    "type": "phone",
+    "value": "+919000782489",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "ncr_maal_supply",
+     "tamancha_baazar"
+    ],
+    "post_count": 9
+   },
+   {
+    "node": "upi:ekyc@your",
+    "type": "upi",
+    "value": "ekyc@your",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "city_ki_gully",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "phone:+919000980500",
+    "type": "phone",
+    "value": "+919000980500",
+    "channels": [
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "username:@aman79_admin",
+    "type": "username",
+    "value": "@aman79_admin",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "tamancha_baazar"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "location:Patna",
+    "type": "location",
+    "value": "Patna",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "ncr_maal_supply"
+    ],
+    "post_count": 16
+   },
+   {
+    "node": "location:Amritsar",
+    "type": "location",
+    "value": "Amritsar",
+    "channels": [
+     "account_kiraye",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 15
+   },
+   {
+    "node": "username:@monu494_deal",
+    "type": "username",
+    "value": "@monu494_deal",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "sim_otp_store"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "username:@monu213_deal",
+    "type": "username",
+    "value": "@monu213_deal",
+    "channels": [
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "username:@aman731_admin",
+    "type": "username",
+    "value": "@aman731_admin",
+    "channels": [
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "username:@ravi178_india",
+    "type": "username",
+    "value": "@ravi178_india",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mule_khata_rent",
+     "ncr_maal_supply"
+    ],
+    "post_count": 7
+   },
+   {
+    "node": "username:@monu262_ncr",
+    "type": "username",
+    "value": "@monu262_ncr",
+    "channels": [
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 9
+   },
+   {
+    "node": "location:Jaipur",
+    "type": "location",
+    "value": "Jaipur",
+    "channels": [
+     "chicha_corner",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "username:@sunil152_deal",
+    "type": "username",
+    "value": "@sunil152_deal",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "netbanking_kits",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "username:@aman695_boss",
+    "type": "username",
+    "value": "@aman695_boss",
+    "channels": [
+     "account_kiraye",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "location:Ranchi",
+    "type": "location",
+    "value": "Ranchi",
+    "channels": [
+     "aadhaar_ready_hub",
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "username:@shiv563_xx",
+    "type": "username",
+    "value": "@shiv563_xx",
+    "channels": [
+     "chicha_corner",
+     "city_ki_gully",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "netbanking_kits"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "username:@sunil294_deal",
+    "type": "username",
+    "value": "@sunil294_deal",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "netbanking_kits"
+    ],
+    "post_count": 7
+   },
+   {
+    "node": "username:@kittu620_india",
+    "type": "username",
+    "value": "@kittu620_india",
+    "channels": [
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 8
+   },
+   {
+    "node": "username:@gram",
+    "type": "username",
+    "value": "@gram",
+    "channels": [
+     "aadhaar_ready_hub",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "tamancha_baazar"
+    ],
+    "post_count": 9
+   },
+   {
+    "node": "location:Chandigarh",
+    "type": "location",
+    "value": "Chandigarh",
+    "channels": [
+     "account_kiraye",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "netbanking_kits"
+    ],
+    "post_count": 8
+   },
+   {
+    "node": "username:@aman75_supply",
+    "type": "username",
+    "value": "@aman75_supply",
+    "channels": [
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "mule_khata_rent",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "tamancha_baazar"
+    ],
+    "post_count": 7
+   },
+   {
+    "node": "location:Chennai",
+    "type": "location",
+    "value": "Chennai",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "chicha_corner",
+     "docs_quick_ncr",
+     "lok_mela_up",
+     "mumbai_snow_zone"
+    ],
+    "post_count": 9
+   },
+   {
+    "node": "username:@ravi961_supply",
+    "type": "username",
+    "value": "@ravi961_supply",
+    "channels": [
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "mumbai_snow_zone",
+     "ncr_maal_supply"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "username:@shiv260_deal",
+    "type": "username",
+    "value": "@shiv260_deal",
+    "channels": [
+     "account_kiraye",
+     "delhi_night_things",
+     "mumbai_snow_zone",
+     "ncr_maal_supply",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 11
+   },
+   {
+    "node": "username:@monu469_deal",
+    "type": "username",
+    "value": "@monu469_deal",
+    "channels": [
+     "aadhaar_ready_hub",
+     "city_ki_gully",
+     "lok_mela_up",
+     "mule_khata_rent",
+     "ncr_maal_supply",
+     "sim_otp_store"
+    ],
+    "post_count": 7
+   },
+   {
+    "node": "location:Varanasi",
+    "type": "location",
+    "value": "Varanasi",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "netbanking_kits"
+    ],
+    "post_count": 9
+   },
+   {
+    "node": "upi:available@our",
+    "type": "upi",
+    "value": "available@our",
+    "channels": [
+     "chicha_corner",
+     "delhi_night_things",
+     "katta_kings_ambala",
+     "sim_otp_store",
+     "tamancha_baazar"
+    ],
+    "post_count": 6
+   },
+   {
+    "node": "username:@ravi479_ncr",
+    "type": "username",
+    "value": "@ravi479_ncr",
+    "channels": [
+     "account_kiraye",
+     "delhi_night_things",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 6
+   },
+   {
+    "node": "upi:available@low",
+    "type": "upi",
+    "value": "available@low",
+    "channels": [
+     "aadhaar_ready_hub",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "ncr_maal_supply",
+     "tamancha_baazar"
+    ],
+    "post_count": 6
+   },
+   {
+    "node": "upi:loans@low",
+    "type": "upi",
+    "value": "loans@low",
+    "channels": [
+     "aadhaar_ready_hub",
+     "account_kiraye",
+     "city_ki_gully",
+     "delhi_night_things",
+     "ncr_maal_supply"
+    ],
+    "post_count": 6
+   },
+   {
+    "node": "username:@sunil836_admin",
+    "type": "username",
+    "value": "@sunil836_admin",
+    "channels": [
+     "chicha_corner",
+     "lok_mela_up",
+     "ncr_maal_supply",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 12
+   },
+   {
+    "node": "location:Pune",
+    "type": "location",
+    "value": "Pune",
+    "channels": [
+     "account_kiraye",
+     "city_ki_gully",
+     "katta_kings_ambala",
+     "lok_mela_up",
+     "sim_otp_store"
+    ],
+    "post_count": 8
+   },
+   {
+    "node": "upi:available@wholesale",
+    "type": "upi",
+    "value": "available@wholesale",
+    "channels": [
+     "aadhaar_ready_hub",
+     "city_ki_gully",
+     "katta_kings_ambala",
+     "netbanking_kits",
+     "sim_otp_store"
+    ],
+    "post_count": 6
+   },
+   {
+    "node": "location:Goa",
+    "type": "location",
+    "value": "Goa",
+    "channels": [
+     "account_kiraye",
+     "chicha_corner",
+     "city_ki_gully",
+     "docs_quick_ncr",
+     "ncr_maal_supply"
+    ],
+    "post_count": 6
+   },
+   {
+    "node": "username:@aman531_india",
+    "type": "username",
+    "value": "@aman531_india",
+    "channels": [
+     "chicha_corner",
+     "mule_khata_rent",
+     "netbanking_kits",
+     "tamancha_baazar"
+    ],
+    "post_count": 8
+   },
+   {
+    "node": "username:@monu783_boss",
+    "type": "username",
+    "value": "@monu783_boss",
+    "channels": [
+     "chicha_corner",
+     "delhi_night_things",
+     "docs_quick_ncr",
+     "mumbai_snow_zone"
+    ],
+    "post_count": 5
+   },
+   {
+    "node": "username:@va1lable",
+    "type": "username",
+    "value": "@va1lable",
+    "channels": [
+     "account_kiraye",
+     "docs_quick_ncr",
+     "katta_kings_ambala",
+     "netbanking_kits"
+    ],
+    "post_count": 4
+   },
+   {
+    "node": "username:@fastdeal",
+    "type": "username",
+    "value": "@fastdeal",
+    "channels": [
+     "city_ki_gully",
+     "delhi_night_things",
+     "mule_khata_rent"
+    ],
+    "post_count": 3
+   }
+  ],
+  "node_type_counts": {
+   "Post": 2108,
+   "Channel": 14,
+   "Username": 50,
+   "Location": 36,
+   "Phone": 29,
+   "UPI": 33,
+   "Bank": 1,
+   "ImageHash": 6
+  }
+ }
+}

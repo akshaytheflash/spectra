@@ -1,0 +1,403 @@
+{
+ "id": "b28407f0-79af-4038-8231-75bf87c4d909",
+ "post": {
+  "id": "4e60402f-818c-57cb-a260-2ebbc37b0dd7",
+  "channel": "mumbai_snow_zone",
+  "timestamp": "2026-11-16T01:08:36.587984",
+  "text": "Marksheet, degree certificate aur experience certificate ready made. verified look. 9000...1316",
+  "permalink": "https://t.me/mumbai_snow_zone/gen_01436",
+  "media_path": null,
+  "media_type": null,
+  "media_sha256": null,
+  "image_hash": null,
+  "audio_hash": null,
+  "language": "en",
+  "views": null,
+  "ocr": {},
+  "qr": {},
+  "transcript": {},
+  "external_id": "gen_01436",
+  "platform": "telegram"
+ },
+ "category": "fake_docs",
+ "risk": "HIGH",
+ "confidence": 0.9999,
+ "status": "confirmed",
+ "explanation": {
+  "spans": [
+   {
+    "start": 0,
+    "end": 9,
+    "text": "Marksheet",
+    "kind": "slang",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "start": 11,
+    "end": 29,
+    "text": "degree certificate",
+    "kind": "slang",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "start": 34,
+    "end": 56,
+    "text": "experience certificate",
+    "kind": "slang",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "start": 57,
+    "end": 67,
+    "text": "ready made",
+    "kind": "slang",
+    "category": "fake_docs",
+    "weight": 0.95
+   }
+  ],
+  "top_features": [
+   {
+    "feature": "terms:marksheet",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "feature": "terms:degree certificate",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "feature": "terms:experience certificate",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "feature": "slang:ready made",
+    "category": "fake_docs",
+    "weight": 0.95
+   },
+   {
+    "feature": "intent:ready made",
+    "category": "fake_docs",
+    "weight": 0.76
+   }
+  ],
+  "matched_terms": [
+   "Marksheet",
+   "degree certificate",
+   "experience certificate",
+   "ready made"
+  ],
+  "intent_phrases": [],
+  "hard_negatives": [],
+  "category_weights": {
+   "fake_docs": 4.56
+  },
+  "markup": [
+   {
+    "text": "Marksheet",
+    "kind": "slang",
+    "category": "fake_docs"
+   },
+   {
+    "text": ", ",
+    "kind": "plain"
+   },
+   {
+    "text": "degree certificate",
+    "kind": "slang",
+    "category": "fake_docs"
+   },
+   {
+    "text": " aur ",
+    "kind": "plain"
+   },
+   {
+    "text": "experience certificate",
+    "kind": "slang",
+    "category": "fake_docs"
+   },
+   {
+    "text": " ",
+    "kind": "plain"
+   },
+   {
+    "text": "ready made",
+    "kind": "slang",
+    "category": "fake_docs"
+   },
+   {
+    "text": ". verified look. 9000...1316",
+    "kind": "plain"
+   }
+  ],
+  "reasons": [
+   "Lexicon hits: marksheet (fake_docs), degree certificate (fake_docs), experience certificate (fake_docs), ready made (fake_docs)",
+   "Model posterior: fake_docs = 1.00"
+  ],
+  "financial": {
+   "is_financial": false,
+   "type": null,
+   "types": [],
+   "intent": null,
+   "risk": "LOW",
+   "commission": null,
+   "has_contact": false,
+   "evidence": [],
+   "notes": [
+    "No mule-recruitment signal (needs account/card/SIM + rent/sale intent or commission)."
+   ]
+  },
+  "lexicon_only": {
+   "category_weights": {
+    "fake_docs": 4.56
+   }
+  },
+  "model_used": true,
+  "model_version": "spectra-hybrid-v1",
+  "emoji_signals": [],
+  "emoji_summary": [],
+  "llm": {
+   "flag": false,
+   "category": "benign",
+   "severity": "LOW",
+   "confidence": 0.0,
+   "language": "other",
+   "emoji_signals": [],
+   "evidence": [],
+   "explanation": "",
+   "identifiers": [],
+   "available": false,
+   "model": "",
+   "latency_ms": 0,
+   "error": "not-run"
+  },
+  "fusion": {
+   "source": "engine",
+   "note": "llm unavailable: not-run",
+   "engine": {
+    "flag": true,
+    "category": "fake_docs",
+    "confidence": 1.0,
+    "risk": "HIGH"
+   },
+   "llm": {
+    "available": false,
+    "flag": false,
+    "category": "benign",
+    "confidence": 0.0,
+    "severity": "LOW",
+    "model": ""
+   },
+   "emoji_boost": {}
+  },
+  "scores": {
+   "fake_docs": 0.9999,
+   "benign": 0.0001,
+   "arms": 0.0,
+   "drugs": 0.0,
+   "mule_fin": 0.0
+  }
+ },
+ "subcategories": {
+  "is_financial": false,
+  "type": null,
+  "types": [],
+  "intent": null,
+  "risk": "LOW",
+  "commission": null,
+  "has_contact": false,
+  "evidence": [],
+  "notes": [
+   "No mule-recruitment signal (needs account/card/SIM + rent/sale intent or commission)."
+  ]
+ },
+ "identifiers": [],
+ "evidence": {
+  "id": "c69303c7-7c19-4ba5-a5bf-a7685eb07781",
+  "payload": {
+   "post_id": "4e60402f-818c-57cb-a260-2ebbc37b0dd7",
+   "channel": "mumbai_snow_zone",
+   "post_text": "Marksheet, degree certificate aur experience certificate ready made. verified look. 9000...1316",
+   "timestamp": "2026-11-16T01:08:36.587984+00:00",
+   "permalink": "https://t.me/mumbai_snow_zone/gen_01436",
+   "media_path": null,
+   "media_sha256": null,
+   "identifiers": [],
+   "classification": {
+    "category": "fake_docs",
+    "risk": "HIGH",
+    "confidence": 0.9999
+   },
+   "explanation": {
+    "matched_terms": [
+     "Marksheet",
+     "degree certificate",
+     "experience certificate",
+     "ready made"
+    ],
+    "intent_phrases": [],
+    "category_weights": {
+     "fake_docs": 4.56
+    },
+    "spans": [
+     {
+      "start": 0,
+      "end": 9,
+      "text": "Marksheet",
+      "kind": "slang",
+      "category": "fake_docs",
+      "weight": 0.95
+     },
+     {
+      "start": 11,
+      "end": 29,
+      "text": "degree certificate",
+      "kind": "slang",
+      "category": "fake_docs",
+      "weight": 0.95
+     },
+     {
+      "start": 34,
+      "end": 56,
+      "text": "experience certificate",
+      "kind": "slang",
+      "category": "fake_docs",
+      "weight": 0.95
+     },
+     {
+      "start": 57,
+      "end": 67,
+      "text": "ready made",
+      "kind": "slang",
+      "category": "fake_docs",
+      "weight": 0.95
+     }
+    ]
+   },
+   "captured_at": "2026-11-24T16:03:19.962977+00:00",
+   "extra": {
+    "ocr_text": "",
+    "transcript": "",
+    "qr": [],
+    "llm_verdict": {
+     "flag": false,
+     "category": "benign",
+     "severity": "LOW",
+     "confidence": 0.0,
+     "language": "other",
+     "emoji_signals": [],
+     "evidence": [],
+     "explanation": "",
+     "identifiers": [],
+     "available": false,
+     "model": "",
+     "latency_ms": 0,
+     "error": "not-run"
+    },
+    "emoji_signals": [],
+    "flag_source": "engine",
+    "fusion_note": "llm unavailable: not-run"
+   }
+  },
+  "sha256": "e5e3329dc1cf7cf4e88fa23e815daa01220c930b2f25cd43376cf4b44d9d0971",
+  "captured_at": "2026-11-24T16:03:19.962977"
+ },
+ "audit": [
+  {
+   "id": "11d05e15-2134-48c5-bca6-a573b8e0149d",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:28:17.674701"
+  },
+  {
+   "id": "76de5f1d-9f05-4ec0-a6b7-39cef0531530",
+   "actor": "analyst",
+   "action": "status_change",
+   "from_status": "new",
+   "to_status": "confirmed",
+   "notes": "captured by capture_mock.py",
+   "at": "2026-11-25T10:28:17.698054"
+  },
+  {
+   "id": "d2491f6e-caed-4d88-b6a2-407dc32a7d6c",
+   "actor": "analyst",
+   "action": "active_learning",
+   "from_status": null,
+   "to_status": null,
+   "notes": "confirmed: captured by capture_mock.py",
+   "at": "2026-11-25T10:28:58.889963"
+  },
+  {
+   "id": "c0edcc27-5a7a-4901-aa74-1fe9c7f8bf7b",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:35:10.862713"
+  },
+  {
+   "id": "e52888d8-3294-46fa-997b-070c920e0e7f",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:36:14.560747"
+  }
+ ],
+ "cluster_id": "086eb657-a6d1-4856-9dda-9e31db6f91e3",
+ "analyst_notes": [
+  {
+   "actor": "analyst",
+   "notes": "captured by capture_mock.py",
+   "at": "2026-11-25T10:28:17.694703+00:00",
+   "status": "confirmed"
+  }
+ ],
+ "related": {
+  "campaign": {
+   "id": "086eb657-a6d1-4856-9dda-9e31db6f91e3",
+   "title": "Fake-document racket · 12 channels · 26 ads",
+   "channels": [
+    "aadhaar_ready_hub",
+    "account_kiraye",
+    "chicha_corner",
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "katta_kings_ambala",
+    "lok_mela_up",
+    "mumbai_snow_zone",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "post_count": 26
+  }
+ },
+ "flag_source": "engine",
+ "llm": {
+  "flag": false,
+  "category": "benign",
+  "severity": "LOW",
+  "confidence": 0.0,
+  "language": "other",
+  "emoji_signals": [],
+  "evidence": [],
+  "explanation": "",
+  "identifiers": [],
+  "available": false,
+  "model": "",
+  "latency_ms": 0,
+  "error": "not-run"
+ },
+ "emoji": []
+}

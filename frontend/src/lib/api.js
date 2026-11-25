@@ -3,6 +3,8 @@
 // The backend may be (a) the same origin as the API, (b) the Vite dev server
 // proxying /api -> :8000, or (c) a separately hosted static build pointed at
 // the API via VITE_API_URL.
+import { MOCK_ENABLED, mockMediaUrl, mockRawUrl, mockRequest, mockUpload } from './mock.js';
+
 const EXPLICIT = import.meta.env.VITE_API_URL;
 const DEV = import.meta.env.DEV;
 const BASE = EXPLICIT !== undefined && EXPLICIT !== '' ? EXPLICIT : (DEV ? '/api' : '');
@@ -14,6 +16,7 @@ function withTimeout(ms) {
 }
 
 async function req(path, opts = {}) {
+  if (MOCK_ENABLED) return mockRequest(opts.method || 'GET', path, opts);
   const t = withTimeout(opts.timeout || 60000);
   try {
     const res = await fetch(`${BASE}${path}`, {
@@ -43,6 +46,7 @@ export const api = {
   patch: (p, body) => req(p, { method: 'PATCH', body: JSON.stringify(body) }),
   del: (p) => req(p, { method: 'DELETE' }),
   upload: async (path, form, opts = {}) => {
+    if (MOCK_ENABLED) return mockUpload(path, form);
     const t = withTimeout(opts.timeout || 300000);
     const { timeout, ...rest } = opts;
     try {
@@ -54,12 +58,13 @@ export const api = {
     }
   },
   mediaUrl: (p) => {
+    if (MOCK_ENABLED) return mockMediaUrl(p);
     if (!p) return null;
     if (p.startsWith('http')) return p;
     const name = p.split('/').pop();
     return `${BASE}/media/posts/${name}`;
   },
-  rawUrl: (p) => `${BASE}${p}`,
+  rawUrl: (p) => (MOCK_ENABLED ? mockRawUrl(p) : `${BASE}${p}`),
 };
 
 // Mid-tone chart palette: legible on both the paper and the night theme.

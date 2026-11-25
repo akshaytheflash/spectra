@@ -1,0 +1,627 @@
+{
+ "id": "f97b11d1-3b95-4b43-9a37-a9c2d7847b54",
+ "post": {
+  "id": "98abfb43-59a6-59f6-a281-402b92f610e4",
+  "channel": "docs_quick_ncr",
+  "timestamp": "2026-11-16T00:35:24.150936",
+  "text": "ATM card with pin + net banking kit + OTP linked SIM. rent pe le lo. Kolkata @kittu620_india #delhi",
+  "permalink": "https://t.me/docs_quick_ncr/gen_01722",
+  "media_path": null,
+  "media_type": null,
+  "media_sha256": null,
+  "image_hash": null,
+  "audio_hash": null,
+  "language": "en",
+  "views": null,
+  "ocr": {},
+  "qr": {},
+  "transcript": {},
+  "external_id": "gen_01722",
+  "platform": "telegram"
+ },
+ "category": "net_banking_kit",
+ "risk": "MEDIUM",
+ "confidence": 0.9999,
+ "status": "new",
+ "explanation": {
+  "spans": [
+   {
+    "start": 0,
+    "end": 17,
+    "text": "ATM card with pin",
+    "kind": "slang",
+    "category": "atm_card",
+    "weight": 1.0
+   },
+   {
+    "start": 20,
+    "end": 35,
+    "text": "net banking kit",
+    "kind": "slang",
+    "category": "net_banking_kit",
+    "weight": 1.15
+   },
+   {
+    "start": 38,
+    "end": 52,
+    "text": "OTP linked SIM",
+    "kind": "slang",
+    "category": "sim_card",
+    "weight": 0.95
+   },
+   {
+    "start": 54,
+    "end": 61,
+    "text": "rent pe",
+    "kind": "intent",
+    "category": "mule_account",
+    "weight": 0.88
+   }
+  ],
+  "top_features": [
+   {
+    "feature": "terms:net banking",
+    "category": "net_banking_kit",
+    "weight": 1.15
+   },
+   {
+    "feature": "terms:banking kit",
+    "category": "net_banking_kit",
+    "weight": 1.15
+   },
+   {
+    "feature": "slang:net banking kit",
+    "category": "net_banking_kit",
+    "weight": 1.15
+   },
+   {
+    "feature": "slang:banking kit",
+    "category": "net_banking_kit",
+    "weight": 1.15
+   },
+   {
+    "feature": "terms:atm card",
+    "category": "atm_card",
+    "weight": 1.0
+   },
+   {
+    "feature": "terms:card with pin",
+    "category": "atm_card",
+    "weight": 1.0
+   },
+   {
+    "feature": "terms:sim",
+    "category": "sim_card",
+    "weight": 0.95
+   },
+   {
+    "feature": "slang:otp linked sim",
+    "category": "sim_card",
+    "weight": 0.95
+   }
+  ],
+  "matched_terms": [
+   "ATM card",
+   "OTP linked SIM",
+   "SIM",
+   "banking kit",
+   "card with pin",
+   "net banking",
+   "net banking kit",
+   "rent pe",
+   "with pin"
+  ],
+  "intent_phrases": [
+   "kit",
+   "otp",
+   "rent pe",
+   "with pin"
+  ],
+  "hard_negatives": [],
+  "category_weights": {
+   "mule_account": 0.88,
+   "atm_card": 2.8,
+   "sim_card": 1.9,
+   "net_banking_kit": 4.6
+  },
+  "markup": [
+   {
+    "text": "ATM card with pin",
+    "kind": "slang",
+    "category": "atm_card"
+   },
+   {
+    "text": " + ",
+    "kind": "plain"
+   },
+   {
+    "text": "net banking kit",
+    "kind": "slang",
+    "category": "net_banking_kit"
+   },
+   {
+    "text": " + ",
+    "kind": "plain"
+   },
+   {
+    "text": "OTP linked SIM",
+    "kind": "slang",
+    "category": "sim_card"
+   },
+   {
+    "text": ". ",
+    "kind": "plain"
+   },
+   {
+    "text": "rent pe",
+    "kind": "intent",
+    "category": "mule_account"
+   },
+   {
+    "text": " le lo. Kolkata @kittu620_india #delhi",
+    "kind": "plain"
+   }
+  ],
+  "reasons": [
+   "Lexicon hits: net banking (net_banking_kit), banking kit (net_banking_kit), net banking kit (net_banking_kit), banking kit (net_banking_kit)",
+   "Intent phrases: kit, otp, rent pe, with pin",
+   "Model posterior: mule_fin = 1.00",
+   "Financial ad: type=net_banking_kit, intent=RENT, risk=MEDIUM"
+  ],
+  "financial": {
+   "is_financial": true,
+   "type": "net_banking_kit",
+   "types": [
+    "net_banking_kit",
+    "atm_debit_card",
+    "sim"
+   ],
+   "intent": "RENT",
+   "risk": "MEDIUM",
+   "commission": null,
+   "has_contact": true,
+   "evidence": [
+    {
+     "kind": "type",
+     "type": "net_banking_kit",
+     "phrase": "net banking kit",
+     "start": 20,
+     "end": 35
+    },
+    {
+     "kind": "type",
+     "type": "net_banking_kit",
+     "phrase": "kit",
+     "start": 32,
+     "end": 35
+    },
+    {
+     "kind": "type",
+     "type": "net_banking_kit",
+     "phrase": "OTP link",
+     "start": 38,
+     "end": 46
+    },
+    {
+     "kind": "type",
+     "type": "atm_debit_card",
+     "phrase": "ATM",
+     "start": 0,
+     "end": 3
+    },
+    {
+     "kind": "type",
+     "type": "atm_debit_card",
+     "phrase": "ATM card",
+     "start": 0,
+     "end": 8
+    },
+    {
+     "kind": "type",
+     "type": "atm_debit_card",
+     "phrase": "card with pin",
+     "start": 4,
+     "end": 17
+    },
+    {
+     "kind": "type",
+     "type": "sim",
+     "phrase": "SIM",
+     "start": 49,
+     "end": 52
+    },
+    {
+     "kind": "rent",
+     "phrase": "rent",
+     "start": 54,
+     "end": 58
+    },
+    {
+     "kind": "rent",
+     "phrase": "rent pe",
+     "start": 54,
+     "end": 61
+    },
+    {
+     "kind": "offer",
+     "phrase": "with pin",
+     "start": 9,
+     "end": 17
+    },
+    {
+     "kind": "offer",
+     "phrase": "OTP linked",
+     "start": 38,
+     "end": 48
+    },
+    {
+     "kind": "combo",
+     "phrase": "net_banking_kit + atm_debit_card + sim",
+     "start": 0,
+     "end": 0
+    }
+   ],
+   "notes": [
+    "Explicit offer but missing payment/commission."
+   ]
+  },
+  "lexicon_only": {
+   "category_weights": {
+    "mule_account": 0.88,
+    "atm_card": 2.8,
+    "sim_card": 1.9,
+    "net_banking_kit": 4.6
+   }
+  },
+  "model_used": true,
+  "model_version": "spectra-hybrid-v1",
+  "emoji_signals": [],
+  "emoji_summary": [],
+  "llm": {
+   "flag": false,
+   "category": "benign",
+   "severity": "LOW",
+   "confidence": 0.0,
+   "language": "other",
+   "emoji_signals": [],
+   "evidence": [],
+   "explanation": "",
+   "identifiers": [],
+   "available": false,
+   "model": "",
+   "latency_ms": 0,
+   "error": "not-run"
+  },
+  "fusion": {
+   "source": "engine",
+   "note": "llm unavailable: not-run",
+   "engine": {
+    "flag": true,
+    "category": "net_banking_kit",
+    "confidence": 1.0,
+    "risk": "MEDIUM"
+   },
+   "llm": {
+    "available": false,
+    "flag": false,
+    "category": "benign",
+    "confidence": 0.0,
+    "severity": "LOW",
+    "model": ""
+   },
+   "emoji_boost": {}
+  },
+  "scores": {
+   "mule_fin": 0.9999,
+   "benign": 0.0,
+   "drugs": 0.0,
+   "arms": 0.0,
+   "fake_docs": 0.0
+  }
+ },
+ "subcategories": {
+  "is_financial": true,
+  "type": "net_banking_kit",
+  "types": [
+   "net_banking_kit",
+   "atm_debit_card",
+   "sim"
+  ],
+  "intent": "RENT",
+  "risk": "MEDIUM",
+  "commission": null,
+  "has_contact": true,
+  "evidence": [
+   {
+    "kind": "type",
+    "type": "net_banking_kit",
+    "phrase": "net banking kit",
+    "start": 20,
+    "end": 35
+   },
+   {
+    "kind": "type",
+    "type": "net_banking_kit",
+    "phrase": "kit",
+    "start": 32,
+    "end": 35
+   },
+   {
+    "kind": "type",
+    "type": "net_banking_kit",
+    "phrase": "OTP link",
+    "start": 38,
+    "end": 46
+   },
+   {
+    "kind": "type",
+    "type": "atm_debit_card",
+    "phrase": "ATM",
+    "start": 0,
+    "end": 3
+   },
+   {
+    "kind": "type",
+    "type": "atm_debit_card",
+    "phrase": "ATM card",
+    "start": 0,
+    "end": 8
+   },
+   {
+    "kind": "type",
+    "type": "atm_debit_card",
+    "phrase": "card with pin",
+    "start": 4,
+    "end": 17
+   },
+   {
+    "kind": "type",
+    "type": "sim",
+    "phrase": "SIM",
+    "start": 49,
+    "end": 52
+   },
+   {
+    "kind": "rent",
+    "phrase": "rent",
+    "start": 54,
+    "end": 58
+   },
+   {
+    "kind": "rent",
+    "phrase": "rent pe",
+    "start": 54,
+    "end": 61
+   },
+   {
+    "kind": "offer",
+    "phrase": "with pin",
+    "start": 9,
+    "end": 17
+   },
+   {
+    "kind": "offer",
+    "phrase": "OTP linked",
+    "start": 38,
+    "end": 48
+   },
+   {
+    "kind": "combo",
+    "phrase": "net_banking_kit + atm_debit_card + sim",
+    "start": 0,
+    "end": 0
+   }
+  ],
+  "notes": [
+   "Explicit offer but missing payment/commission."
+  ]
+ },
+ "identifiers": [
+  {
+   "type": "username",
+   "value": "@kittu620_india",
+   "raw": "@kittu620_india",
+   "source": "text",
+   "confidence": 0.85,
+   "extra": {}
+  },
+  {
+   "type": "location",
+   "value": "Kolkata",
+   "raw": "Kolkata",
+   "source": "text",
+   "confidence": 0.7,
+   "extra": {
+    "lat": 22.5726,
+    "lng": 88.3639
+   }
+  },
+  {
+   "type": "location",
+   "value": "Delhi",
+   "raw": "delhi",
+   "source": "text",
+   "confidence": 0.7,
+   "extra": {
+    "lat": 28.6139,
+    "lng": 77.209
+   }
+  }
+ ],
+ "evidence": {
+  "id": "aa862eee-e618-4884-ae4e-7d677042de9a",
+  "payload": {
+   "post_id": "98abfb43-59a6-59f6-a281-402b92f610e4",
+   "channel": "docs_quick_ncr",
+   "post_text": "ATM card with pin + net banking kit + OTP linked SIM. rent pe le lo. Kolkata @kittu620_india #delhi",
+   "timestamp": "2026-11-16T00:35:24.150936+00:00",
+   "permalink": "https://t.me/docs_quick_ncr/gen_01722",
+   "media_path": null,
+   "media_sha256": null,
+   "identifiers": [
+    {
+     "type": "location",
+     "value": "Delhi",
+     "source": "text"
+    },
+    {
+     "type": "location",
+     "value": "Kolkata",
+     "source": "text"
+    },
+    {
+     "type": "username",
+     "value": "@kittu620_india",
+     "source": "text"
+    }
+   ],
+   "classification": {
+    "category": "net_banking_kit",
+    "risk": "MEDIUM",
+    "confidence": 0.9999
+   },
+   "explanation": {
+    "matched_terms": [
+     "ATM card",
+     "OTP linked SIM",
+     "SIM",
+     "banking kit",
+     "card with pin",
+     "net banking",
+     "net banking kit",
+     "rent pe",
+     "with pin"
+    ],
+    "intent_phrases": [
+     "kit",
+     "otp",
+     "rent pe",
+     "with pin"
+    ],
+    "category_weights": {
+     "mule_account": 0.88,
+     "atm_card": 2.8,
+     "sim_card": 1.9,
+     "net_banking_kit": 4.6
+    },
+    "spans": [
+     {
+      "start": 0,
+      "end": 17,
+      "text": "ATM card with pin",
+      "kind": "slang",
+      "category": "atm_card",
+      "weight": 1.0
+     },
+     {
+      "start": 20,
+      "end": 35,
+      "text": "net banking kit",
+      "kind": "slang",
+      "category": "net_banking_kit",
+      "weight": 1.15
+     },
+     {
+      "start": 38,
+      "end": 52,
+      "text": "OTP linked SIM",
+      "kind": "slang",
+      "category": "sim_card",
+      "weight": 0.95
+     },
+     {
+      "start": 54,
+      "end": 61,
+      "text": "rent pe",
+      "kind": "intent",
+      "category": "mule_account",
+      "weight": 0.88
+     }
+    ]
+   },
+   "captured_at": "2026-11-24T16:03:21.329310+00:00",
+   "extra": {
+    "ocr_text": "",
+    "transcript": "",
+    "qr": [],
+    "llm_verdict": {
+     "flag": false,
+     "category": "benign",
+     "severity": "LOW",
+     "confidence": 0.0,
+     "language": "other",
+     "emoji_signals": [],
+     "evidence": [],
+     "explanation": "",
+     "identifiers": [],
+     "available": false,
+     "model": "",
+     "latency_ms": 0,
+     "error": "not-run"
+    },
+    "emoji_signals": [],
+    "flag_source": "engine",
+    "fusion_note": "llm unavailable: not-run"
+   }
+  },
+  "sha256": "10146c2456b1ab02a50178d2d60c230dd172c6d34c9abb5080c6efd30e9c2aeb",
+  "captured_at": "2026-11-24T16:03:21.329310"
+ },
+ "audit": [
+  {
+   "id": "e9fd5a63-f7e8-41f4-a08f-1011c48366cb",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:28:17.733318"
+  },
+  {
+   "id": "5a4a7b4c-7f5c-47cd-8f23-79661c4bc520",
+   "actor": "system",
+   "action": "evidence_verify",
+   "from_status": null,
+   "to_status": null,
+   "notes": "integrity=OK",
+   "at": "2026-11-25T10:35:10.911396"
+  }
+ ],
+ "cluster_id": "885aaeff-c77f-48c9-954d-2a50db18652f",
+ "analyst_notes": [],
+ "related": {
+  "campaign": {
+   "id": "885aaeff-c77f-48c9-954d-2a50db18652f",
+   "title": "Net-banking kit ring · 9 channels · 21 ads",
+   "channels": [
+    "city_ki_gully",
+    "delhi_night_things",
+    "docs_quick_ncr",
+    "lok_mela_up",
+    "mule_khata_rent",
+    "ncr_maal_supply",
+    "netbanking_kits",
+    "sim_otp_store",
+    "tamancha_baazar"
+   ],
+   "post_count": 21
+  }
+ },
+ "flag_source": "engine",
+ "llm": {
+  "flag": false,
+  "category": "benign",
+  "severity": "LOW",
+  "confidence": 0.0,
+  "language": "other",
+  "emoji_signals": [],
+  "evidence": [],
+  "explanation": "",
+  "identifiers": [],
+  "available": false,
+  "model": "",
+  "latency_ms": 0,
+  "error": "not-run"
+ },
+ "emoji": []
+}

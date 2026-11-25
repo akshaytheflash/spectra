@@ -1,0 +1,9 @@
+{
+ "enabled": false,
+ "url": "",
+ "anon_key": "",
+ "table": "alerts",
+ "channel": "spectra-alerts",
+ "poll_cursor": "2026-11-24T16:03:23.053140",
+ "server_time": "2026-11-25T10:36:13.482545+00:00"
+}
